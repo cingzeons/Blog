@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZEON构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" tppabs="http://www.zhufengpeixun.cn/plan/static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            ZEON构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html" tppabs="http://www.zhufengpeixun.cn/plan/index.html">index</a></li><li><a href="0.editor.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.editor.html">0.editor</a></li><li><a href="0.module.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.module.html">0.module</a></li><li><a href="0.Async.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.Async.html">0.Async</a></li><li><a href="1.ES2015.html" tppabs="http://www.zhufengpeixun.cn/plan/html/1.ES2015.html">1.ES2015</a></li><li><a href="2.Promise.html" tppabs="http://www.zhufengpeixun.cn/plan/html/2.Promise.html">2.Promise</a></li><li><a href="3.Node.html" tppabs="http://www.zhufengpeixun.cn/plan/html/3.Node.html">3.Node</a></li><li><a href="4.NodeInstall.html" tppabs="http://www.zhufengpeixun.cn/plan/html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="5.REPL.html" tppabs="http://www.zhufengpeixun.cn/plan/html/5.REPL.html">5.REPL</a></li><li><a href="6.NodeCore.html" tppabs="http://www.zhufengpeixun.cn/plan/html/6.NodeCore.html">6.NodeCore</a></li><li><a href="7.module&NPM.html" tppabs="http://www.zhufengpeixun.cn/plan/html/7.module&NPM.html">7.module&NPM</a></li><li><a href="8.Encoding.html" tppabs="http://www.zhufengpeixun.cn/plan/html/8.Encoding.html">8.Encoding</a></li><li><a href="9.Buffer.html" tppabs="http://www.zhufengpeixun.cn/plan/html/9.Buffer.html">9.Buffer</a></li><li><a href="10.fs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/10.fs.html">10.fs</a></li><li><a href="11.Stream-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-1.html">11.Stream-1</a></li><li><a href="11.Stream-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-2.html">11.Stream-2</a></li><li><a href="11.Stream-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-3.html">11.Stream-3</a></li><li><a href="11.Stream-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-4.html">11.Stream-4</a></li><li><a href="12.Network-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.Network-1.html">12.Network-1</a></li><li><a href="12.NetWork-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="12-Network-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12-Network-2.html">12-Network-2</a></li><li><a href="13.tcp.html" tppabs="http://www.zhufengpeixun.cn/plan/html/13.tcp.html">13.tcp</a></li><li><a href="14.http-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-1.html">14.http-1</a></li><li><a href="14.http-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-2.html">14.http-2</a></li><li><a href="15.compress.html" tppabs="http://www.zhufengpeixun.cn/plan/html/15.compress.html">15.compress</a></li><li><a href="16.crypto.html" tppabs="http://www.zhufengpeixun.cn/plan/html/16.crypto.html">16.crypto</a></li><li><a href="17.process.html" tppabs="http://www.zhufengpeixun.cn/plan/html/17.process.html">17.process</a></li><li><a href="18.yargs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/18.yargs.html">18.yargs</a></li><li><a href="19.cache.html" tppabs="http://www.zhufengpeixun.cn/plan/html/19.cache.html">19.cache</a></li><li><a href="20.action.html" tppabs="http://www.zhufengpeixun.cn/plan/html/20.action.html">20.action</a></li><li><a href="21.https.html" tppabs="http://www.zhufengpeixun.cn/plan/html/21.https.html">21.https</a></li><li><a href="22.cookie.html" tppabs="http://www.zhufengpeixun.cn/plan/html/22.cookie.html">22.cookie</a></li><li><a href="23.session.html" tppabs="http://www.zhufengpeixun.cn/plan/html/23.session.html">23.session</a></li><li><a href="24.express-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-1.html">24.express-1</a></li><li><a href="24.express-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-2.html">24.express-2</a></li><li><a href="24.express-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-3.html">24.express-3</a></li><li><a href="24.express-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-4.html">24.express-4</a></li><li><a href="25.koa-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/25.koa-1.html">25.koa-1</a></li><li><a href="26.webpack-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-1.html">26.webpack-1</a></li><li><a href="26.webpack-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-2.html">26.webpack-2</a></li><li><a href="26.webpack-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-3.html">26.webpack-3</a></li><li><a href="26.webpack-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-4.html">26.webpack-4</a></li><li><a href="26.webpack-loader.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-loader.html">26.webpack-loader</a></li><li><a href="26.webpack-plugin.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-plugin.html">26.webpack-plugin</a></li><li><a href="26.tapable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.tapable.html">26.tapable</a></li><li><a href="26.AST.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.AST.html">26.AST</a></li><li><a href="27.react-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-1.html">27.react-1</a></li><li><a href="27.react-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-2.html">27.react-2</a></li><li><a href="27.react-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-3.html">27.react-3</a></li><li><a href="26.webpack-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-5.html">26.webpack-5</a></li><li><a href="27.react-4-immutable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-4-immutable.html">27.react-4-immutable</a></li><li class="active"><a href="27.react-5-react-dom-diff.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="28.redux-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-1.html">28.redux-1</a></li><li><a href="28.redux-2-中间件.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="28.redux-3-saga.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-3-saga.html">28.redux-3-saga</a></li><li><a href="28.redux-4-dva.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-4-dva.html">28.redux-4-dva</a></li><li><a href="28.redux-0.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-0.html">28.redux-0</a></li><li><a href="29.mongodb-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="29.mongodb-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="29.mongodb-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="29.mongodb-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="29.mongodb-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="29.mongodb-6.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="30.mysql-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-1.html">30.mysql-1</a></li><li><a href="30.mysql-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-2.html">30.mysql-2</a></li><li><a href="31.egg-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-1.html">31.egg-1</a></li><li><a href="31.egg-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-2.html">31.egg-2</a></li><li><a href="31.egg-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-3.html">31.egg-3</a></li><li><a href="32.ant.html" tppabs="http://www.zhufengpeixun.cn/plan/html/32.ant.html">32.ant</a></li><li><a href="33.redis.html" tppabs="http://www.zhufengpeixun.cn/plan/html/33.redis.html">33.redis</a></li><li><a href="34.unittest.html" tppabs="http://www.zhufengpeixun.cn/plan/html/34.unittest.html">34.unittest</a></li><li><a href="35.jwt.html" tppabs="http://www.zhufengpeixun.cn/plan/html/35.jwt.html">35.jwt</a></li><li><a href="36.websocket-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-1.html">36.websocket-1</a></li><li><a href="36.websocket-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-2.html">36.websocket-2</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 虚拟DOM">1. 虚拟DOM</a></li><li><a href="#t12. 实现步骤">2. 实现步骤</a></li><li><a href="#t23.代码实现">3.代码实现</a><ul><li><a href="#t33.1 虚拟DOM">3.1 虚拟DOM</a></li><li><a href="#t43.2 DOM DIFF">3.2 DOM DIFF</a><ul><li><a href="#t53.2.1 Diffing 算法">3.2.1 Diffing 算法</a></li></ul></li><li><a href="#t63.3 计算差异">3.3 计算差异</a></li><li><a href="#t73.4 打补丁">3.4 打补丁</a></li><li><a href="#t83.5 keys作用">3.5 keys作用</a></li><li><a href="#t93.5 常见场景优化">3.5 常见场景优化</a><ul><li><a href="#t103.5.1 头部添加一个元素">3.5.1 头部添加一个元素</a></li><li><a href="#t113.5.2 中间添加一个元素">3.5.2 中间添加一个元素</a></li><li><a href="#t123.5.3 尾部添加一个元素">3.5.3 尾部添加一个元素</a></li><li><a href="#t133.5.4 头部删除一个元素">3.5.4 头部删除一个元素</a></li><li><a href="#t143.5.5 中间删除一个元素">3.5.5 中间删除一个元素</a></li><li><a href="#t153.5.6 尾部删除一个元素">3.5.6 尾部删除一个元素</a></li><li><a href="#t163.5.7 性能杀手">3.5.7 性能杀手</a></li></ul></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. &#x865A;&#x62DF;DOM">1. &#x865A;&#x62DF;DOM <a href="#t01. &#x865A;&#x62DF;DOM"> # </a></h2>
+<ul>
+<li>&#x6240;&#x8C13;&#x7684;<code>virtual dom</code>&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x865A;&#x62DF;&#x8282;&#x70B9;&#x3002;&#x5B83;&#x901A;&#x8FC7;<code>JS</code>&#x7684;<code>Object</code>&#x5BF9;&#x8C61;&#x6A21;&#x62DF;DOM&#x4E2D;&#x7684;&#x8282;&#x70B9;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x901A;&#x8FC7;&#x7279;&#x5B9A;&#x7684;<code>render</code>&#x65B9;&#x6CD5;&#x5C06;&#x5176;&#x6E32;&#x67D3;&#x6210;&#x771F;&#x5B9E;&#x7684;DOM&#x8282;&#x70B9;</li>
+<li><code>dom diff</code> &#x5219;&#x662F;&#x901A;&#x8FC7;<code>JS</code>&#x5C42;&#x9762;&#x7684;&#x8BA1;&#x7B97;&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;<code>patch</code>&#x5BF9;&#x8C61;&#xFF0C;&#x5373;&#x8865;&#x4E01;&#x5BF9;&#x8C61;&#xFF0C;&#x5728;&#x901A;&#x8FC7;&#x7279;&#x5B9A;&#x7684;&#x64CD;&#x4F5C;&#x89E3;&#x6790;<code>patch</code>&#x5BF9;&#x8C61;&#xFF0C;&#x5B8C;&#x6210;&#x9875;&#x9762;&#x7684;&#x91CD;&#x65B0;&#x6E32;&#x67D3;</li>
+</ul>
+<p><img src="../../../img.zhufengpeixun.cn/domdiff3.jpg" tppabs="http://img.zhufengpeixun.cn/domdiff3.jpg" alt="domdiff3"></p>
+<h2 id="t12. &#x5B9E;&#x73B0;&#x6B65;&#x9AA4;">2. &#x5B9E;&#x73B0;&#x6B65;&#x9AA4; <a href="#t12. &#x5B9E;&#x73B0;&#x6B65;&#x9AA4;"> # </a></h2>
+<ol>
+<li>&#x7528;JavaScript&#x5BF9;&#x8C61;&#x6A21;&#x62DF;DOM</li>
+<li>&#x628A;&#x6B64;&#x865A;&#x62DF;DOM&#x8F6C;&#x6210;&#x771F;&#x5B9E;DOM&#x5E76;&#x63D2;&#x5165;&#x9875;&#x9762;&#x4E2D;</li>
+<li>&#x5982;&#x679C;&#x6709;&#x4E8B;&#x4EF6;&#x53D1;&#x751F;&#x4FEE;&#x6539;&#x4E86;&#x865A;&#x62DF;DOM</li>
+<li>&#x6BD4;&#x8F83;&#x4E24;&#x68F5;&#x865A;&#x62DF;DOM&#x6811;&#x7684;&#x5DEE;&#x5F02;&#xFF0C;&#x5F97;&#x5230;&#x5DEE;&#x5F02;&#x5BF9;&#x8C61;</li>
+<li>&#x628A;&#x5DEE;&#x5F02;&#x5BF9;&#x8C61;&#x5E94;&#x7528;&#x5230;&#x771F;&#x6B63;&#x7684;DOM&#x6811;&#x4E0A;</li>
+</ol>
+<h2 id="t23.&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">3.&#x4EE3;&#x7801;&#x5B9E;&#x73B0; <a href="#t23.&#x4EE3;&#x7801;&#x5B9E;&#x73B0;"> # </a></h2>
+<h3 id="t33.1 &#x865A;&#x62DF;DOM">3.1 &#x865A;&#x62DF;DOM <a href="#t33.1 &#x865A;&#x62DF;DOM"> # </a></h3>
+<p>&#x7528;<code>JavaScript</code>&#x5BF9;&#x8C61;&#x7ED3;&#x6784;&#x8868;&#x793A;<code>DOM</code>&#x6811;&#x7684;&#x7ED3;&#x6784;&#xFF1B;&#x7136;&#x540E;&#x7528;&#x8FD9;&#x4E2A;&#x6811;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x771F;&#x6B63;&#x7684;<code>DOM</code>&#x6811;&#xFF0C;&#x63D2;&#x5230;&#x6587;&#x6863;&#x5F53;&#x4E2D;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> createElement=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./element&apos;</span>);
+<span class="hljs-keyword">let</span> ul1=createElement(<span class="hljs-string">&apos;ul&apos;</span>,{<span class="hljs-attr">class</span>: <span class="hljs-string">&apos;list&apos;</span>},[
+    createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">class</span>: <span class="hljs-string">&apos;list1&apos;</span>},[<span class="hljs-string">&apos;1&apos;</span>]),
+    createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">class</span>: <span class="hljs-string">&apos;list2&apos;</span>},[<span class="hljs-string">&apos;2&apos;</span>]),
+    createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">class</span>:<span class="hljs-string">&apos;list3&apos;</span>},[<span class="hljs-string">&apos;3&apos;</span>])
+]);
+<span class="hljs-keyword">let</span> ul1Element = ul1.render();
+<span class="hljs-built_in">document</span>.body.appendChild(ul1Element);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Element</span></span>{
+    <span class="hljs-keyword">constructor</span>(tagName,attrs,children) {
+        <span class="hljs-keyword">this</span>.tagName=tagName;
+        <span class="hljs-keyword">this</span>.attrs=attrs;
+        <span class="hljs-keyword">this</span>.children=children;
+    }
+    render() {
+        <span class="hljs-keyword">let</span> element=<span class="hljs-built_in">document</span>.createElement(<span class="hljs-keyword">this</span>.tagName);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> attr <span class="hljs-keyword">in</span> <span class="hljs-keyword">this</span>.attrs) {
+            element.setAttribute(attr,<span class="hljs-keyword">this</span>.attrs[attr]);
+        }
+        <span class="hljs-keyword">let</span> children=<span class="hljs-keyword">this</span>.children||[];
+        children.forEach(<span class="hljs-function"><span class="hljs-params">child</span> =&gt;</span> {
+            <span class="hljs-keyword">let</span> childElement=(child <span class="hljs-keyword">instanceof</span> Element)? child.render():<span class="hljs-built_in">document</span>.createTextNode(child);
+            element.appendChild(childElement);
+        });
+        <span class="hljs-keyword">return</span> element;
+    }
+}
+
+
+<span class="hljs-built_in">module</span>.exports=<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">tagName,attrs,children</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Element(tagName,attrs,children);
+}
+</code></pre>
+<h3 id="t43.2 DOM DIFF">3.2 DOM DIFF <a href="#t43.2 DOM DIFF"> # </a></h3>
+<p>&#x6BD4;&#x8F83;&#x4E24;&#x68F5;DOM&#x6811;&#x7684;&#x5DEE;&#x5F02;&#x662F;<code>Virtual DOM</code>&#x7B97;&#x6CD5;&#x6700;&#x6838;&#x5FC3;&#x7684;&#x90E8;&#x5206;,<code>Read Diff</code>&#x7B97;&#x6CD5;&#x6709;&#x4E09;&#x4E2A;&#x4F18;&#x5316;&#x7B56;&#x7565;</p>
+<ul>
+<li>DOM&#x8282;&#x70B9;&#x7684;&#x8DE8;&#x5C42;&#x7EA7;&#x79FB;&#x52A8;&#x64CD;&#x4F5C;&#x7279;&#x522B;&#x5C11;&#xFF0C;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;&#x4E0D;&#x8BA1;</li>
+</ul>
+<p><img src="../../../img.zhufengpeixun.cn/domcompare.png" tppabs="http://img.zhufengpeixun.cn/domcompare.png" alt="domcompare">
+<img src="../../../img.zhufengpeixun.cn/removedom.png" tppabs="http://img.zhufengpeixun.cn/removedom.png" alt="removedom"></p>
+<ul>
+<li>&#x62E5;&#x6709;&#x76F8;&#x540C;&#x7C7B;&#x7684;&#x4E24;&#x4E2A;&#x7EC4;&#x4EF6;&#x4F1A;&#x751F;&#x6210;&#x76F8;&#x4F3C;&#x7684;&#x6811;&#x5F62;&#x7ED3;&#x6784;&#xFF0C;&#x62E5;&#x6709;&#x4E0D;&#x540C;&#x7C7B;&#x7684;&#x4E24;&#x4E2A;&#x7EC4;&#x4EF6;&#x5C06;&#x4F1A;&#x751F;&#x6210;&#x4E0D;&#x540C;&#x7684;&#x6811;&#x5F62;&#x7ED3;&#x6784;</li>
+</ul>
+<ul>
+<li>&#x5BF9;&#x4E8E;&#x540C;&#x4E00;&#x5C42;&#x7EA7;&#x7684;&#x4E00;&#x7EC4;&#x8282;&#x70B9;&#xFF0C;&#x5B83;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x552F;&#x4E00;&#x7684;key&#x8FDB;&#x884C;&#x533A;&#x5206;,&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;<code>key</code>&#x6307;&#x793A;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x6E32;&#x67D3;&#x4E2D;&#x90A3;&#x4E2A;&#x90A3;&#x4E9B;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x4FDD;&#x6301;&#x7A33;&#x5B9A;&#x3002;</li>
+</ul>
+<p><img src="../../../img.zhufengpeixun.cn/domkeys.png" tppabs="http://img.zhufengpeixun.cn/domkeys.png" alt="domkeys"></p>
+<h4 id="t53.2.1 Diffing &#x7B97;&#x6CD5;">3.2.1 Diffing &#x7B97;&#x6CD5; <a href="#t53.2.1 Diffing &#x7B97;&#x6CD5;"> # </a></h4>
+<ul>
+<li>&#x5143;&#x7D20;&#x7C7B;&#x578B;&#x4E0D;&#x76F8;&#x540C;,&#x65E0;&#x8BBA;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#xFF0C;&#x5F53;&#x6839;&#x5143;&#x7D20;&#x7C7B;&#x578B;&#x4E0D;&#x540C;&#x65F6;&#xFF0C;React &#x5C06;&#x4F1A;&#x9500;&#x6BC1;&#x539F;&#x5148;&#x7684;&#x6811;&#x5E76;&#x91CD;&#x5199;&#x6784;&#x5EFA;&#x65B0;&#x7684;&#x6811;
+```js<div>
+<counter>
+</counter></div>
+
+</li>
+</ul>
+<p><span>
+  <counter>
+</counter></span></p>
+<pre><code>
+#### 3.2.2 DOM&#x5143;&#x7D20;&#x7C7B;&#x578B;&#x76F8;&#x540C;
+&#x5F53;&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x7684; React DOM &#x5143;&#x7D20;&#x65F6;&#xFF0C;React &#x68C0;&#x67E5;&#x5B83;&#x4EEC;&#x7684;&#x5C5E;&#x6027;&#xFF08;attributes&#xFF09;&#xFF0C;&#x4FDD;&#x7559;&#x76F8;&#x540C;&#x7684;&#x5E95;&#x5C42; DOM &#x8282;&#x70B9;&#xFF0C;&#x53EA;&#x66F4;&#x65B0;&#x53D1;&#x751F;&#x6539;&#x53D8;&#x7684;&#x5C5E;&#x6027;&#xFF08;attributes&#xFF09;
+```js
+&lt;div className=&quot;before&quot; title=&quot;stuff&quot; /&gt;
+&lt;div className=&quot;after&quot; title=&quot;stuff&quot; /&gt;
+</code></pre><p>&#x901A;&#x8FC7;&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;React &#x4F1A;&#x4EC5;&#x4FEE;&#x6539;&#x5E95;&#x5C42; DOM &#x8282;&#x70B9;&#x7684; className &#x5C5E;&#x6027;&#x3002;
+&#x5F53;&#x66F4;&#x65B0; style&#x5C5E;&#x6027;&#xFF0C;React &#x4E5F;&#x4F1A;&#x4EC5;&#x4EC5;&#x53EA;&#x66F4;&#x65B0;&#x5DF2;&#x7ECF;&#x6539;&#x53D8;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x4F8B;&#x5982;:</p>
+<pre><code class="lang-js">&lt;div style={{<span class="hljs-string">&apos;{{&apos;</span>}}color: <span class="hljs-string">&apos;red&apos;</span>, <span class="hljs-attr">fontWeight</span>: <span class="hljs-string">&apos;bold&apos;</span>}} /&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span>&apos;{{&apos;}}<span class="hljs-attr">color:</span> &apos;<span class="hljs-attr">green</span>&apos;, <span class="hljs-attr">fontWeight:</span> &apos;<span class="hljs-attr">bold</span>&apos;}} /&gt;</span>
+</span></code></pre>
+<p>&#x5F53;React&#x5BF9;&#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x8F6C;&#x5316;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4EC5;&#x4F1A;&#x4FEE;&#x6539;<code>color</code>&#xFF0C;&#x800C;&#x4E0D;&#x4F1A;&#x4FEE;&#x6539;<code>fontWeight</code>
+&#x5728;&#x5904;&#x7406;&#x5B8C;&#x5F53;&#x524D; DOM &#x8282;&#x70B9;&#x540E;&#xFF0C;React &#x4F1A;&#x9012;&#x5F52;&#x5904;&#x7406;&#x5B50;&#x8282;&#x70B9;&#x3002;</p>
+<h3 id="t63.3 &#x8BA1;&#x7B97;&#x5DEE;&#x5F02;">3.3 &#x8BA1;&#x7B97;&#x5DEE;&#x5F02; <a href="#t63.3 &#x8BA1;&#x7B97;&#x5DEE;&#x5F02;"> # </a></h3>
+<p><img src="../../../img.zhufengpeixun.cn/deeptranverse.png" tppabs="http://img.zhufengpeixun.cn/deeptranverse.png" alt="deeptranverse"></p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> utils=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./utils&apos;</span>);
+<span class="hljs-keyword">const</span> REPLACE=<span class="hljs-string">&apos;REPLACE&apos;</span>;<span class="hljs-comment">//&#x8282;&#x70B9;&#x6574;&#x4E2A;&#x88AB;&#x66FF;&#x6362;</span>
+<span class="hljs-keyword">const</span> ATTRS=<span class="hljs-string">&apos;ATTRS&apos;</span>;<span class="hljs-comment">//&#x5C5E;&#x6027;&#x6539;&#x53D8;</span>
+<span class="hljs-keyword">const</span> REMOVE=<span class="hljs-string">&apos;REMOVE&apos;</span>;<span class="hljs-comment">//&#x8282;&#x70B9;&#x88AB;&#x79FB;&#x9664;</span>
+<span class="hljs-keyword">const</span> TEXT=<span class="hljs-string">&apos;TEXT&apos;</span>;<span class="hljs-comment">//&#x6587;&#x672C;&#x5185;&#x5BB9;&#x6539;&#x53D8;</span>
+<span class="hljs-keyword">let</span> keyIndex=<span class="hljs-number">0</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">diff</span>(<span class="hljs-params">oldTree,newTree</span>) </span>{
+    keyIndex=<span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> patches={};
+    <span class="hljs-keyword">let</span> index=<span class="hljs-number">0</span>;
+    walk(oldTree,newTree,index,patches);
+    <span class="hljs-keyword">return</span> patches;
+}
+<span class="hljs-comment">/**
+ * 
+ * @param {*} oldNode &#x8001;&#x8282;&#x70B9;
+ * @param {*} newNode &#x65B0;&#x8282;&#x70B9;
+ * @param {*} index &#x8001;&#x8282;&#x70B9;&#x5728;&#x65E7;&#x6811;&#x6DF1;&#x5EA6;&#x904D;&#x5386;&#x4E2D;&#x7684;&#x7D22;&#x5F15;
+ * @param {*} patches &#x8865;&#x4E01;&#x5BF9;&#x8C61;
+ */</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">walk</span>(<span class="hljs-params">oldNode,newNode,index,patches</span>) </span>{
+    <span class="hljs-keyword">let</span> currentPatch=[];
+    <span class="hljs-keyword">if</span> (newNode == <span class="hljs-literal">null</span>) {
+        currentPatch.push({<span class="hljs-attr">type</span>:REMOVE,index});
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (utils.isString(oldNode)&amp;&amp;utils.isString(newNode)) {
+        <span class="hljs-keyword">if</span> (oldNode != newNode) {
+            currentPatch.push({<span class="hljs-attr">type</span>:TEXT,<span class="hljs-attr">content</span>:newNode});
+        }
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (oldNode.tagName==newNode.tagName) {
+        <span class="hljs-keyword">let</span> attrsPatch=diffAttrs(oldNode,newNode);
+        <span class="hljs-keyword">if</span> (<span class="hljs-built_in">Object</span>.keys(attrsPatch).length&gt;<span class="hljs-number">0</span>) {
+            currentPatch.push(attrsPatch);
+        }
+        diffChildren(oldNode.children,newNode.children,index,patches);
+    } <span class="hljs-keyword">else</span> {
+        currentPatch.push({<span class="hljs-attr">type</span>:REMOVE,<span class="hljs-attr">node</span>:newNode});
+    }
+    <span class="hljs-keyword">if</span>(currentPatch.length&gt;<span class="hljs-number">0</span>)
+       patches[index]=currentPatch;
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">diffChildren</span>(<span class="hljs-params">oldChildren,newChildren,index,patches</span>) </span>{
+    oldChildren.forEach(<span class="hljs-function">(<span class="hljs-params">oldChild,idx</span>) =&gt;</span> {
+        walk(oldChild,newChildren[idx],++keyIndex,patches);
+    });
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">diffAttrs</span>(<span class="hljs-params">oldNode,newNode</span>) </span>{
+    <span class="hljs-keyword">let</span> attrsPatch={};
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> attr <span class="hljs-keyword">in</span> oldNode.attrs) {
+        <span class="hljs-keyword">if</span> (oldNode.attrs[attr]!=newNode.attrs[attr]) {
+            attrsPatch[attr]=newNode.attrs[attr];
+        }
+    }
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> attr <span class="hljs-keyword">in</span> newNode.attrs) {
+        <span class="hljs-keyword">if</span> (!(oldNode.attrs.hasOwnProperty(attr))) {
+            attrsPatch[attr]=newNode.attrs[attr];
+        }
+    }
+    <span class="hljs-keyword">return</span> attrsPatch;
+}
+<span class="hljs-built_in">module</span>.exports=diff;
+</code></pre>
+<h3 id="t73.4 &#x6253;&#x8865;&#x4E01;">3.4 &#x6253;&#x8865;&#x4E01; <a href="#t73.4 &#x6253;&#x8865;&#x4E01;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> {REPLACE,ATTRS,REMOVE,TEXT}=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./diff&apos;</span>);
+<span class="hljs-keyword">let</span> keyIndex=<span class="hljs-number">0</span>;
+<span class="hljs-keyword">let</span> allPatches;
+<span class="hljs-keyword">let</span> utils=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./utils&apos;</span>);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">patch</span>(<span class="hljs-params">root,patches</span>) </span>{
+    keyIndex=<span class="hljs-number">0</span>;
+    allPatches=patches;
+    walk(root);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">walk</span>(<span class="hljs-params">node</span>) </span>{
+    <span class="hljs-keyword">let</span> currentPatches=allPatches[keyIndex++];
+    (node.childNodes||[]).forEach(<span class="hljs-function"><span class="hljs-params">child</span> =&gt;</span> {
+        walk(child);
+    });
+    <span class="hljs-keyword">if</span> (currentPatches) {
+        dealPatches(node,currentPatches);
+    }
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dealPatches</span>(<span class="hljs-params">node,currentPatches</span>) </span>{
+    currentPatches.forEach(<span class="hljs-function"><span class="hljs-params">currentPatch</span> =&gt;</span> {
+        <span class="hljs-keyword">switch</span> (currentPatch.type) {
+            <span class="hljs-keyword">case</span> REPLACE:
+                <span class="hljs-keyword">let</span> newNode=(<span class="hljs-keyword">typeof</span> currentPatch.node==<span class="hljs-string">&apos;string&apos;</span>)? <span class="hljs-built_in">document</span>.createTextNode(currentPatch.node):currentPath.node.render();
+                node.parentNode.replaceChild(newNode,node);
+                <span class="hljs-keyword">break</span>;
+            <span class="hljs-keyword">case</span> ATTRS:
+                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> attr <span class="hljs-keyword">in</span> currentPatch.attrs) {
+                    <span class="hljs-keyword">if</span> (currentPatch.attrs[attr]) {
+                        utils.setAttr(node,attr,currentPatch.attrs[attr]);
+                    } <span class="hljs-keyword">else</span> {
+                        node.removeAttribute(attr);
+                    }
+                }
+                <span class="hljs-keyword">break</span>;
+            <span class="hljs-keyword">case</span> TEXT:
+                node.textContent=currentPatch.content;
+            <span class="hljs-keyword">default</span>:
+                <span class="hljs-keyword">break</span>;    
+        }
+    });
+}
+
+<span class="hljs-built_in">module</span>.exports=patch;
+</code></pre>
+<h3 id="t83.5 keys&#x4F5C;&#x7528;">3.5 keys&#x4F5C;&#x7528; <a href="#t83.5 keys&#x4F5C;&#x7528;"> # </a></h3>
+<ul>
+<li>&#x5220;&#x9664;&#x4E00;&#x4E2A;</li>
+<li>&#x7B2C;&#x4E00;&#x4E2A;&#x6362;&#x5230;&#x6700;&#x540E;&#x4E00;&#x4E2A;</li>
+<li>&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x6362;&#x5230;&#x7B2C;&#x4E00;&#x4E2A;</li>
+<li>&#x5C11;&#x521B;&#x5EFA;DOM
+```js
+const oldKeys = [&apos;A&apos;, &apos;B&apos;, &apos;C&apos;, &apos;D&apos;];
+const root = document.createElement(&apos;ul&apos;);
+oldKeys.forEach(key =&gt; {
+  let li = document.createElement(&apos;li&apos;);
+  li.innerHTML = key;
+  root.appendChild(li);
+});
+document.body.appendChild(root);</li>
+</ul>
+<p>const newKeys = [&apos;C&apos;, &apos;B&apos;, &apos;D&apos;, &apos;E&apos;];
+const patches = diff(oldKeys, newKeys);
+patch(root, patches);
+function patch(root, patches = []) {
+    patches.forEach(patch =&gt; {
+        let oldNode;
+        switch (patch.type) {
+            case &apos;INSERT&apos;:
+                oldNode = root.childNodes[patch.index];
+                let newNode = document.createElement(&apos;li&apos;);
+                newNode.innerHTML = patch.key;
+                if (oldNode) {
+                    root.insertBefore(newNode, oldNode);
+                } else {
+                    root.appendChild(newNode);
+                }
+                break;
+            case &apos;REMOVE&apos;:
+                oldNode = root.childNodes[patch.index];
+                if (oldNode)
+                    root.removeChild(oldNode);
+                break;
+        }
+    });
+}</p>
+<p>function diff(oldKeys, newKeys) {
+    //&#x6E05;&#x9664;&#x6CA1;&#x7528;&#x7684;key
+    let oldIndex = 0;
+    let patches = [];
+    while (oldIndex &lt; oldKeys.length) {
+        let oldKey = oldKeys[oldIndex];
+        if (!newKeys.includes(oldKey)) {
+            remove(oldIndex);
+            oldKeys.splice(oldIndex, 1);
+        } else {
+            oldIndex++;
+        }
+    }</p>
+<pre><code>//&#x6784;&#x9020;&#x65B0;&#x7684;&#x5217;&#x8868;
+oldIndex = 0;
+let newIndex = 0;
+while (newIndex &lt; newKeys.length) {
+    let oldKey = oldKeys[oldIndex];
+    let newKey = newKeys[newIndex];
+    if (!oldKey || oldKey !== newKey) {
+        insert(newIndex, newKey);
+        newIndex++;
+    } else {
+        newIndex++;
+        oldIndex++;
+    }
+}
+
+while (oldIndex++ &lt; oldKeys.length) {
+    remove(newIndex);
+}
+
+function remove(index) {
+    patches.push({ type: &apos;REMOVE&apos;, index });
+}
+function insert(index, key) {
+    patches.push({ type: &apos;INSERT&apos;, index, key });
+}
+return patches;
+</code></pre><p>}</p>
+<pre><code>
+```js
+//const oldKeys = [&apos;A&apos;, &apos;B&apos;, &apos;C&apos;, &apos;D&apos;];
+class Element {
+    constructor(tagName, key, children) {
+        this.tagName = tagName;
+        this.key = key;
+        this.children = children;
+    }
+    render() {
+        let element = document.createElement(this.tagName);
+        element.innerHTML = this.children;
+        element.setAttribute(&apos;key&apos;, this.key);
+        return element;
+    }
+}
+function el(tagName, key, children) {
+    return new Element(tagName, key, children);
+}
+// abcd bcda
+//&#x6700;&#x540E;&#x79FB;&#x52A8;&#x5230;&#x7B2C;&#x4E00;&#x4E2A;
+//&#x7B2C;&#x4E00;&#x4E2A;&#x79FB;&#x5230;&#x5230;&#x6700;&#x540E;
+const oldChildren = [
+    el(&apos;li&apos;, &apos;A&apos;, &apos;A&apos;),
+    el(&apos;li&apos;, &apos;B&apos;, &apos;B&apos;),
+    el(&apos;li&apos;, &apos;C&apos;, &apos;C&apos;),
+    el(&apos;li&apos;, &apos;D&apos;, &apos;D&apos;),
+];
+const root = document.createElement(&apos;ul&apos;);
+oldChildren.forEach(item =&gt; {
+    root.appendChild(item.render());
+});
+document.body.appendChild(root);
+
+const newChildren = [
+    el(&apos;li&apos;, &apos;B&apos;, &apos;B&apos;),
+    el(&apos;li&apos;, &apos;C&apos;, &apos;C&apos;),
+    el(&apos;li&apos;, &apos;D&apos;, &apos;D&apos;),
+    el(&apos;li&apos;, &apos;A&apos;, &apos;A&apos;),
+];
+
+function render() {
+    let newNode = document.createElement(this.tagName);
+    newNode.innerHTML = this.children;
+    newNode.setAttribute(&apos;key&apos;, this.key);
+    return newNode;
+}
+
+const patches = diff(oldChildren, newChildren);
+console.log(patches);
+patch(root, patches);
+function patch(root, patches = []) {
+    patches.forEach(patch =&gt; {
+        let oldNode;
+        switch (patch.type) {
+            case &apos;INSERT&apos;:
+                console.log(&apos;INSERT&apos;);
+                oldNode = root.childNodes[patch.index];
+                let newNode = patch.node.render();
+                if (oldNode) {
+                    root.insertBefore(newNode, oldNode);
+                } else {
+                    root.appendChild(newNode);
+                }
+                break;
+            case &apos;REMOVE&apos;:
+                console.log(&apos;REMOVE&apos;);
+                oldNode = root.childNodes[patch.index];
+                if (oldNode)
+                    root.removeChild(oldNode);
+                break;
+        }
+    });
+}
+
+function diff(oldChildren, newChildren) {
+    let newKeys = newChildren.map(item =&gt; item.key);
+    //&#x6E05;&#x9664;&#x6CA1;&#x7528;&#x7684;key
+    let oldIndex = 0;
+    let patches = [];
+    while (oldIndex &lt; oldChildren.length) {
+        let oldKey = oldChildren[oldIndex].key;
+        if (!newKeys.includes(oldKey)) {
+            remove(oldIndex);
+            oldChildren.splice(oldIndex, 1);
+        } else {
+            oldIndex++;
+        }
+    }
+
+    //&#x6784;&#x9020;&#x65B0;&#x7684;&#x5217;&#x8868;
+    oldIndex = 0;
+    let newIndex = 0;
+    while (newIndex &lt; newChildren.length) {
+        let oldKey = (oldChildren[oldIndex] || {}).key;
+        let newKey = (newChildren[newIndex] || {}).key;
+        if (!oldKey) {
+            insert(newIndex, newKey);
+            newIndex++;
+        } else if (oldKey !== newKey) {
+            let nextOldKey = (oldChildren[oldIndex + 1] || {}).key;
+            if (nextOldKey === newKey) {
+                remove(newIndex);
+                oldChildren.splice(oldIndex, 1);
+            } else {
+                insert(newIndex, newKey);
+                newIndex++;
+            }
+        } else {
+            newIndex++;
+            oldIndex++;
+        }
+    }
+
+    while (oldIndex++ &lt; oldChildren.length) {
+        remove(newIndex);
+    }
+
+    function remove(index) {
+        patches.push({ type: &apos;REMOVE&apos;, index });
+    }
+    function insert(index, key) {
+        patches.push({ type: &apos;INSERT&apos;, index, node: { tagName: &apos;li&apos;, key: key, children: key, render } });
+    }
+    return patches;
+}
+</code></pre><pre><code class="lang-js"><span class="hljs-comment">//const oldKeys = [&apos;A&apos;, &apos;B&apos;, &apos;C&apos;, &apos;D&apos;];</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Element</span> </span>{
+    <span class="hljs-keyword">constructor</span>(tagName, key, children) {
+        <span class="hljs-keyword">this</span>.tagName = tagName;
+        <span class="hljs-keyword">this</span>.key = key;
+        <span class="hljs-keyword">this</span>.children = children;
+    }
+    render() {
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;render&apos;</span>);
+        <span class="hljs-keyword">let</span> element = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-keyword">this</span>.tagName);
+        element.innerHTML = <span class="hljs-keyword">this</span>.children;
+        element.setAttribute(<span class="hljs-string">&apos;key&apos;</span>, <span class="hljs-keyword">this</span>.key);
+        <span class="hljs-keyword">return</span> element;
+    }
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">el</span>(<span class="hljs-params">tagName, key, children</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Element(tagName, key, children);
+}
+<span class="hljs-comment">// abcd bcda</span>
+<span class="hljs-comment">//&#x6700;&#x540E;&#x79FB;&#x52A8;&#x5230;&#x7B2C;&#x4E00;&#x4E2A;</span>
+<span class="hljs-comment">//&#x7B2C;&#x4E00;&#x4E2A;&#x79FB;&#x5230;&#x5230;&#x6700;&#x540E;</span>
+<span class="hljs-keyword">const</span> oldChildren = [
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;A&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;E&apos;</span>, <span class="hljs-string">&apos;E&apos;</span>)
+
+];
+<span class="hljs-keyword">const</span> root = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;ul&apos;</span>);
+oldChildren.forEach(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> {
+    root.appendChild(item.render());
+});
+<span class="hljs-built_in">document</span>.body.appendChild(root);
+
+<span class="hljs-keyword">const</span> newChildren = [
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;A&apos;</span>),
+    el(<span class="hljs-string">&apos;li&apos;</span>, <span class="hljs-string">&apos;F&apos;</span>, <span class="hljs-string">&apos;F&apos;</span>)
+];
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">render</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">let</span> newNode = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-keyword">this</span>.tagName);
+    newNode.innerHTML = <span class="hljs-keyword">this</span>.children;
+    newNode.setAttribute(<span class="hljs-string">&apos;key&apos;</span>, <span class="hljs-keyword">this</span>.key);
+    <span class="hljs-keyword">return</span> newNode;
+}
+
+<span class="hljs-keyword">const</span> patches = diff(oldChildren, newChildren);
+<span class="hljs-built_in">console</span>.log(patches);
+patch(root, patches);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">patch</span>(<span class="hljs-params">root, patches = []</span>) </span>{
+    <span class="hljs-keyword">let</span> map = <span class="hljs-built_in">Array</span>.from(root.childNodes).map(<span class="hljs-function"><span class="hljs-params">node</span> =&gt;</span> (
+        { [node.key]: node }
+    ));
+    patches.forEach(<span class="hljs-function"><span class="hljs-params">patch</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> oldNode;
+        <span class="hljs-keyword">switch</span> (patch.type) {
+            <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;INSERT&apos;</span>:
+                oldNode = root.childNodes[patch.index];
+                <span class="hljs-keyword">let</span> newNode = map[patch.key] ? map[patch.key] : patch.node.render();
+                <span class="hljs-keyword">if</span> (oldNode) {
+                    root.insertBefore(newNode, oldNode);
+                } <span class="hljs-keyword">else</span> {
+                    root.appendChild(newNode);
+                }
+
+                <span class="hljs-keyword">break</span>;
+            <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;REMOVE&apos;</span>:
+                <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;REMOVE&apos;</span>);
+                oldNode = root.childNodes[patch.index];
+                <span class="hljs-keyword">if</span> (oldNode)
+                    root.removeChild(oldNode);
+                <span class="hljs-keyword">break</span>;
+        }
+    });
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">diff</span>(<span class="hljs-params">oldChildren, newChildren</span>) </span>{
+    <span class="hljs-keyword">let</span> newKeys = newChildren.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> item.key);
+    <span class="hljs-comment">//&#x6E05;&#x9664;&#x6CA1;&#x7528;&#x7684;key</span>
+    <span class="hljs-keyword">let</span> oldIndex = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> patches = [];
+    <span class="hljs-keyword">while</span> (oldIndex &lt; oldChildren.length) {
+        <span class="hljs-keyword">let</span> oldKey = oldChildren[oldIndex].key;
+        <span class="hljs-keyword">if</span> (!newKeys.includes(oldKey)) {
+            remove(oldIndex);
+            oldChildren.splice(oldIndex, <span class="hljs-number">1</span>);
+        } <span class="hljs-keyword">else</span> {
+            oldIndex++;
+        }
+    }
+
+    <span class="hljs-comment">//&#x6784;&#x9020;&#x65B0;&#x7684;&#x5217;&#x8868;</span>
+    oldIndex = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> newIndex = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">while</span> (newIndex &lt; newChildren.length) {
+        <span class="hljs-keyword">let</span> oldKey = (oldChildren[oldIndex] || {}).key;
+        <span class="hljs-keyword">let</span> newKey = (newChildren[newIndex] || {}).key;
+        <span class="hljs-keyword">if</span> (!oldKey) {
+            insert(newIndex, newKey);
+            newIndex++;
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (oldKey !== newKey) {
+            <span class="hljs-keyword">let</span> nextOldKey = (oldChildren[oldIndex + <span class="hljs-number">1</span>] || {}).key;
+            <span class="hljs-keyword">if</span> (nextOldKey === newKey) {
+                remove(newIndex);
+                oldChildren.splice(oldIndex, <span class="hljs-number">1</span>);
+            } <span class="hljs-keyword">else</span> {
+                insert(newIndex, newKey);
+                newIndex++;
+            }
+        } <span class="hljs-keyword">else</span> {
+            newIndex++;
+            oldIndex++;
+        }
+    }
+
+    <span class="hljs-keyword">while</span> (oldIndex++ <span class="xml"><span class="hljs-tag">&lt; <span class="hljs-attr">oldChildren.length</span>) {
+        <span class="hljs-attr">remove</span>(<span class="hljs-attr">newIndex</span>);
+    }
+
+    <span class="hljs-attr">function</span> <span class="hljs-attr">remove</span>(<span class="hljs-attr">index</span>) {
+        <span class="hljs-attr">patches.push</span>({ <span class="hljs-attr">type:</span> &apos;<span class="hljs-attr">REMOVE</span>&apos;, <span class="hljs-attr">index</span> });
+    }
+    <span class="hljs-attr">function</span> <span class="hljs-attr">insert</span>(<span class="hljs-attr">index</span>, <span class="hljs-attr">key</span>) {
+        <span class="hljs-attr">patches.push</span>({ <span class="hljs-attr">type:</span> &apos;<span class="hljs-attr">INSERT</span>&apos;, <span class="hljs-attr">index</span>, <span class="hljs-attr">node:</span> { <span class="hljs-attr">tagName:</span> &apos;<span class="hljs-attr">li</span>&apos;, <span class="hljs-attr">key:</span> <span class="hljs-attr">key</span>, <span class="hljs-attr">children:</span> <span class="hljs-attr">key</span>, <span class="hljs-attr">render</span> } });
+    }
+    <span class="hljs-attr">return</span> <span class="hljs-attr">patches</span>;
+}
+</span></span></code></pre>
+<h3 id="t93.5 &#x5E38;&#x89C1;&#x573A;&#x666F;&#x4F18;&#x5316;">3.5 &#x5E38;&#x89C1;&#x573A;&#x666F;&#x4F18;&#x5316; <a href="#t93.5 &#x5E38;&#x89C1;&#x573A;&#x666F;&#x4F18;&#x5316;"> # </a></h3>
+<h4 id="t103.5.1 &#x5934;&#x90E8;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;">3.5.1 &#x5934;&#x90E8;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20; <a href="#t103.5.1 &#x5934;&#x90E8;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> oldKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+<span class="hljs-keyword">const</span> newKeys=[<span class="hljs-string">&apos;D&apos;</span>,<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;E&apos;</span>];
+</code></pre>
+<pre><code class="lang-js">[{<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;INSERT&quot;</span>, <span class="hljs-attr">index</span>: <span class="hljs-number">0</span>, <span class="hljs-attr">key</span>: <span class="hljs-string">&quot;E&quot;</span>}]
+</code></pre>
+<h4 id="t113.5.2 &#x4E2D;&#x95F4;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;">3.5.2 &#x4E2D;&#x95F4;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20; <a href="#t113.5.2 &#x4E2D;&#x95F4;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> oldKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+<span class="hljs-keyword">const</span> newKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;E&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+</code></pre>
+<pre><code class="lang-js">[{<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;INSERT&quot;</span>, <span class="hljs-attr">index</span>: <span class="hljs-number">2</span>, <span class="hljs-attr">key</span>: <span class="hljs-string">&quot;E&quot;</span>}]
+</code></pre>
+<h4 id="t123.5.3 &#x5C3E;&#x90E8;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;">3.5.3 &#x5C3E;&#x90E8;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20; <a href="#t123.5.3 &#x5C3E;&#x90E8;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5143;&#x7D20;"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> oldKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+<span class="hljs-keyword">const</span> newKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>,<span class="hljs-string">&apos;E&apos;</span>];
+</code></pre>
+<pre><code class="lang-js">[{<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;INSERT&quot;</span>, <span class="hljs-attr">index</span>: <span class="hljs-number">4</span>, <span class="hljs-attr">key</span>: <span class="hljs-string">&quot;E&quot;</span>}]
+</code></pre>
+<h4 id="t133.5.4 &#x5934;&#x90E8;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;">3.5.4 &#x5934;&#x90E8;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20; <a href="#t133.5.4 &#x5934;&#x90E8;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> oldKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+<span class="hljs-keyword">const</span> newKeys=[<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+</code></pre>
+<pre><code class="lang-js">{<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;REMOVE&quot;</span>, <span class="hljs-attr">index</span>: <span class="hljs-number">0</span>}
+</code></pre>
+<h4 id="t143.5.5 &#x4E2D;&#x95F4;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;">3.5.5 &#x4E2D;&#x95F4;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20; <a href="#t143.5.5 &#x4E2D;&#x95F4;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> oldKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+<span class="hljs-keyword">const</span> newKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+</code></pre>
+<pre><code class="lang-js">
+{<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;REMOVE&quot;</span>, <span class="hljs-attr">index</span>: <span class="hljs-number">1</span>}
+</code></pre>
+<h4 id="t153.5.6 &#x5C3E;&#x90E8;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;">3.5.6 &#x5C3E;&#x90E8;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20; <a href="#t153.5.6 &#x5C3E;&#x90E8;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> oldKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>,<span class="hljs-string">&apos;D&apos;</span>];
+<span class="hljs-keyword">const</span> newKeys=[<span class="hljs-string">&apos;A&apos;</span>,<span class="hljs-string">&apos;B&apos;</span>,<span class="hljs-string">&apos;C&apos;</span>];
+</code></pre>
+<pre><code class="lang-js">{<span class="hljs-attr">type</span>: <span class="hljs-string">&quot;REMOVE&quot;</span>, <span class="hljs-attr">index</span>: <span class="hljs-number">3</span>}
+</code></pre>
+<h4 id="t163.5.7 &#x6027;&#x80FD;&#x6740;&#x624B;">3.5.7 &#x6027;&#x80FD;&#x6740;&#x624B; <a href="#t163.5.7 &#x6027;&#x80FD;&#x6740;&#x624B;"> # </a></h4>
+
+        <div class="copyright">Powered by <a href="javascript:if(confirm('https://github.com/jaywcjlove/idoc  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/jaywcjlove/idoc'" tppabs="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="javascript:if(confirm('https://nodejs.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://nodejs.org/'" tppabs="https://nodejs.org/">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="../../../cdn.bootcss.com/jquery/3.0.0/jquery.js" tppabs="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

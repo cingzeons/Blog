@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZEON构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" tppabs="http://www.zhufengpeixun.cn/plan/static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            ZEON构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html" tppabs="http://www.zhufengpeixun.cn/plan/index.html">index</a></li><li><a href="0.editor.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.editor.html">0.editor</a></li><li><a href="0.module.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.module.html">0.module</a></li><li><a href="0.Async.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.Async.html">0.Async</a></li><li><a href="1.ES2015.html" tppabs="http://www.zhufengpeixun.cn/plan/html/1.ES2015.html">1.ES2015</a></li><li><a href="2.Promise.html" tppabs="http://www.zhufengpeixun.cn/plan/html/2.Promise.html">2.Promise</a></li><li><a href="3.Node.html" tppabs="http://www.zhufengpeixun.cn/plan/html/3.Node.html">3.Node</a></li><li><a href="4.NodeInstall.html" tppabs="http://www.zhufengpeixun.cn/plan/html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="5.REPL.html" tppabs="http://www.zhufengpeixun.cn/plan/html/5.REPL.html">5.REPL</a></li><li><a href="6.NodeCore.html" tppabs="http://www.zhufengpeixun.cn/plan/html/6.NodeCore.html">6.NodeCore</a></li><li><a href="7.module&NPM.html" tppabs="http://www.zhufengpeixun.cn/plan/html/7.module&NPM.html">7.module&NPM</a></li><li><a href="8.Encoding.html" tppabs="http://www.zhufengpeixun.cn/plan/html/8.Encoding.html">8.Encoding</a></li><li><a href="9.Buffer.html" tppabs="http://www.zhufengpeixun.cn/plan/html/9.Buffer.html">9.Buffer</a></li><li><a href="10.fs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/10.fs.html">10.fs</a></li><li><a href="11.Stream-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-1.html">11.Stream-1</a></li><li><a href="11.Stream-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-2.html">11.Stream-2</a></li><li><a href="11.Stream-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-3.html">11.Stream-3</a></li><li><a href="11.Stream-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-4.html">11.Stream-4</a></li><li><a href="12.Network-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.Network-1.html">12.Network-1</a></li><li><a href="12.NetWork-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="12-Network-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12-Network-2.html">12-Network-2</a></li><li><a href="13.tcp.html" tppabs="http://www.zhufengpeixun.cn/plan/html/13.tcp.html">13.tcp</a></li><li><a href="14.http-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-1.html">14.http-1</a></li><li><a href="14.http-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-2.html">14.http-2</a></li><li><a href="15.compress.html" tppabs="http://www.zhufengpeixun.cn/plan/html/15.compress.html">15.compress</a></li><li><a href="16.crypto.html" tppabs="http://www.zhufengpeixun.cn/plan/html/16.crypto.html">16.crypto</a></li><li><a href="17.process.html" tppabs="http://www.zhufengpeixun.cn/plan/html/17.process.html">17.process</a></li><li><a href="18.yargs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/18.yargs.html">18.yargs</a></li><li><a href="19.cache.html" tppabs="http://www.zhufengpeixun.cn/plan/html/19.cache.html">19.cache</a></li><li><a href="20.action.html" tppabs="http://www.zhufengpeixun.cn/plan/html/20.action.html">20.action</a></li><li><a href="21.https.html" tppabs="http://www.zhufengpeixun.cn/plan/html/21.https.html">21.https</a></li><li><a href="22.cookie.html" tppabs="http://www.zhufengpeixun.cn/plan/html/22.cookie.html">22.cookie</a></li><li><a href="23.session.html" tppabs="http://www.zhufengpeixun.cn/plan/html/23.session.html">23.session</a></li><li><a href="24.express-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-1.html">24.express-1</a></li><li><a href="24.express-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-2.html">24.express-2</a></li><li><a href="24.express-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-3.html">24.express-3</a></li><li><a href="24.express-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-4.html">24.express-4</a></li><li><a href="25.koa-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/25.koa-1.html">25.koa-1</a></li><li><a href="26.webpack-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-1.html">26.webpack-1</a></li><li><a href="26.webpack-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-2.html">26.webpack-2</a></li><li><a href="26.webpack-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-3.html">26.webpack-3</a></li><li><a href="26.webpack-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-4.html">26.webpack-4</a></li><li><a href="26.webpack-loader.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-loader.html">26.webpack-loader</a></li><li><a href="26.webpack-plugin.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-plugin.html">26.webpack-plugin</a></li><li><a href="26.tapable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.tapable.html">26.tapable</a></li><li><a href="26.AST.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.AST.html">26.AST</a></li><li><a href="27.react-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-1.html">27.react-1</a></li><li><a href="27.react-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-2.html">27.react-2</a></li><li><a href="27.react-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-3.html">27.react-3</a></li><li><a href="26.webpack-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-5.html">26.webpack-5</a></li><li><a href="27.react-4-immutable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="27.react-5-react-dom-diff.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="28.redux-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-1.html">28.redux-1</a></li><li><a href="28.redux-2-中间件.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="28.redux-3-saga.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-3-saga.html">28.redux-3-saga</a></li><li><a href="28.redux-4-dva.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-4-dva.html">28.redux-4-dva</a></li><li><a href="28.redux-0.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-0.html">28.redux-0</a></li><li><a href="29.mongodb-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="29.mongodb-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="29.mongodb-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="29.mongodb-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="29.mongodb-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="29.mongodb-6.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="30.mysql-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-1.html">30.mysql-1</a></li><li><a href="30.mysql-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-2.html">30.mysql-2</a></li><li><a href="31.egg-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-1.html">31.egg-1</a></li><li><a href="31.egg-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-2.html">31.egg-2</a></li><li><a href="31.egg-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-3.html">31.egg-3</a></li><li class="active"><a href="32.ant.html" tppabs="http://www.zhufengpeixun.cn/plan/html/32.ant.html">32.ant</a></li><li><a href="33.redis.html" tppabs="http://www.zhufengpeixun.cn/plan/html/33.redis.html">33.redis</a></li><li><a href="34.unittest.html" tppabs="http://www.zhufengpeixun.cn/plan/html/34.unittest.html">34.unittest</a></li><li><a href="35.jwt.html" tppabs="http://www.zhufengpeixun.cn/plan/html/35.jwt.html">35.jwt</a></li><li><a href="36.websocket-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-1.html">36.websocket-1</a></li><li><a href="36.websocket-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-2.html">36.websocket-2</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 配置项目">1. 配置项目</a><ul><li><a href="#t11.1 安装脚手架">1.1 安装脚手架</a></li><li><a href="#t21.2 新建项目">1.2 新建项目</a></li><li><a href="#t31.3 安装antd">1.3 安装antd</a></li><li><a href="#t41.4 使用antd">1.4 使用antd</a></li><li><a href="#t51.5 按需加载">1.5 按需加载</a><ul><li><a href="#t61.5.1 安装 react-app-rewired">1.5.1 安装 react-app-rewired</a></li><li><a href="#t71.5.2 修改命令">1.5.2 修改命令</a></li><li><a href="#t81.5.3 config-overrides.js">1.5.3 config-overrides.js</a></li><li><a href="#t91.5.4 babel-plugin-import">1.5.4 babel-plugin-import</a></li><li><a href="#t101.5.5 自定义主题">1.5.5 自定义主题</a></li></ul></li></ul></li><li><a href="#t112.跑通路由">2.跑通路由</a></li><li><a href="#t123. 编写注册页">3. 编写注册页</a><ul><li><a href="#t133.1 编写注册主页">3.1 编写注册主页</a></li><li><a href="#t143.2 编写注册样式">3.2 编写注册样式</a></li><li><a href="#t153.3 编写服务端">3.3 编写服务端</a></li></ul></li><li><a href="#t164. 编写登录功能">4. 编写登录功能</a><ul><li><a href="#t174.1 home组件">4.1 home组件</a></li><li><a href="#t184.2 admin组件">4.2 admin组件</a></li><li><a href="#t194.3 header组件">4.3 header组件</a></li><li><a href="#t204.4 header组件">4.4 header组件</a></li></ul></li><li><a href="#t215. 实现左侧的导航">5. 实现左侧的导航</a><ul><li><a href="#t225.1 NavLeft">5.1 NavLeft</a></li><li><a href="#t235.2 admin">5.2 admin</a></li></ul></li><li><a href="#t246. 实现右侧的欢迎页和分类路由">6. 实现右侧的欢迎页和分类路由</a><ul><li><a href="#t256.1  admin\index.js">6.1  admin\index.js</a></li><li><a href="#t266.2  Welcome\index.js">6.2  Welcome\index.js</a></li><li><a href="#t276.3   Category">6.3   Category</a></li></ul></li><li><a href="#t287. 实现分类管理">7. 实现分类管理</a></li><li><a href="#t297.1 实现分类组件">7.1 实现分类组件</a></li><li><a href="#t307.2 实现分类接口">7.2 实现分类接口</a></li><li><a href="#t318. 实现文章管理">8. 实现文章管理</a></li><li><a href="#t329. 支持markdown">9. 支持markdown</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. &#x914D;&#x7F6E;&#x9879;&#x76EE;">1. &#x914D;&#x7F6E;&#x9879;&#x76EE; <a href="#t01. &#x914D;&#x7F6E;&#x9879;&#x76EE;"> # </a></h2>
+<h3 id="t11.1 &#x5B89;&#x88C5;&#x811A;&#x624B;&#x67B6;">1.1 &#x5B89;&#x88C5;&#x811A;&#x624B;&#x67B6; <a href="#t11.1 &#x5B89;&#x88C5;&#x811A;&#x624B;&#x67B6;"> # </a></h3>
+<pre><code class="lang-js">cnpm install -g create-react-app yarn
+</code></pre>
+<h3 id="t21.2 &#x65B0;&#x5EFA;&#x9879;&#x76EE;">1.2 &#x65B0;&#x5EFA;&#x9879;&#x76EE; <a href="#t21.2 &#x65B0;&#x5EFA;&#x9879;&#x76EE;"> # </a></h3>
+<pre><code class="lang-js">create-react-app zhufengpeixunblog
+cd zhufengpeixunblog
+cnpm start
+</code></pre>
+<h3 id="t31.3 &#x5B89;&#x88C5;antd">1.3 &#x5B89;&#x88C5;antd <a href="#t31.3 &#x5B89;&#x88C5;antd"> # </a></h3>
+<pre><code class="lang-js">cnpm i antd -S
+</code></pre>
+<h3 id="t41.4 &#x4F7F;&#x7528;antd">1.4 &#x4F7F;&#x7528;antd <a href="#t41.4 &#x4F7F;&#x7528;antd"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> Button <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd/lib/button&apos;</span>;
+</code></pre>
+<pre><code class="lang-css">@<span class="hljs-keyword">import</span> <span class="hljs-string">&apos;~antd/dist/antd.css&apos;</span>;
+</code></pre>
+<pre><code class="lang-js">&lt;div className=&quot;App&quot;&gt;
+        &lt;Button&gt;Button&lt;/Button&gt;
+&lt;/div&gt;
+</code></pre>
+<h3 id="t51.5 &#x6309;&#x9700;&#x52A0;&#x8F7D;">1.5 &#x6309;&#x9700;&#x52A0;&#x8F7D; <a href="#t51.5 &#x6309;&#x9700;&#x52A0;&#x8F7D;"> # </a></h3>
+<p>&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;&#x8FDB;&#x884C;&#x81EA;&#x5B9A;&#x4E49;,react-app-rewired(&#x4E00;&#x4E2A;&#x5BF9; create-react-app &#x8FDB;&#x884C;&#x81EA;&#x5B9A;&#x4E49;&#x914D;&#x7F6E;&#x7684;&#x793E;&#x533A;&#x89E3;&#x51B3;&#x65B9;&#x6848;)</p>
+<h4 id="t61.5.1 &#x5B89;&#x88C5; react-app-rewired">1.5.1 &#x5B89;&#x88C5; react-app-rewired <a href="#t61.5.1 &#x5B89;&#x88C5; react-app-rewired"> # </a></h4>
+<pre><code class="lang-js">$ cnpm i react-app-rewired -S
+</code></pre>
+<h4 id="t71.5.2 &#x4FEE;&#x6539;&#x547D;&#x4EE4;">1.5.2 &#x4FEE;&#x6539;&#x547D;&#x4EE4; <a href="#t71.5.2 &#x4FEE;&#x6539;&#x547D;&#x4EE4;"> # </a></h4>
+<p>/<em> package.json </em>/</p>
+<pre><code class="lang-diff">&quot;scripts&quot;: {
+<span class="hljs-deletion">-   &quot;start&quot;: &quot;react-scripts start&quot;,</span>
+<span class="hljs-addition">+   &quot;start&quot;: &quot;react-app-rewired start&quot;,</span>
+<span class="hljs-deletion">-   &quot;build&quot;: &quot;react-scripts build&quot;,</span>
+<span class="hljs-addition">+   &quot;build&quot;: &quot;react-app-rewired build&quot;,</span>
+<span class="hljs-deletion">-   &quot;test&quot;: &quot;react-scripts test --env=jsdom&quot;,</span>
+<span class="hljs-addition">+   &quot;test&quot;: &quot;react-app-rewired test --env=jsdom&quot;,</span>
+}
+</code></pre>
+<h4 id="t81.5.3 config-overrides.js">1.5.3 config-overrides.js <a href="#t81.5.3 config-overrides.js"> # </a></h4>
+<p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A; config-overrides.js &#x7528;&#x4E8E;&#x4FEE;&#x6539;&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">override</span>(<span class="hljs-params">config, env</span>) </span>{
+  <span class="hljs-comment">// do stuff with the webpack config...</span>
+  <span class="hljs-keyword">return</span> config;
+};
+</code></pre>
+<h4 id="t91.5.4 babel-plugin-import">1.5.4 babel-plugin-import <a href="#t91.5.4 babel-plugin-import"> # </a></h4>
+<p>babel-plugin-import &#x662F;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x6309;&#x9700;&#x52A0;&#x8F7D;&#x7EC4;&#x4EF6;&#x4EE3;&#x7801;&#x548C;&#x6837;&#x5F0F;&#x7684; babel &#x63D2;&#x4EF6;&#xFF0C;&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x5C1D;&#x8BD5;&#x5B89;&#x88C5;&#x5B83;&#x5E76;&#x4FEE;&#x6539; config-overrides.js &#x6587;&#x4EF6;&#x3002;</p>
+<pre><code class="lang-js">cnpm i babel-plugin-<span class="hljs-keyword">import</span> -D
+</code></pre>
+<pre><code class="lang-diff"><span class="hljs-addition">+ const { injectBabelPlugin } = require(&apos;react-app-rewired&apos;);</span>
+  module.exports = function override(config, env) {
+<span class="hljs-addition">+   config = injectBabelPlugin([&apos;import&apos;, { libraryName: &apos;antd&apos;, libraryDirectory: &apos;es&apos;, style: &apos;css&apos; }], config);</span>
+    return config;
+  };
+</code></pre>
+<h4 id="t101.5.5 &#x81EA;&#x5B9A;&#x4E49;&#x4E3B;&#x9898;">1.5.5 &#x81EA;&#x5B9A;&#x4E49;&#x4E3B;&#x9898; <a href="#t101.5.5 &#x81EA;&#x5B9A;&#x4E49;&#x4E3B;&#x9898;"> # </a></h4>
+<pre><code class="lang-js">cnpm i react-app-rewire-less -D
+</code></pre>
+<pre><code class="lang-diff">  const { injectBabelPlugin } = require(&apos;react-app-rewired&apos;);
+<span class="hljs-addition">+ const rewireLess = require(&apos;react-app-rewire-less&apos;);</span>
+
+  module.exports = function override(config, env) {
+<span class="hljs-deletion">-   config = injectBabelPlugin([&apos;import&apos;, { libraryName: &apos;antd&apos;, style: &apos;css&apos; }], config);</span>
+<span class="hljs-addition">+   config = injectBabelPlugin([&apos;import&apos;, { libraryName: &apos;antd&apos;, style: true }], config);</span>
+<span class="hljs-addition">+   config = rewireLess.withLoaderOptions({</span>
+<span class="hljs-addition">+     modifyVars: { &quot;@primary-color&quot;: &quot;#1DA57A&quot; },</span>
+<span class="hljs-addition">+   })(config, env);</span>
+    return config;
+  };
+</code></pre>
+<h2 id="t112.&#x8DD1;&#x901A;&#x8DEF;&#x7531;">2.&#x8DD1;&#x901A;&#x8DEF;&#x7531; <a href="#t112.&#x8DD1;&#x901A;&#x8DEF;&#x7531;"> # </a></h2>
+<pre><code class="lang-js">cnpm i react-router-dom -S
+</code></pre>
+<p>\src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">&apos;./style/common.less&apos;</span>
+<span class="hljs-keyword">import</span> Routers <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./router&apos;</span>
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Routers</span> /&gt;</span>, document.getElementById(&apos;root&apos;));
+</span></code></pre>
+<p>\src\router.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>
+<span class="hljs-keyword">import</span> { Switch, Route, HashRouter <span class="hljs-keyword">as</span> Router, Redirect } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Login</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Login<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span>;
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Admin</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Admin<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span>;
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Routers</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;Router&gt;
+                &lt;Switch&gt;
+                    &lt;Route exact path=&apos;/&apos; component={Login} /&gt;
+                    &lt;Route path=&apos;/admin&apos; component={Admin} /&gt;
+                    &lt;Redirect to=&apos;/&apos; /&gt;
+                &lt;/Switch&gt;
+            &lt;/Router&gt;
+        )
+    }
+}
+</code></pre>
+<h2 id="t123. &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x9875;">3. &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x9875; <a href="#t123. &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x9875;"> # </a></h2>
+<h3 id="t133.1 &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x4E3B;&#x9875;">3.1 &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x4E3B;&#x9875; <a href="#t133.1 &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x4E3B;&#x9875;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Form, Input, Button, Icon } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> user <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../service/user&apos;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Home</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    handeSubmit = <span class="hljs-function">(<span class="hljs-params">data</span>) =&gt;</span> {
+        user.signup(data).then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+            <span class="hljs-keyword">this</span>.props.history.push(<span class="hljs-string">&apos;/admin&apos;</span>);
+        });
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div className=&quot;login-page&quot;&gt;
+                &lt;div className=&quot;login-content&quot;&gt;
+                    &lt;h1 className=&quot;title&quot;&gt;&#x73E0;&#x5CF0;&#x535A;&#x5BA2;&lt;/h1&gt;
+                    &lt;WrappedUserForm onSubmit={this.handeSubmit} /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        )
+    }
+}
+
+class UserForm extends Component {
+    checkUsername = (rule, value, callback) =&gt; {
+        if (!value) {
+            callback(&apos;&#x8BF7;&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;!&apos;);
+        } else if (!/^1\d{10}$/.test(value)) {
+            callback(&apos;&#x7528;&#x6237;&#x540D;&#x5FC5;&#x987B;&#x662F;&#x624B;&#x673A;&#x53F7;&apos;);
+        } else {
+            callback();
+        }
+    }
+    render() {
+        const { getFieldDecorator } = this.props.form;
+        return (
+            &lt;Form onSubmit={() =&gt; this.props.onSubmit(this.props.form.getFieldsValue())} className=&quot;login-form&quot; &gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;username&apos;, {
+                            rules: [{ required: true, messsage: &apos;&#x8BF7;&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;&apos; }, { validator: this.checkUsername }]
+                        })(&lt;Input prefix={&lt;Icon type=&quot;user&quot; style={{ color: &apos;rgba(0,0,0,.25)&apos; }} /&gt;} placeholder=&quot;&#x7528;&#x6237;&#x540D;&quot; /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;password&apos;, {
+                            rules: [{ required: true, messsage: &apos;&#x8BF7;&#x8F93;&#x5165;&#x5BC6;&#x7801;&apos; }]
+                        })(&lt;Input prefix={&lt;Icon type=&quot;lock&quot; style={{ color: &apos;rgba(0,0,0,.25)&apos; }} /&gt;} placeholder=&quot;&#x5BC6;&#x7801;&quot; /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;email&apos;, {
+                            rules: [{ type: &apos;email&apos; }, { required: true, messsage: &apos;&#x8BF7;&#x8F93;&#x5165;&#x90AE;&#x7BB1;&apos; }]
+                        })(&lt;Input prefix={&lt;Icon type=&quot;mail&quot; style={{ color: &apos;rgba(0,0,0,.25)&apos; }} /&gt;} placeholder=&quot;&#x90AE;&#x7BB1;&quot; /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    &lt;Button type=&quot;primary&quot; htmlType=&quot;submit&quot; className=&quot;login-form-button&quot; &gt;&#x6CE8;&#x518C;&lt;/Button&gt;
+                &lt;/Form.Item&gt;
+            &lt;/Form&gt;
+        )
+    }
+}
+const WrappedUserForm = Form.create()(UserForm);
+</code></pre>
+<h3 id="t143.2 &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x6837;&#x5F0F;">3.2 &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x6837;&#x5F0F; <a href="#t143.2 &#x7F16;&#x5199;&#x6CE8;&#x518C;&#x6837;&#x5F0F;"> # </a></h3>
+<pre><code class="lang-less">*{
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+}
+<span class="hljs-selector-tag">ul</span>,<span class="hljs-selector-tag">li</span>{
+    <span class="hljs-attribute">list-style</span>: none;
+}
+<span class="hljs-selector-tag">a</span>,<span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span>{
+    <span class="hljs-attribute">text-decoration</span>: none;
+}
+<span class="hljs-selector-tag">html</span>,<span class="hljs-selector-tag">body</span>,<span class="hljs-selector-id">#root</span>{
+    <span class="hljs-attribute">height</span>:<span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">width</span>:<span class="hljs-number">100%</span>;
+}
+
+<span class="hljs-selector-class">.login-page</span>{
+    <span class="hljs-attribute">width</span>:<span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">height</span>:<span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">background-color</span>:skyblue;
+    <span class="hljs-attribute">overflow</span>: hidden;
+    <span class="hljs-selector-class">.login-content</span>{
+        <span class="hljs-attribute">width</span>:<span class="hljs-number">450px</span>;
+        <span class="hljs-attribute">height</span>:<span class="hljs-number">450px</span>;
+        <span class="hljs-attribute">margin</span>:<span class="hljs-number">150px</span> auto;
+        <span class="hljs-selector-class">.title</span>{
+            <span class="hljs-attribute">text-align</span>: center;
+        }
+    }
+}
+</code></pre>
+<h3 id="t153.3 &#x7F16;&#x5199;&#x670D;&#x52A1;&#x7AEF;">3.3 &#x7F16;&#x5199;&#x670D;&#x52A1;&#x7AEF; <a href="#t153.3 &#x7F16;&#x5199;&#x670D;&#x52A1;&#x7AEF;"> # </a></h3>
+<p>index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> axios <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;axios&apos;</span>;
+<span class="hljs-keyword">const</span> baseURL = <span class="hljs-string">&apos;http://localhost:7001&apos;</span>;
+
+<span class="hljs-keyword">const</span> config = {
+    <span class="hljs-attr">timeout</span>: <span class="hljs-number">8000</span>,
+    baseURL,
+    <span class="hljs-attr">withCredential</span>: <span class="hljs-literal">true</span>
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">get</span>(<span class="hljs-params">url</span>) </span>{
+    <span class="hljs-keyword">return</span> axios({ ...config, url, <span class="hljs-attr">method</span>: <span class="hljs-string">&apos;get&apos;</span> }).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.data)
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">post</span>(<span class="hljs-params">url, data</span>) </span>{
+    <span class="hljs-keyword">return</span> axios({ ...config, url, data, <span class="hljs-attr">method</span>: <span class="hljs-string">&apos;post&apos;</span> }).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.data)
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">put</span>(<span class="hljs-params">url, data</span>) </span>{
+    <span class="hljs-keyword">return</span> axios({ ...config, url, data, <span class="hljs-attr">method</span>: <span class="hljs-string">&apos;put&apos;</span> }).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.data)
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">del</span>(<span class="hljs-params">url, data</span>) </span>{
+    <span class="hljs-keyword">return</span> axios({ ...config, url, data, <span class="hljs-attr">method</span>: <span class="hljs-string">&apos;delete&apos;</span> }).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> response.data)
+}
+</code></pre>
+<p>user.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { get, post } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./index&apos;</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">signup</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> post(<span class="hljs-string">&apos;/api/users/signup&apos;</span>, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">signin</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> post(<span class="hljs-string">&apos;/api/users/signin&apos;</span>, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">signout</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> get(<span class="hljs-string">&apos;/api/users/signout&apos;</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    signin,
+    signup,
+    signout
+}
+</code></pre>
+<h2 id="t164. &#x7F16;&#x5199;&#x767B;&#x5F55;&#x529F;&#x80FD;">4. &#x7F16;&#x5199;&#x767B;&#x5F55;&#x529F;&#x80FD; <a href="#t164. &#x7F16;&#x5199;&#x767B;&#x5F55;&#x529F;&#x80FD;"> # </a></h2>
+<h3 id="t174.1 home&#x7EC4;&#x4EF6;">4.1 home&#x7EC4;&#x4EF6; <a href="#t174.1 home&#x7EC4;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Form, Input, Button, Icon, message } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> user <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../service/user&apos;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Home</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    handeSubmit = <span class="hljs-function">(<span class="hljs-params">isSignUp, data</span>) =&gt;</span> {
+        user[isSignUp ? <span class="hljs-string">&apos;signup&apos;</span> : <span class="hljs-string">&apos;signin&apos;</span>](data).then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (data.code == <span class="hljs-number">0</span>)
+                <span class="hljs-keyword">this</span>.props.history.push(<span class="hljs-string">&apos;/admin&apos;</span>);
+            <span class="hljs-keyword">else</span>
+                message.error(data.error.toString());
+        });
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            &lt;div className=&quot;login-page&quot;&gt;
+                &lt;div className=&quot;login-content&quot;&gt;
+                    &lt;h1 className=&quot;title&quot;&gt;&#x73E0;&#x5CF0;&#x535A;&#x5BA2;&lt;/h1&gt;
+                    &lt;WrappedUserForm onSubmit={this.handeSubmit} /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        )
+    }
+}
+
+class UserForm extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { isSignUp: true };//&#x662F;&#x5426;&#x662F;&#x6CE8;&#x518C;&#x8868;&#x5355;
+    }
+    checkUsername = (rule, value, callback) =&gt; {
+        if (!value) {
+            callback(&apos;&#x8BF7;&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;!&apos;);
+        } else if (!/^1\d{10}$/.test(value)) {
+            callback(&apos;&#x7528;&#x6237;&#x540D;&#x5FC5;&#x987B;&#x662F;&#x624B;&#x673A;&#x53F7;&apos;);
+        } else {
+            callback();
+        }
+    }
+    render() {
+        const { getFieldDecorator } = this.props.form;
+        return (
+            &lt;Form onSubmit={() =&gt; this.props.onSubmit(this.state.isSignUp, this.props.form.getFieldsValue())} className=&quot;login-form&quot; &gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;username&apos;, {
+                            rules: [{ required: true, messsage: &apos;&#x8BF7;&#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;&apos; }, { validator: this.checkUsername }]
+                        })(&lt;Input prefix={&lt;Icon type=&quot;user&quot; style={{ color: &apos;rgba(0,0,0,.25)&apos; }} /&gt;} placeholder=&quot;&#x7528;&#x6237;&#x540D;&quot; /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;password&apos;, {
+                            rules: [{ required: true, messsage: &apos;&#x8BF7;&#x8F93;&#x5165;&#x5BC6;&#x7801;&apos; }]
+                        })(&lt;Input prefix={&lt;Icon type=&quot;lock&quot; style={{ color: &apos;rgba(0,0,0,.25)&apos; }} /&gt;} placeholder=&quot;&#x5BC6;&#x7801;&quot; /&gt;)
+                    }
+                &lt;/Form.Item&gt;
+                {
+                    this.state.isSignUp &amp;&amp; &lt;Form.Item&gt;
+                        {
+                            getFieldDecorator(&apos;email&apos;, {
+                                rules: [{ type: &apos;email&apos; }, { required: true, messsage: &apos;&#x8BF7;&#x8F93;&#x5165;&#x90AE;&#x7BB1;&apos; }]
+                            })(&lt;Input prefix={&lt;Icon type=&quot;mail&quot; style={{ color: &apos;rgba(0,0,0,.25)&apos; }} /&gt;} placeholder=&quot;&#x90AE;&#x7BB1;&quot; /&gt;)
+                        }
+                    &lt;/Form.Item&gt;
+                }
+
+                &lt;Form.Item&gt;
+                    &lt;Button type=&quot;primary&quot; htmlType=&quot;submit&quot; className=&quot;login-form-button&quot; &gt;{this.state.isSignUp ? &apos;&#x6CE8;&#x518C;&apos; : &apos;&#x767B;&#x5F55;&apos;}&lt;/Button&gt;
+                    &lt;a onClick={() =&gt; this.setState({ isSignUp: !this.state.isSignUp })}&gt;{this.state.isSignUp ? &apos;  &#x5DF2;&#x6709;&#x8D26;&#x53F7;?&#x7ACB;&#x5373;&#x767B;&#x5F55;&apos; : &apos;  &#x6CA1;&#x6709;&#x8D26;&#x53F7;?&#x7ACB;&#x5373;&#x6CE8;&#x518C;&apos;}&lt;/a&gt;
+                &lt;/Form.Item&gt;
+            &lt;/Form&gt;
+        )
+    }
+}
+const WrappedUserForm = Form.create()(UserForm);
+</code></pre>
+<h3 id="t184.2 admin&#x7EC4;&#x4EF6;">4.2 admin&#x7EC4;&#x4EF6; <a href="#t184.2 admin&#x7EC4;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-less"><span class="hljs-selector-class">.admin-page</span>{
+    <span class="hljs-selector-class">.admin-header</span>{
+        <span class="hljs-attribute">height</span>:<span class="hljs-number">50px</span>;
+        <span class="hljs-attribute">line-height</span>: <span class="hljs-number">50px</span>;
+        <span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span> <span class="hljs-number">50px</span>;
+        <span class="hljs-attribute">background</span>:skyblue;
+    }
+}
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> Header <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../components/Header&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Admin</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;admin-page&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Header</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+</code></pre>
+<h3 id="t194.3 header&#x7EC4;&#x4EF6;">4.3 header&#x7EC4;&#x4EF6; <a href="#t194.3 header&#x7EC4;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Row, Col, Icon } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> { Link, withRouter } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> user <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../service/user&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Header</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    state = { <span class="hljs-attr">username</span>: <span class="hljs-string">&apos;&apos;</span> }
+    signout = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        user.signout().then(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">this</span>.props.history.push(<span class="hljs-string">&apos;/&apos;</span>))
+    }
+    componentWillMount() {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">username</span>: sessionStorage.getItem(<span class="hljs-string">&apos;username&apos;</span>) });
+    }
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Row</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;admin-header&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Col</span> <span class="hljs-attr">span</span>=<span class="hljs-string">&quot;12&quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">Link</span> <span class="hljs-attr">to</span>=<span class="hljs-string">&quot;/admin&quot;</span>&gt;</span>&#x73E0;&#x5CF0;&#x535A;&#x5BA2;<span class="hljs-tag">&lt;/<span class="hljs-name">Link</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Col</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Col</span> <span class="hljs-attr">span</span>=<span class="hljs-string">&quot;12&quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">float:</span> &apos;<span class="hljs-attr">right</span>&apos; }}&gt;</span>
+                        &#x6B22;&#x8FCE; {this.state.username}
+                        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">marginLeft:</span> <span class="hljs-attr">10</span> }} <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.signout}</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">Icon</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;logout&quot;</span> /&gt;</span>&#x9000;&#x51FA;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">Col</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Row</span>&gt;</span>
+        )
+    }
+}
+export default withRouter(Header);
+</span></code></pre>
+<h3 id="t204.4 header&#x7EC4;&#x4EF6;">4.4 header&#x7EC4;&#x4EF6; <a href="#t204.4 header&#x7EC4;&#x4EF6;"> # </a></h3>
+<p>service\user.js</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">signin</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> post(<span class="hljs-string">&apos;/api/users/signin&apos;</span>, data).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+        sessionStorage.setItem(<span class="hljs-string">&apos;username&apos;</span>, res.data.user.username);
+        <span class="hljs-keyword">return</span> res;
+    });
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">signout</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> get(<span class="hljs-string">&apos;/api/users/signout&apos;</span>).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+        sessionStorage.removeItem(<span class="hljs-string">&apos;username&apos;</span>);
+        <span class="hljs-keyword">return</span> res;
+    });
+}
+</code></pre>
+<p>\src\router.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> createHistory <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;history/createHashHistory&apos;</span>;
+<span class="hljs-keyword">let</span> history = createHistory();
+history.listen(<span class="hljs-function">(<span class="hljs-params">location</span>) =&gt;</span> {
+    <span class="hljs-built_in">console</span>.log(location);
+    <span class="hljs-keyword">if</span> (location.pathname != <span class="hljs-string">&quot;/&quot;</span> &amp;&amp; !sessionStorage.getItem(<span class="hljs-string">&apos;username&apos;</span>)) {
+        history.push(<span class="hljs-string">&apos;/&apos;</span>);
+    }
+});
+
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Router</span> <span class="hljs-attr">history</span>=<span class="hljs-string">{history}</span>&gt;</span>
+</span></code></pre>
+<h2 id="t215. &#x5B9E;&#x73B0;&#x5DE6;&#x4FA7;&#x7684;&#x5BFC;&#x822A;">5. &#x5B9E;&#x73B0;&#x5DE6;&#x4FA7;&#x7684;&#x5BFC;&#x822A; <a href="#t215. &#x5B9E;&#x73B0;&#x5DE6;&#x4FA7;&#x7684;&#x5BFC;&#x822A;"> # </a></h2>
+<h3 id="t225.1 NavLeft">5.1 NavLeft <a href="#t225.1 NavLeft"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Menu } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> { Link } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">NavLeft</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    getMenus = <span class="hljs-function">(<span class="hljs-params">menus</span>) =&gt;</span> {
+        <span class="hljs-keyword">return</span> menus.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Menu.Item</span> <span class="hljs-attr">key</span>=<span class="hljs-string">{item.key}</span> <span class="hljs-attr">title</span>=<span class="hljs-string">{item.title}</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">Link</span> <span class="hljs-attr">to</span>=<span class="hljs-string">{item.key}</span>&gt;</span>{item.title}<span class="hljs-tag">&lt;/<span class="hljs-name">Link</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Menu.Item</span>&gt;</span>
+        ));
+    }
+    render() {
+        return (
+            <span class="hljs-tag">&lt;<span class="hljs-name">Menu</span>
+                <span class="hljs-attr">theme</span>=<span class="hljs-string">&quot;light&quot;</span>
+                <span class="hljs-attr">mode</span>=<span class="hljs-string">&quot;inline&quot;</span>
+                <span class="hljs-attr">defaultSelectedKeys</span>=<span class="hljs-string">{[window.location.hash.slice(1)]}</span>
+            &gt;</span>
+                {
+                    this.getMenus(this.props.menus)
+                }
+            <span class="hljs-tag">&lt;/<span class="hljs-name">Menu</span>&gt;</span>
+        )
+    }
+}
+</span></code></pre>
+<h3 id="t235.2 admin">5.2 admin <a href="#t235.2 admin"> # </a></h3>
+<p>config\menus.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> [
+    {
+        <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x5206;&#x7C7B;&#x7BA1;&#x7406;&apos;</span>,
+        <span class="hljs-attr">key</span>: <span class="hljs-string">&apos;/admin/category&apos;</span>
+    },
+    {
+        <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x6587;&#x7AE0;&#x7BA1;&#x7406;&apos;</span>,
+        <span class="hljs-attr">key</span>: <span class="hljs-string">&apos;/admin/article&apos;</span>
+    }
+]
+</code></pre>
+<pre><code class="lang-diff"><span class="hljs-addition">+ import NavLeft from &apos;../../components/NavLeft&apos;;</span>
+<span class="hljs-addition">+ import menus from &apos;../../config/menus&apos;;</span>
+ &lt;div className=&quot;admin-page&quot;&gt;
+                &lt;Header /&gt;
+                &lt;Row className=&quot;welcome-page&quot;&gt;
+<span class="hljs-addition">+                   &lt;Col span=&quot;3&quot;&gt;</span>
+<span class="hljs-addition">+                       &lt;NavLeft menus={menus} /&gt;</span>
+<span class="hljs-addition">+                   &lt;/Col&gt;</span>
+                     &lt;Col span=&quot;21&quot;&gt;
+                     &lt;/Col&gt;
+                &lt;/Row&gt;
+&lt;/div&gt;
+</code></pre>
+<h2 id="t246. &#x5B9E;&#x73B0;&#x53F3;&#x4FA7;&#x7684;&#x6B22;&#x8FCE;&#x9875;&#x548C;&#x5206;&#x7C7B;&#x8DEF;&#x7531;">6. &#x5B9E;&#x73B0;&#x53F3;&#x4FA7;&#x7684;&#x6B22;&#x8FCE;&#x9875;&#x548C;&#x5206;&#x7C7B;&#x8DEF;&#x7531; <a href="#t246. &#x5B9E;&#x73B0;&#x53F3;&#x4FA7;&#x7684;&#x6B22;&#x8FCE;&#x9875;&#x548C;&#x5206;&#x7C7B;&#x8DEF;&#x7531;"> # </a></h2>
+<h3 id="t256.1  admin\index.js">6.1  admin\index.js <a href="#t256.1  admin\index.js"> # </a></h3>
+<pre><code class="lang-diff"><span class="hljs-addition">+ &lt;Col span=&quot;21&quot;&gt;</span>
+<span class="hljs-addition">+     &lt;Route exact path=&quot;/admin&quot; component={Welcome} /&gt;</span>
+<span class="hljs-addition">+     &lt;Route exact path=&quot;/admin/category&quot; component={Category} /&gt;</span>
+<span class="hljs-addition">+ &lt;/Col&gt;</span>
+</code></pre>
+<h3 id="t266.2  Welcome\index.js">6.2  Welcome\index.js <a href="#t266.2  Welcome\index.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Welcome</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;admin-welcome&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#x6B22;&#x8FCE;&#x767B;&#x5F55;&#x73E0;&#x5CF0;&#x535A;&#x5BA2;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+</code></pre>
+<h3 id="t276.3   Category">6.3   Category <a href="#t276.3   Category"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Category</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">&quot;admin-welcome&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Category<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+</code></pre>
+<h2 id="t287. &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x7BA1;&#x7406;">7. &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x7BA1;&#x7406; <a href="#t287. &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x7BA1;&#x7406;"> # </a></h2>
+<h2 id="t297.1 &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x7EC4;&#x4EF6;">7.1 &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x7EC4;&#x4EF6; <a href="#t297.1 &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x7EC4;&#x4EF6;"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Row, Col, Table, Button, Modal, message, Popconfirm, Input, Form } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> service <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../service/category&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Category</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    state = {
+        <span class="hljs-attr">keyword</span>: <span class="hljs-string">&apos;&apos;</span>,
+        <span class="hljs-attr">items</span>: [],<span class="hljs-comment">//&#x6570;&#x636E;&#x9879;</span>
+        pagination: {},
+        <span class="hljs-attr">loading</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">editVisisble</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">isCreate</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">item</span>: {},
+        <span class="hljs-attr">selectedRowKeys</span>: []
+    }
+    componentDidMount() {
+        <span class="hljs-keyword">this</span>.getList({});
+    }
+    getList = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">loading</span>: <span class="hljs-literal">true</span> }, () =&gt; {
+            service.list({ <span class="hljs-attr">pageNum</span>: <span class="hljs-keyword">this</span>.state.pagination.current, <span class="hljs-attr">keyword</span>: <span class="hljs-keyword">this</span>.state.keyword }).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+                <span class="hljs-keyword">if</span> (res.code == <span class="hljs-number">0</span>) {
+                    <span class="hljs-keyword">const</span> { items, <span class="hljs-attr">pageNum</span>: current, pageSize, total, } = res.data;
+                    <span class="hljs-built_in">console</span>.log(items);
+                    <span class="hljs-keyword">this</span>.setState({
+                        <span class="hljs-attr">items</span>: items.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> (item.key = item._id, item)),
+                        <span class="hljs-attr">loading</span>: <span class="hljs-literal">false</span>,
+                        <span class="hljs-attr">pagination</span>: {
+                            total,
+                            pageSize,
+                            current,
+                            <span class="hljs-attr">showTotal</span>: <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-string">`&#x5171;<span class="hljs-subst">${total}</span>&#x6761;`</span>,
+                            <span class="hljs-attr">showQuickJumper</span>: <span class="hljs-literal">true</span>,
+                            <span class="hljs-attr">onChange</span>: <span class="hljs-keyword">this</span>.pageChange
+                        }
+                    });
+                } <span class="hljs-keyword">else</span> {
+                    message.error(res.error);
+                }
+            });
+        });
+
+    }
+    create = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">editVisisble</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">isCreate</span>: <span class="hljs-literal">true</span> });
+    }
+    onEditCancel = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">editVisisble</span>: <span class="hljs-literal">false</span> });
+    }
+    onEditOk = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> category = <span class="hljs-keyword">this</span>.editform.props.form.getFieldsValue();
+        service[<span class="hljs-keyword">this</span>.state.isCreate ? <span class="hljs-string">&apos;create&apos;</span> : <span class="hljs-string">&apos;update&apos;</span>](category).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (res.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">editVisisble</span>: <span class="hljs-literal">false</span> }, <span class="hljs-keyword">this</span>.getList);
+            } <span class="hljs-keyword">else</span> {
+                message.error(res.error);
+            }
+        });
+    }
+    handleSearch = <span class="hljs-function">(<span class="hljs-params">keyword</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ keyword }, <span class="hljs-keyword">this</span>.getList);
+    }
+    pageChange = <span class="hljs-function">(<span class="hljs-params">current</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">pagination</span>: { ...this.state.pagination, current } }, <span class="hljs-keyword">this</span>.getList);
+    }
+    update = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">isCreate</span>: <span class="hljs-literal">false</span>, item, <span class="hljs-attr">editVisisble</span>: <span class="hljs-literal">true</span> });
+    }
+    remove = <span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        service.remove(id).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (res.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">pagination</span>: { ...this.state.pagination, <span class="hljs-attr">current</span>: <span class="hljs-number">1</span> } }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    deleteSelected = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        service.remove(<span class="hljs-keyword">this</span>.state.selectedRowKeys).then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (res.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">pagination</span>: { ...this.state.pagination, <span class="hljs-attr">current</span>: <span class="hljs-number">1</span> } }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    render() {
+        <span class="hljs-keyword">const</span> columns = [
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x540D;&#x79F0;&apos;</span>,
+                <span class="hljs-attr">width</span>: <span class="hljs-number">500</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;name&apos;</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">&apos;name&apos;</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x64CD;&#x4F5C;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;action&apos;</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">text, record, index</span>) =&gt;</span> {
+                    <span class="hljs-keyword">return</span> (
+                        &lt;Button.Group&gt;
+                            &lt;Button type=&quot;primary&quot; onClick={() =&gt; this.update(record)}&gt;&#x4FEE;&#x6539;&lt;/Button&gt;
+                            &lt;Popconfirm onConfirm={() =&gt; this.remove(record._id)}&gt;
+                                &lt;Button style={{ marginLeft: 10 }} type=&quot;danger&quot;&gt;&#x5220;&#x9664;&lt;/Button&gt;
+                            &lt;/Popconfirm&gt;
+                        &lt;/Button.Group&gt;
+                    )
+                }
+            }
+        ]
+        const rowSelection = {
+            selectedRowKeys: this.state.selectedRowKeys,
+            onChange: (selectedRowKeys) =&gt; {
+                this.setState({ selectedRowKeys });
+            }
+        }
+        return (
+            &lt;div style={{ padding: 10 }}&gt;
+                &lt;Row&gt;
+                    &lt;Col span=&quot;6&quot;&gt;
+                        &lt;Button.Group&gt;
+                            &lt;Button type=&quot;dashed&quot; icon=&quot;save&quot; onClick={this.create}&gt;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&lt;/Button&gt;
+                            &lt;Button type=&quot;danger&quot; onClick={this.deleteSelected}&gt;&#x5220;&#x9664;&#x6240;&#x9009;&#x5206;&#x7C7B;&lt;/Button&gt;
+                        &lt;/Button.Group&gt;
+                    &lt;/Col&gt;
+                    &lt;Col span=&quot;18&quot;&gt;
+                        &lt;Input.Search
+                            enterButton
+                            placeholder=&quot;&#x8BF7;&#x8F93;&#x5165;&#x5173;&#x952E;&#x5B57;&quot;
+                            onSearch={keyword =&gt; this.handleSearch(keyword)}
+                        /&gt;
+                    &lt;/Col&gt;
+                &lt;/Row&gt;
+                &lt;Table
+                    columns={columns}
+                    dataSource={this.state.items}
+                    bordered
+                    loading={this.state.loading}
+                    pagination={this.state.pagination}
+                    rowSelection={rowSelection}
+                /&gt;
+                &lt;Modal
+                    title={this.state.isCreate ? &apos;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&apos; : &apos;&#x7F16;&#x8F91;&#x5206;&#x7C7B;&apos;}
+                    onCancel={this.onEditCancel}
+                    onOk={this.onEditOk}
+                    destroyOnClose
+                    visible={this.state.editVisisble}
+                &gt;
+                    &lt;WrappedEditModel
+                        wrappedComponentRef={inst =&gt; this.editform = inst}
+                        item={this.state.item}
+                        isCreate={this.state.isCreate}
+                    /&gt;
+                &lt;/Modal&gt;
+            &lt;/div&gt;
+        )
+    }
+}
+
+class EditModel extends Component {
+    render() {
+        const { getFieldDecorator } = this.props.form;
+        return (
+            &lt;Form&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;name&apos;, {
+                            initialValue: this.props.isCreate ? &apos;&apos; : this.props.item.name
+                        })(
+                            &lt;Input placeholder=&quot;&#x8BF7;&#x8F93;&#x5165;&#x5206;&#x7C7B;&#x540D;&#x79F0;&quot; /&gt;
+                        )
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item&gt;
+                    {
+                        getFieldDecorator(&apos;id&apos;, {
+                            initialValue: this.props.isCreate ? &apos;&apos; : this.props.item._id
+                        })(
+                            &lt;Input type=&quot;hidden&quot; /&gt;
+                        )
+                    }
+                &lt;/Form.Item&gt;
+            &lt;/Form&gt;
+        )
+    }
+}
+
+const WrappedEditModel = Form.create()(EditModel);
+</code></pre>
+<h2 id="t307.2 &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x63A5;&#x53E3;">7.2 &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x63A5;&#x53E3; <a href="#t307.2 &#x5B9E;&#x73B0;&#x5206;&#x7C7B;&#x63A5;&#x53E3;"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { get, post, put, del } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./index&apos;</span>;
+<span class="hljs-keyword">import</span> qs <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;qs&apos;</span>;
+<span class="hljs-keyword">const</span> entity = <span class="hljs-string">&apos;/api/categories&apos;</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">list</span>(<span class="hljs-params">query</span>) </span>{
+    <span class="hljs-keyword">return</span> get(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>?<span class="hljs-subst">${qs.stringify(query)}</span>`</span>);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">create</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> post(entity, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> put(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/<span class="hljs-subst">${data.id}</span>`</span>, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">remove</span>(<span class="hljs-params">ids</span>) </span>{
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> ids == <span class="hljs-string">&apos;string&apos;</span>) {
+        ids = [ids];
+    }
+    <span class="hljs-keyword">return</span> del(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/<span class="hljs-subst">${ids[<span class="hljs-number">0</span>]}</span>`</span>, { ids });
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    list,
+    create,
+    update,
+    remove
+}
+</code></pre>
+<h2 id="t318. &#x5B9E;&#x73B0;&#x6587;&#x7AE0;&#x7BA1;&#x7406;">8. &#x5B9E;&#x73B0;&#x6587;&#x7AE0;&#x7BA1;&#x7406; <a href="#t318. &#x5B9E;&#x73B0;&#x6587;&#x7AE0;&#x7BA1;&#x7406;"> # </a></h2>
+<p>pages\article\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> { Row, Col, Table, Button, Input, Divider, Modal, Form, Popconfirm, Select, Card, List, Avatar, Spin } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> service <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../service/article&apos;</span>;
+<span class="hljs-keyword">import</span> category <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../service/category&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Article</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    state = {
+        <span class="hljs-attr">items</span>: [],
+        <span class="hljs-attr">selectedRows</span>: [],
+        <span class="hljs-attr">selectedRowKeys</span>: [],
+        <span class="hljs-attr">pageNum</span>: <span class="hljs-number">1</span>,
+        <span class="hljs-attr">keyword</span>: <span class="hljs-string">&apos;&apos;</span>,
+        <span class="hljs-attr">loading</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">viewVisible</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">commentVisible</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">item</span>: {},
+        <span class="hljs-attr">categorires</span>: []
+    }
+    componentDidMount() {
+        category.list({ <span class="hljs-attr">pageNum</span>: <span class="hljs-number">1</span> })
+            .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+                <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                    <span class="hljs-keyword">let</span> { <span class="hljs-attr">items</span>: categories } = response.data;
+                    <span class="hljs-keyword">this</span>.setState({ categories });
+                }
+            })
+        <span class="hljs-keyword">this</span>.getList();
+    }
+    pagechange = <span class="hljs-function">(<span class="hljs-params">pageNum</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ pageNum }, <span class="hljs-keyword">this</span>.getList);
+    }
+    getList = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">loading</span>: <span class="hljs-literal">true</span> }, () =&gt; {
+            service.list({ <span class="hljs-attr">pageNum</span>: <span class="hljs-keyword">this</span>.state.pageNum, <span class="hljs-attr">keyword</span>: <span class="hljs-keyword">this</span>.state.keyword })
+                .then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+                    <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                        <span class="hljs-keyword">let</span> { items, total, <span class="hljs-attr">pageNum</span>: current, pageSize } = response.data;
+                        items = items.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> (item.key = item._id, item));
+                        <span class="hljs-keyword">this</span>.setState({
+                            items,
+                            <span class="hljs-attr">loading</span>: <span class="hljs-literal">false</span>,
+                            <span class="hljs-attr">pagination</span>: {
+                                total,
+                                pageSize,
+                                current,
+                                showTotal() {
+                                    <span class="hljs-keyword">return</span> <span class="hljs-string">`&#x5171;<span class="hljs-subst">${total}</span>&#x6761;`</span>;
+                                },
+                                <span class="hljs-attr">showQuickJumper</span>: <span class="hljs-literal">true</span>,
+                                <span class="hljs-attr">onChange</span>: <span class="hljs-keyword">this</span>.pagechange
+                            }
+                        });
+                    }
+                })
+        });
+    }
+    onEditOk = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> article = <span class="hljs-keyword">this</span>.editForm.props.form.getFieldsValue();
+        service[<span class="hljs-keyword">this</span>.state.isAdd ? <span class="hljs-string">&apos;create&apos;</span> : <span class="hljs-string">&apos;update&apos;</span>](article).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span> }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    add = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">isAdd</span>: <span class="hljs-literal">true</span> });
+    }
+    onEditCancel = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">false</span> });
+    }
+    view = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+        service.pv(item._id).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({
+                    item,
+                    <span class="hljs-attr">viewVisible</span>: <span class="hljs-literal">true</span>
+                }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    onViewCancel = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({
+            <span class="hljs-attr">viewVisible</span>: <span class="hljs-literal">false</span>
+        });
+    }
+    edit = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({
+            <span class="hljs-attr">isAdd</span>: <span class="hljs-literal">false</span>,
+            item,
+            <span class="hljs-attr">editVisible</span>: <span class="hljs-literal">true</span>
+        });
+    }
+    remove = <span class="hljs-function">(<span class="hljs-params">id</span>) =&gt;</span> {
+        service.remove(id).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">pageNum</span>: <span class="hljs-number">1</span> }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    comment = <span class="hljs-function">(<span class="hljs-params">item</span>) =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">commentVisible</span>: <span class="hljs-literal">true</span>, item });
+    }
+    CommentCancel = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">commentVisible</span>: <span class="hljs-literal">false</span> });
+    }
+    onCommentOk = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">let</span> data = <span class="hljs-keyword">this</span>.commentForm.props.form.getFieldsValue();
+        service.comment(<span class="hljs-keyword">this</span>.state.item._id, data).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">commentVisible</span>: <span class="hljs-literal">false</span> }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    handleDeleteComment = <span class="hljs-function">(<span class="hljs-params">article_id, comment_id</span>) =&gt;</span> {
+        service.removeComment(article_id, comment_id).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+            <span class="hljs-keyword">if</span> (response.code == <span class="hljs-number">0</span>) {
+                <span class="hljs-keyword">this</span>.setState({ <span class="hljs-attr">commentVisible</span>: <span class="hljs-literal">false</span> }, <span class="hljs-keyword">this</span>.getList);
+            }
+        })
+    }
+    render() {
+        <span class="hljs-keyword">const</span> { selectedRowKeys, loading } = <span class="hljs-keyword">this</span>.state;
+        <span class="hljs-keyword">const</span> rowSelection = {
+            selectedRowKeys,
+            <span class="hljs-attr">onChange</span>: <span class="hljs-function">(<span class="hljs-params">selectedRowKeys, selectedRows</span>) =&gt;</span> {
+                <span class="hljs-keyword">this</span>.setState({ selectedRowKeys, selectedRows });
+            }
+        }
+        <span class="hljs-keyword">const</span> columns = [
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x6807;&#x9898;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;title&apos;</span>,
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x5206;&#x7C7B;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;category&apos;</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function"><span class="hljs-params">text</span> =&gt;</span> text.name,
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x5185;&#x5BB9;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;content&apos;</span>,
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x6D4F;&#x89C8;&#x91CF;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;pv&apos;</span>,
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x8BC4;&#x8BBA;&#x91CF;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;text&apos;</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">text, record</span>) =&gt;</span> {
+                    <span class="hljs-keyword">return</span> record.comments.length;
+                },
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x4F5C;&#x8005;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;user&apos;</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">text, record</span>) =&gt;</span> {
+                    <span class="hljs-built_in">console</span>.log(record);
+                    <span class="hljs-keyword">return</span> text.username;
+                },
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x53D1;&#x8868;&#x65F6;&#x95F4;&apos;</span>,
+                <span class="hljs-attr">dataIndex</span>: <span class="hljs-string">&apos;createAt&apos;</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">text, record</span>) =&gt;</span> {
+                    <span class="hljs-keyword">return</span> text.toLocaleString();
+                },
+                <span class="hljs-attr">width</span>: <span class="hljs-number">100</span>
+            },
+            {
+                <span class="hljs-attr">title</span>: <span class="hljs-string">&apos;&#x64CD;&#x4F5C;&apos;</span>,
+                <span class="hljs-attr">key</span>: <span class="hljs-string">&apos;action&apos;</span>,
+                <span class="hljs-attr">render</span>: <span class="hljs-function">(<span class="hljs-params">text, record</span>) =&gt;</span> (
+                    &lt;Button.Group&gt;
+                        &lt;Button
+                            type=&quot;dash&quot;
+                            icon=&quot;edit&quot;
+                            onClick={() =&gt; this.view(record)}
+                        &gt;
+                            &#x67E5;&#x770B;
+                        &lt;/Button&gt;
+                        &lt;Button
+                            type=&quot;primary&quot;
+                            style={{ marginLeft: 5 }}
+                            icon=&quot;edit&quot;
+                            onClick={() =&gt; this.comment(record)}
+                        &gt;
+                            &#x8BC4;&#x8BBA;
+                        &lt;/Button&gt;
+                        &lt;Button
+                            style={{ marginLeft: 5 }}
+                            type=&quot;primary&quot;
+                            icon=&quot;eye&quot;
+                            onClick={() =&gt; this.edit(record)}
+                        &gt;
+                            &#x7F16;&#x8F91;
+                        &lt;/Button&gt;
+                        &lt;Popconfirm title=&quot;&#x786E;&#x8BA4;&#x5220;&#x9664;&#x5417;?&quot; onConfirm={() =&gt; this.remove(record._id)}&gt;
+                            &lt;Button
+                                style={{ marginLeft: 5 }}
+                                type=&quot;danger&quot;
+                                icon=&quot;delete&quot;
+                            &gt;&#x5220;&#x9664;&lt;/Button&gt;
+                        &lt;/Popconfirm&gt;
+                    &lt;/Button.Group&gt;
+                )
+            }
+        ]
+        return (
+            &lt;Row style={{ margin: &apos;3px&apos; }}&gt;
+                &lt;Col span=&quot;24&quot;&gt;
+                    &lt;Row&gt;
+                        &lt;Col span=&quot;18&quot;&gt;
+                            &lt;Button.Group&gt;
+                                &lt;Button type=&quot;dashed&quot; icon=&quot;save&quot; onClick={this.add}&gt;&#x521B;&#x5EFA;&#x6587;&#x7AE0;&lt;/Button&gt;
+                                &lt;Button
+                                    type=&quot;danger&quot;
+                                    icon=&quot;delete&quot;
+                                    style={{ marginleft: 5 }}
+                                    onClick={() =&gt; this.remove(this.state.selectedRowKeys)}
+                                &gt;&#x5168;&#x90E8;&#x5220;&#x9664;&lt;/Button&gt;
+                            &lt;/Button.Group&gt;
+                        &lt;/Col&gt;
+                        &lt;Col span=&quot;6&quot;&gt;
+                            &lt;Input.Search
+                                onSearch={keyword =&gt; this.setState({ pageNum: 1, keyword }, this.getList)}
+                                enterButton={true}&gt;
+                            &lt;/Input.Search&gt;
+                        &lt;/Col&gt;
+                    &lt;/Row&gt;
+                    &lt;Table
+                        loading={loading}
+                        style={{ margin: 3 }}
+                        bordered
+                        columns={columns}
+                        dataSource={this.state.items}
+                        pagination={this.state.pagination}
+                        rowSelection={rowSelection}
+                    &gt;
+                    &lt;/Table&gt;
+                    &lt;Modal
+                        title={this.state.title}
+                        visible={this.state.editVisible}
+                        onOk={this.onEditOk}
+                        onCancel={this.onEditCancel}
+                        width={800}
+                        closable
+                        destroyOnClose
+                    &gt;
+                        &lt;WrappedEditModal
+                            wrappedComponentRef={instance =&gt; this.editForm = instance}
+                            isAdd={this.state.isAdd}
+                            categories={this.state.categories}
+                            item={this.state.item}
+                        /&gt;
+                    &lt;/Modal&gt;
+                    &lt;Modal
+                        title={this.state.title}
+                        visible={this.state.viewVisible}
+                        onCancel={this.onViewCancel}
+                        width={800}
+                        closable
+                        footer={null}
+                        maskClosable
+                        destroyOnClose
+                    &gt;
+                        &lt;WrappedViewModal
+                            item={this.state.item}
+                        /&gt;
+                    &lt;/Modal&gt;
+                    &lt;Modal
+                        visible={this.state.commentVisible}
+                        onOk={this.onCommentOk}
+                        onCancel={this.CommentCancel}
+                        width={800}
+                        closable
+                        destroyOnClose
+                    &gt;
+                        &lt;WrappedCommentModal
+                            wrappedComponentRef={instance =&gt; this.commentForm = instance}
+                            item={this.state.item}
+                            handleDeleteComment={this.handleDeleteComment}
+                        /&gt;
+                    &lt;/Modal&gt;
+                &lt;/Col&gt;
+            &lt;/Row&gt;
+        )
+    }
+
+}
+
+class EditModal extends Component {
+    render() {
+        let item = this.props.item;
+        const { getFieldDecorator } = this.props.form;
+        return (
+            &lt;Form&gt;
+                &lt;Form.Item label=&quot;&#x5206;&#x7C7B;&quot;&gt;
+                    {
+                        getFieldDecorator(&apos;category&apos;, { initialValue: this.props.isAdd ? (this.props.categories.length &gt; 0 ? this.props.categories[0]._id : &apos;&apos;) : this.props.item.category._id })(
+                            &lt;Select&gt;
+                                {
+                                    this.props.categories.map(category =&gt; (
+                                        &lt;Select.Option key={category._id} value={category._id}&gt;
+                                            {category.name}
+                                        &lt;/Select.Option&gt;
+                                    ))
+                                }
+                            &lt;/Select&gt;
+                        )
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item label=&quot;&#x6807;&#x9898;&quot;&gt;
+                    {
+                        getFieldDecorator(&apos;title&apos;, { initialValue: this.props.isAdd ? &apos;&apos; : this.props.item.title, rules: [{ required: true, message: &apos;&#x8BF7;&#x8F93;&#x5165;&#x6807;&#x9898;&apos; }] })(
+                            &lt;Input maxLength={50} placeholder=&quot;&#x8BF7;&#x8F93;&#x5165;&#x6807;&#x9898;&quot; /&gt;
+                        )
+                    }
+                &lt;/Form.Item&gt;
+                &lt;Form.Item label=&quot;&#x5185;&#x5BB9;&quot;&gt;
+                    {
+                        getFieldDecorator(&apos;content&apos;, { initialValue: this.props.isAdd ? &apos;&apos; : this.props.item.content, rules: [{ required: true, message: &apos;&#x8BF7;&#x8F93;&#x5165;&#x5185;&#x5BB9;&apos; }] })(
+                            &lt;Input.TextArea placeholder=&quot;&#x8BF7;&#x8F93;&#x5165;&#x5185;&#x5BB9;&quot; /&gt;
+                        )
+                    }
+                &lt;/Form.Item&gt;
+                {
+                    !this.props.isAdd &amp;&amp; getFieldDecorator(&apos;id&apos;, { initialValue: this.props.item._id })(
+                        &lt;Input type=&quot;hidden&quot; /&gt;
+                    )
+                }
+            &lt;/Form&gt;
+        )
+    }
+}
+class ViewModal extends Component {
+    render() {
+        return (
+            &lt;Card title={this.props.item.title} style={{ marginTop: 20 }}&gt;
+                &lt;p&gt;&#x5206;&#x7C7B;:{this.props.item.category.name}&lt;/p&gt;
+                &lt;p&gt;&#x5185;&#x5BB9;:{this.props.item.content}&lt;/p&gt;
+            &lt;/Card&gt;
+        )
+    }
+}
+class CommentModal extends Component {
+    state = {
+        loading: false,
+        skip: 0,
+        limit: 5,
+        data: this.props.item.comments.slice(0, 5)
+    }
+
+    handleLoadMore = () =&gt; {
+        this.setState({
+            skip: this.state.skip += this.state.limit,
+            data: this.props.item.comments.slice(0, this.state.skip + this.state.limit)
+        });
+    }
+
+    render() {
+        const { skip, limit, loading, data } = this.state;
+        const { item, form: { getFieldDecorator } } = this.props;
+        const loadMore = (
+            skip + limit &lt; item.comments.length ? (
+                &lt;div style={{ marginTop: 10, textAlign: &apos;center&apos; }}&gt;
+                    {loading &amp;&amp; &lt;Spin /&gt;}
+                    {!loading &amp;&amp; &lt;Button onClick={this.handleLoadMore}&gt;&#x52A0;&#x8F7D;&#x66F4;&#x591A;&lt;/Button&gt;}
+                &lt;/div&gt;) : null
+        )
+        return (
+            &lt;Row style={{ marginTop: 20 }}&gt;
+                &lt;Col span=&quot;24&quot;&gt;
+                    &lt;Form&gt;
+                        &lt;Form.Item&gt;
+                            {
+                                getFieldDecorator(&apos;content&apos;, { rules: [{ required: true, message: &apos;&#x8BF7;&#x8F93;&#x5165;&#x8BC4;&#x8BBA;&#x5185;&#x5BB9;&apos; }] })(
+                                    &lt;Input placeholder=&quot;&#x8BF7;&#x8F93;&#x5165;&#x8BC4;&#x8BBA;&#x5185;&#x5BB9;&quot; /&gt;
+                                )
+                            }
+                        &lt;/Form.Item&gt;
+                    &lt;/Form&gt;
+                    &lt;List
+                        loading={this.state.loading}
+                        loadMore={loadMore}
+                        dataSource={data}
+                        renderItem={
+                            item =&gt; (
+                                &lt;List.Item actions={[&lt;Button type=&quot;danger&quot; onClick={() =&gt; this.props.handleDeleteComment(this.props.item._id, item._id)} icon=&quot;delete&quot;&gt;&#x5220;&#x9664;&lt;/Button&gt;]} &gt;
+                                    &lt;List.Item.Meta
+                                        avatar={&lt;Avatar src=&quot;https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png&quot; /&gt;}
+                                        title={item.user.username}
+                                        description={item.user.email}
+                                    /&gt;
+                                    &lt;div&gt;{item.content}&lt;/div&gt;
+                                &lt;/List.Item&gt;
+                            )
+                        }
+                    /&gt;
+                &lt;/Col&gt;
+            &lt;/Row&gt;
+        )
+    }
+}
+const WrappedEditModal = Form.create()(EditModal);
+const WrappedViewModal = Form.create()(ViewModal);
+const WrappedCommentModal = Form.create()(CommentModal);
+</code></pre>
+<p>\src\service\article.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { get, post, put, del } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./index&apos;</span>;
+<span class="hljs-keyword">import</span> qs <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;qs&apos;</span>;
+<span class="hljs-keyword">const</span> entity = <span class="hljs-string">&apos;/api/articles&apos;</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">list</span>(<span class="hljs-params">{ pageNum = <span class="hljs-number">1</span>, pageSize = <span class="hljs-number">5</span>, keyword = <span class="hljs-string">&quot;&quot;</span> }</span>) </span>{
+    <span class="hljs-keyword">return</span> get(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>?pageNum=<span class="hljs-subst">${pageNum}</span>&amp;pageSize=<span class="hljs-subst">${pageSize}</span>&amp;keyword=<span class="hljs-subst">${keyword}</span>`</span>);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">create</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> post(entity, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span>(<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">return</span> put(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/<span class="hljs-subst">${data.id}</span>`</span>, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">remove</span>(<span class="hljs-params">ids</span>) </span>{
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> ids == <span class="hljs-string">&apos;string&apos;</span>) {
+        ids = [ids];
+    }
+    <span class="hljs-keyword">return</span> del(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/<span class="hljs-subst">${ids[<span class="hljs-number">0</span>]}</span>`</span>, { ids });
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">comment</span>(<span class="hljs-params">id, data</span>) </span>{
+    <span class="hljs-keyword">return</span> post(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/comment/<span class="hljs-subst">${id}</span>`</span>, data);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">removeComment</span>(<span class="hljs-params">article_id, comment_id</span>) </span>{
+    <span class="hljs-keyword">return</span> del(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/<span class="hljs-subst">${article_id}</span>/comment/<span class="hljs-subst">${comment_id}</span>`</span>);
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">pv</span>(<span class="hljs-params">id</span>) </span>{
+    <span class="hljs-keyword">return</span> get(<span class="hljs-string">`<span class="hljs-subst">${entity}</span>/pv/<span class="hljs-subst">${id}</span>`</span>);
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    list,
+    create,
+    update,
+    remove,
+    comment,
+    removeComment,
+    pv
+}
+</code></pre>
+<h2 id="t329. &#x652F;&#x6301;markdown">9. &#x652F;&#x6301;markdown <a href="#t329. &#x652F;&#x6301;markdown"> # </a></h2>
+<ul>
+<li><a href="javascript:if(confirm('https://www.npmjs.com/package/marked  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://www.npmjs.com/package/marked'" tppabs="https://www.npmjs.com/package/marked">marked</a></li>
+<li><a href="javascript:if(confirm('https://marked.js.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://marked.js.org/#/USING_ADVANCED.md'" tppabs="https://marked.js.org/#/USING_ADVANCED.md">USING_ADVANCED</a></li>
+<li><a href="javascript:if(confirm('https://www.npmjs.com/package/highlight.js  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://www.npmjs.com/package/highlight.js'" tppabs="https://www.npmjs.com/package/highlight.js">highlight.js</a></li>
+<li><a href="javascript:if(confirm('http://jsxss.com/zh/try.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://jsxss.com/zh/try.html'" tppabs="http://jsxss.com/zh/try.html">jsxss</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="javascript:if(confirm('https://github.com/jaywcjlove/idoc  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/jaywcjlove/idoc'" tppabs="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="javascript:if(confirm('https://nodejs.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://nodejs.org/'" tppabs="https://nodejs.org/">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="../../../cdn.bootcss.com/jquery/3.0.0/jquery.js" tppabs="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

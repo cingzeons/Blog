@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZEON构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" tppabs="http://www.zhufengpeixun.cn/plan/static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            ZEON构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html" tppabs="http://www.zhufengpeixun.cn/plan/index.html">index</a></li><li><a href="0.editor.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.editor.html">0.editor</a></li><li><a href="0.module.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.module.html">0.module</a></li><li><a href="0.Async.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.Async.html">0.Async</a></li><li><a href="1.ES2015.html" tppabs="http://www.zhufengpeixun.cn/plan/html/1.ES2015.html">1.ES2015</a></li><li><a href="2.Promise.html" tppabs="http://www.zhufengpeixun.cn/plan/html/2.Promise.html">2.Promise</a></li><li><a href="3.Node.html" tppabs="http://www.zhufengpeixun.cn/plan/html/3.Node.html">3.Node</a></li><li><a href="4.NodeInstall.html" tppabs="http://www.zhufengpeixun.cn/plan/html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="5.REPL.html" tppabs="http://www.zhufengpeixun.cn/plan/html/5.REPL.html">5.REPL</a></li><li><a href="6.NodeCore.html" tppabs="http://www.zhufengpeixun.cn/plan/html/6.NodeCore.html">6.NodeCore</a></li><li><a href="7.module&NPM.html" tppabs="http://www.zhufengpeixun.cn/plan/html/7.module&NPM.html">7.module&NPM</a></li><li><a href="8.Encoding.html" tppabs="http://www.zhufengpeixun.cn/plan/html/8.Encoding.html">8.Encoding</a></li><li><a href="9.Buffer.html" tppabs="http://www.zhufengpeixun.cn/plan/html/9.Buffer.html">9.Buffer</a></li><li><a href="10.fs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/10.fs.html">10.fs</a></li><li><a href="11.Stream-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-1.html">11.Stream-1</a></li><li><a href="11.Stream-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-2.html">11.Stream-2</a></li><li><a href="11.Stream-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-3.html">11.Stream-3</a></li><li><a href="11.Stream-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-4.html">11.Stream-4</a></li><li><a href="12.Network-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.Network-1.html">12.Network-1</a></li><li><a href="12.NetWork-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="12-Network-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12-Network-2.html">12-Network-2</a></li><li><a href="13.tcp.html" tppabs="http://www.zhufengpeixun.cn/plan/html/13.tcp.html">13.tcp</a></li><li><a href="14.http-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-1.html">14.http-1</a></li><li><a href="14.http-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-2.html">14.http-2</a></li><li><a href="15.compress.html" tppabs="http://www.zhufengpeixun.cn/plan/html/15.compress.html">15.compress</a></li><li><a href="16.crypto.html" tppabs="http://www.zhufengpeixun.cn/plan/html/16.crypto.html">16.crypto</a></li><li><a href="17.process.html" tppabs="http://www.zhufengpeixun.cn/plan/html/17.process.html">17.process</a></li><li><a href="18.yargs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/18.yargs.html">18.yargs</a></li><li><a href="19.cache.html" tppabs="http://www.zhufengpeixun.cn/plan/html/19.cache.html">19.cache</a></li><li><a href="20.action.html" tppabs="http://www.zhufengpeixun.cn/plan/html/20.action.html">20.action</a></li><li><a href="21.https.html" tppabs="http://www.zhufengpeixun.cn/plan/html/21.https.html">21.https</a></li><li><a href="22.cookie.html" tppabs="http://www.zhufengpeixun.cn/plan/html/22.cookie.html">22.cookie</a></li><li><a href="23.session.html" tppabs="http://www.zhufengpeixun.cn/plan/html/23.session.html">23.session</a></li><li><a href="24.express-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-1.html">24.express-1</a></li><li><a href="24.express-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-2.html">24.express-2</a></li><li><a href="24.express-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-3.html">24.express-3</a></li><li><a href="24.express-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-4.html">24.express-4</a></li><li class="active"><a href="25.koa-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/25.koa-1.html">25.koa-1</a></li><li><a href="26.webpack-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-1.html">26.webpack-1</a></li><li><a href="26.webpack-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-2.html">26.webpack-2</a></li><li><a href="26.webpack-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-3.html">26.webpack-3</a></li><li><a href="26.webpack-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-4.html">26.webpack-4</a></li><li><a href="26.webpack-loader.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-loader.html">26.webpack-loader</a></li><li><a href="26.webpack-plugin.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-plugin.html">26.webpack-plugin</a></li><li><a href="26.tapable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.tapable.html">26.tapable</a></li><li><a href="26.AST.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.AST.html">26.AST</a></li><li><a href="27.react-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-1.html">27.react-1</a></li><li><a href="27.react-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-2.html">27.react-2</a></li><li><a href="27.react-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-3.html">27.react-3</a></li><li><a href="26.webpack-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-5.html">26.webpack-5</a></li><li><a href="27.react-4-immutable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="27.react-5-react-dom-diff.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="28.redux-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-1.html">28.redux-1</a></li><li><a href="28.redux-2-中间件.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="28.redux-3-saga.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-3-saga.html">28.redux-3-saga</a></li><li><a href="28.redux-4-dva.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-4-dva.html">28.redux-4-dva</a></li><li><a href="28.redux-0.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-0.html">28.redux-0</a></li><li><a href="29.mongodb-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="29.mongodb-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="29.mongodb-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="29.mongodb-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="29.mongodb-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="29.mongodb-6.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="30.mysql-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-1.html">30.mysql-1</a></li><li><a href="30.mysql-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-2.html">30.mysql-2</a></li><li><a href="31.egg-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-1.html">31.egg-1</a></li><li><a href="31.egg-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-2.html">31.egg-2</a></li><li><a href="31.egg-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-3.html">31.egg-3</a></li><li><a href="32.ant.html" tppabs="http://www.zhufengpeixun.cn/plan/html/32.ant.html">32.ant</a></li><li><a href="33.redis.html" tppabs="http://www.zhufengpeixun.cn/plan/html/33.redis.html">33.redis</a></li><li><a href="34.unittest.html" tppabs="http://www.zhufengpeixun.cn/plan/html/34.unittest.html">34.unittest</a></li><li><a href="35.jwt.html" tppabs="http://www.zhufengpeixun.cn/plan/html/35.jwt.html">35.jwt</a></li><li><a href="36.websocket-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-1.html">36.websocket-1</a></li><li><a href="36.websocket-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-2.html">36.websocket-2</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. koa">1. koa</a></li><li><a href="#t12.安装">2.安装</a></li><li><a href="#t22.应用程序">2.应用程序</a></li><li><a href="#t33.级联中间件">3.级联中间件</a><ul><li><a href="#t44. 上下文(Context)">4. 上下文(Context)</a></li></ul></li><li><a href="#t55.获取请求参数">5.获取请求参数</a></li><li><a href="#t66.获取请求体">6.获取请求体</a></li><li><a href="#t77.使用中间件获取普通请求体">7.使用中间件获取普通请求体</a></li><li><a href="#t88.使用中间件获取包含文件的请求体">8.使用中间件获取包含文件的请求体</a></li><li><a href="#t99. 路由中间件">9. 路由中间件</a></li><li><a href="#t1010.cookie">10.cookie</a></li><li><a href="#t1111.session">11.session</a></li><li><a href="#t1212. 模板引擎">12. 模板引擎</a></li><li><a href="#t1313. 静态资源中间件">13. 静态资源中间件</a></li><li><a href="#t1414. koa实现">14. koa实现</a></li><li><a href="#t1515. generator">15. generator</a></li><li><a href="#t1616. form-data">16. form-data</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. koa">1. koa <a href="#t01. koa"> # </a></h2>
+<p><a href="javascript:if(confirm('http://koajs.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://koajs.com/'" tppabs="http://koajs.com/">koajs</a>
+Koa2&#x662F;&#x73B0;&#x5728;&#x6700;&#x6D41;&#x884C;&#x7684;&#x57FA;&#x4E8E;Node.js&#x5E73;&#x53F0;&#x7684;web&#x5F00;&#x53D1;&#x6846;&#x67B6;</p>
+<h2 id="t12.&#x5B89;&#x88C5;">2.&#x5B89;&#x88C5; <a href="#t12.&#x5B89;&#x88C5;"> # </a></h2>
+<pre><code class="lang-js">npm i koa
+</code></pre>
+<h2 id="t22.&#x5E94;&#x7528;&#x7A0B;&#x5E8F;">2.&#x5E94;&#x7528;&#x7A0B;&#x5E8F; <a href="#t22.&#x5E94;&#x7528;&#x7A0B;&#x5E8F;"> # </a></h2>
+<p>Koa &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x662F;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x4E00;&#x7EC4;&#x4E2D;&#x95F4;&#x4EF6;&#x51FD;&#x6570;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5B83;&#x662F;&#x6309;&#x7167;&#x7C7B;&#x4F3C;&#x5806;&#x6808;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x7EC7;&#x548C;&#x6267;&#x884C;&#x7684;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+
+app.use(<span class="hljs-keyword">async</span> ctx =&gt; {
+  ctx.body = <span class="hljs-string">&apos;Hello World&apos;</span>;
+});
+
+app.on(<span class="hljs-string">&apos;error&apos;</span>, err =&gt; {
+  log.error(<span class="hljs-string">&apos;server error&apos;</span>, err)
+});
+
+app.listen(<span class="hljs-number">3000</span>);
+<span class="hljs-comment">//app.callback()</span>
+<span class="hljs-comment">//http.createServer(app.callback()).listen(3000);</span>
+<span class="hljs-comment">//https.createServer(app.callback()).listen(3000);</span>
+</code></pre>
+<h2 id="t33.&#x7EA7;&#x8054;&#x4E2D;&#x95F4;&#x4EF6;">3.&#x7EA7;&#x8054;&#x4E2D;&#x95F4;&#x4EF6; <a href="#t33.&#x7EA7;&#x8054;&#x4E2D;&#x95F4;&#x4EF6;"> # </a></h2>
+<p>Koa &#x4E2D;&#x95F4;&#x4EF6;&#x4EE5;&#x66F4;&#x4F20;&#x7EDF;&#x7684;&#x65B9;&#x5F0F;&#x7EA7;&#x8054;</p>
+<pre><code class="lang-js">app.use(<span class="hljs-function"><span class="hljs-keyword">function</span>)
+</span></code></pre>
+<p><img src="../../../img.zhufengpeixun.cn/koa-middleware.jpg" tppabs="http://img.zhufengpeixun.cn/koa-middleware.jpg" alt="koa-middleware"></p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+
+<span class="hljs-comment">// x-response-time</span>
+
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+  <span class="hljs-keyword">const</span> start = <span class="hljs-built_in">Date</span>.now();
+  <span class="hljs-keyword">await</span> next();
+  <span class="hljs-keyword">const</span> ms = <span class="hljs-built_in">Date</span>.now() - start;
+  ctx.set(<span class="hljs-string">&apos;X-Response-Time&apos;</span>, <span class="hljs-string">`<span class="hljs-subst">${ms}</span>ms`</span>);
+});
+
+<span class="hljs-comment">// logger</span>
+
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+  <span class="hljs-keyword">const</span> start = <span class="hljs-built_in">Date</span>.now();
+  <span class="hljs-keyword">await</span> next();
+  <span class="hljs-keyword">const</span> ms = <span class="hljs-built_in">Date</span>.now() - start;
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`<span class="hljs-subst">${ctx.method}</span> <span class="hljs-subst">${ctx.url}</span> - <span class="hljs-subst">${ms}</span>`</span>);
+});
+
+<span class="hljs-comment">// response</span>
+
+app.use(<span class="hljs-keyword">async</span> ctx =&gt; {
+  ctx.body = <span class="hljs-string">&apos;Hello World&apos;</span>;
+});
+
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h3 id="t44. &#x4E0A;&#x4E0B;&#x6587;(Context)">4. &#x4E0A;&#x4E0B;&#x6587;(Context) <a href="#t44. &#x4E0A;&#x4E0B;&#x6587;(Context)"> # </a></h3>
+<p>Koa Context &#x5C06; node &#x7684; request &#x548C; response &#x5BF9;&#x8C61;&#x5C01;&#x88C5;&#x5230;&#x5355;&#x4E2A;&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x4E3A;&#x7F16;&#x5199; Web &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x548C; API &#x63D0;&#x4F9B;&#x4E86;&#x8BB8;&#x591A;&#x6709;&#x7528;&#x7684;&#x65B9;&#x6CD5;</p>
+<ul>
+<li>ctx.request; // &#x8FD9;&#x662F; koa Request</li>
+<li>ctx.response; // &#x8FD9;&#x662F; koa Response</li>
+<li>ctrx.req  //&#x539F;&#x59CB;&#x7684;http&#x8BF7;&#x6C42;&#x5BF9;&#x8C61;</li>
+<li>ctx.res   //&#x539F;&#x59CB;&#x7684;http&#x54CD;&#x5E94;&#x5BF9;&#x8C61;</li>
+<li>ctx.app &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5B9E;&#x4F8B;&#x5F15;&#x7528;</li>
+<li>ctx.request&#x662F;Koa2&#x4E2D;context&#x7ECF;&#x8FC7;&#x5C01;&#x88C5;&#x7684;&#x8BF7;&#x6C42;&#x5BF9;&#x8C61;</li>
+</ul>
+<blockquote>
+<p>&#x7ED5;&#x8FC7; Koa &#x7684; response &#x5904;&#x7406;&#x662F; &#x4E0D;&#x88AB;&#x652F;&#x6301;&#x7684;</p>
+</blockquote>
+<h2 id="t55.&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x53C2;&#x6570;">5.&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x53C2;&#x6570; <a href="#t55.&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x53C2;&#x6570;"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-built_in">console</span>.log(ctx.method); <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;</span>
+    <span class="hljs-built_in">console</span>.log(ctx.url);    <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8BF7;&#x6C42;URL</span>
+    <span class="hljs-built_in">console</span>.log(ctx.query);  <span class="hljs-comment">//&#x83B7;&#x53D6;&#x89E3;&#x6790;&#x7684;&#x67E5;&#x8BE2;&#x5B57;&#x7B26;&#x4E32;&#x5BF9;&#x8C61;</span>
+    <span class="hljs-built_in">console</span>.log(ctx.querystring); <span class="hljs-comment">//&#x6839;&#x636E; ? &#x83B7;&#x53D6;&#x539F;&#x59CB;&#x67E5;&#x8BE2;&#x5B57;&#x7B26;&#x4E32;.</span>
+    <span class="hljs-built_in">console</span>.log(ctx.headers);<span class="hljs-comment">//&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x5934;&#x5BF9;&#x8C61;</span>
+    ctx.body = ctx.url;
+});
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;server is starting at port 3000&apos;</span>);
+});
+</code></pre>
+<h2 id="t66.&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x4F53;">6.&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x4F53; <a href="#t66.&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x4F53;"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;querystring&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">&apos;GET&apos;</span>) {
+        ctx.set(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;text/html;charset=utf-8&apos;</span>);
+        ctx.body = (
+            <span class="hljs-string">`
+            &lt;form method=&quot;POST&quot;&gt;
+               &lt;input name=&quot;username&quot; &gt;
+               &lt;input type=&quot;submit&quot;&gt;
+            &lt;/form&gt;
+            `</span>
+        );
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">&apos;POST&apos;</span>) {
+        ctx.set(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;application/json&apos;</span>);
+        ctx.body = <span class="hljs-keyword">await</span> parseBody(ctx);
+    } <span class="hljs-keyword">else</span> {
+        ctx.body = <span class="hljs-string">&apos;Not Allowed&apos;</span>;
+    }
+});
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">parseBody</span>(<span class="hljs-params">ctx</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve, reject</span>) </span>{
+        <span class="hljs-keyword">let</span> buffers = [];
+        ctx.req.on(<span class="hljs-string">&apos;data&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            buffers.push(data);
+        });
+        ctx.req.on(<span class="hljs-string">&apos;end&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            <span class="hljs-keyword">let</span> body = buffers.toString();
+            body = querystring.parse(body);
+            resolve(body);
+        });
+        ctx.req.on(<span class="hljs-string">&apos;error&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">errdata</span>) </span>{
+            reject(err);
+        });
+    });
+}
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;server is starting at port 3000&apos;</span>);
+});
+</code></pre>
+<h2 id="t77.&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;&#x83B7;&#x53D6;&#x666E;&#x901A;&#x8BF7;&#x6C42;&#x4F53;">7.&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;&#x83B7;&#x53D6;&#x666E;&#x901A;&#x8BF7;&#x6C42;&#x4F53; <a href="#t77.&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;&#x83B7;&#x53D6;&#x666E;&#x901A;&#x8BF7;&#x6C42;&#x4F53;"> # </a></h2>
+<pre><code class="lang-js">npm i koa-bodyparser -S
+</code></pre>
+<p><a href="javascript:if(confirm('https://npmjs.org/package/koa-bodyparser  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://npmjs.org/package/koa-bodyparser'" tppabs="https://npmjs.org/package/koa-bodyparser">koa-bodyparser</a></p>
+<pre><code>const Koa = require(&apos;koa&apos;);
+const querystring = require(&apos;querystring&apos;);
+const bodyParser = require(&apos;koa-bodyparser&apos;);
+const app = new Koa();
+app.use(bodyParser());
+app.use(async (ctx) =&gt; {
+    if (ctx.method == &apos;GET&apos;) {
+        ctx.set(&apos;Content-Type&apos;, &apos;text/html;charset=utf-8&apos;);
+        ctx.body = (
+            `
+            &lt;form method=&quot;POST&quot;&gt;
+               &lt;input name=&quot;username&quot; &gt;
+               &lt;input type=&quot;submit&quot;&gt;
+            &lt;/form&gt;
+            `
+        );
+    } else if (ctx.method == &apos;POST&apos;) {
+        ctx.set(&apos;Content-Type&apos;, &apos;application/json&apos;);
+        ctx.body = ctx.request.body;
+    } else {
+        ctx.body = &apos;Not Allowed&apos;;
+    }
+});
+
+app.listen(3000, () =&gt; {
+    console.log(&apos;server is starting at port 3000&apos;);
+});
+</code></pre><h2 id="t88.&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;&#x83B7;&#x53D6;&#x5305;&#x542B;&#x6587;&#x4EF6;&#x7684;&#x8BF7;&#x6C42;&#x4F53;">8.&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;&#x83B7;&#x53D6;&#x5305;&#x542B;&#x6587;&#x4EF6;&#x7684;&#x8BF7;&#x6C42;&#x4F53; <a href="#t88.&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;&#x83B7;&#x53D6;&#x5305;&#x542B;&#x6587;&#x4EF6;&#x7684;&#x8BF7;&#x6C42;&#x4F53;"> # </a></h2>
+<p><a href="javascript:if(confirm('https://www.npmjs.com/package/koa-better-body  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://www.npmjs.com/package/koa-better-body'" tppabs="https://www.npmjs.com/package/koa-better-body">koa-better-body</a></p>
+<pre><code class="lang-js">npm i koa-better-body -S
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;querystring&apos;</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> convert = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-convert&apos;</span>);
+<span class="hljs-keyword">const</span> bodyParser = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-better-body&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(convert(bodyParser({
+    <span class="hljs-attr">uploadDir</span>: path.join(__dirname, <span class="hljs-string">&apos;uploads&apos;</span>),
+    <span class="hljs-attr">keepExtensions</span>: <span class="hljs-literal">true</span>
+})));
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">&apos;GET&apos;</span>) {
+        ctx.set(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;text/html;charset=utf-8&apos;</span>);
+        ctx.body = (
+            <span class="hljs-string">`
+            &lt;form method=&quot;POST&quot; enctype=&quot;multipart/form-data&quot;&gt;
+               &lt;input name=&quot;username&quot; &gt;
+               &lt;input name=&quot;avatar&quot; type=&quot;file&quot; &gt;
+               &lt;input type=&quot;submit&quot;&gt;
+            &lt;/form&gt;
+            `</span>
+        );
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">&apos;POST&apos;</span>) {
+        ctx.set(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;application/json&apos;</span>);
+        <span class="hljs-built_in">console</span>.log(ctx.request.fields);
+        ctx.body = ctx.request.body;
+    } <span class="hljs-keyword">else</span> {
+        ctx.body = <span class="hljs-string">&apos;Not Allowed&apos;</span>;
+    }
+});
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;server is starting at port 3000&apos;</span>);
+});
+</code></pre>
+<pre><code class="lang-json">{
+    username: &apos;zfpx&apos;,
+    avatar: [File {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        size: 78540,
+        path: &apos;\%uploads\%upload_b631c6cbae762214afbe18b6e18d9f68.png&apos;,
+        name: &apos;mm.png&apos;,
+        type: &apos;image/png&apos;,
+        hash: null,
+        lastModifiedDate: 2018 - 03 - 09 T09: 12: 20.679 Z,
+        _writeStream: [WriteStream]
+    }]
+}
+</code></pre>
+<h2 id="t99. &#x8DEF;&#x7531;&#x4E2D;&#x95F4;&#x4EF6;">9. &#x8DEF;&#x7531;&#x4E2D;&#x95F4;&#x4EF6; <a href="#t99. &#x8DEF;&#x7531;&#x4E2D;&#x95F4;&#x4EF6;"> # </a></h2>
+<pre><code class="lang-js">npm install --save koa-router
+</code></pre>
+<p>&#x5355;&#x7EA7;&#x8DEF;&#x7531;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> Router = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-router&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+
+<span class="hljs-keyword">let</span> user = <span class="hljs-keyword">new</span> Router();
+user.get(<span class="hljs-string">&apos;/user&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">&apos;get user &apos;</span>;
+}).get(<span class="hljs-string">&apos;/query/:id&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = ctx.params;
+}).post(<span class="hljs-string">&apos;/user&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">&apos;post user &apos;</span>;
+}).get(<span class="hljs-string">&apos;/home&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">&apos;get home &apos;</span>;
+});
+app.use(user.routes());
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;server is starting at port 3000&apos;</span>);
+});
+</code></pre>
+<p>&#x591A;&#x7EA7;&#x8DEF;&#x7531;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> user = <span class="hljs-keyword">new</span> Router();
+user.get(<span class="hljs-string">&apos;/add&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">&apos;get user add &apos;</span>;
+});
+
+<span class="hljs-keyword">let</span> article = <span class="hljs-keyword">new</span> Router();
+article.get(<span class="hljs-string">&apos;/add&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">ctx</span>) </span>{
+    ctx.body = <span class="hljs-string">&apos;get article add &apos;</span>;
+});
+
+<span class="hljs-keyword">let</span> router = <span class="hljs-keyword">new</span> Router();
+router.use(<span class="hljs-string">&apos;/user&apos;</span>, user.routes());
+router.use(<span class="hljs-string">&apos;/article&apos;</span>, article.routes());
+app.use(router.routes());
+</code></pre>
+<h2 id="t1010.cookie">10.cookie <a href="#t1010.cookie"> # </a></h2>
+<ul>
+<li>ctx.cookies.get(name,[optins]):&#x8BFB;&#x53D6;&#x4E0A;&#x4E0B;&#x6587;&#x8BF7;&#x6C42;&#x4E2D;&#x7684;cookie&#x3002;</li>
+<li>ctx.cookies.set(name,value,[options])&#xFF1A;&#x5728;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#x5199;&#x5165;cookie&#x3002;<ul>
+<li>domain&#xFF1A;&#x5199;&#x5165;cookie&#x6240;&#x5728;&#x7684;&#x57DF;&#x540D;</li>
+<li>path&#xFF1A;&#x5199;&#x5165;cookie&#x6240;&#x5728;&#x7684;&#x8DEF;&#x5F84;</li>
+<li>maxAge&#xFF1A;Cookie&#x6700;&#x5927;&#x6709;&#x6548;&#x65F6;&#x957F;</li>
+<li>expires&#xFF1A;cookie&#x5931;&#x6548;&#x65F6;&#x95F4;</li>
+<li>httpOnly:&#x662F;&#x5426;&#x53EA;&#x7528;http&#x8BF7;&#x6C42;&#x4E2D;&#x83B7;&#x5F97;</li>
+<li>overwirte&#xFF1A;&#x662F;&#x5426;&#x5141;&#x8BB8;&#x91CD;&#x5199;</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-js">app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(ctx.url);
+
+    <span class="hljs-keyword">if</span> (ctx.url == <span class="hljs-string">&apos;/write&apos;</span>) {
+        ctx.cookies.set(<span class="hljs-string">&apos;name&apos;</span>, <span class="hljs-string">&apos;zfpx&apos;</span>);
+        ctx.body = <span class="hljs-string">&apos;write&apos;</span>;
+    } <span class="hljs-keyword">else</span> {
+        next();
+    }
+});
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.url == <span class="hljs-string">&apos;/read&apos;</span>) {
+        ctx.body = ctx.cookies.get(<span class="hljs-string">&apos;name&apos;</span>);
+    }
+});
+</code></pre>
+<h2 id="t1111.session">11.session <a href="#t1111.session"> # </a></h2>
+<p><a href="javascript:if(confirm('https://www.npmjs.com/package/koa-session  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://www.npmjs.com/package/koa-session'" tppabs="https://www.npmjs.com/package/koa-session">koa-session</a></p>
+<pre><code class="lang-js">$ npm install koa-session
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> session = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-session&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.keys = [<span class="hljs-string">&apos;zfpx&apos;</span>];
+app.use(session({}, app));
+app.use(<span class="hljs-keyword">async</span> (ctx) =&gt; {
+    <span class="hljs-keyword">let</span> visit = ctx.session.visit;
+    <span class="hljs-keyword">if</span> (visit) {
+        visit = visit + <span class="hljs-number">1</span>;
+    } <span class="hljs-keyword">else</span> {
+        visit = <span class="hljs-number">1</span>;
+    }
+    ctx.session.visit = visit;
+    ctx.body = <span class="hljs-string">`&#x8FD9;&#x662F;&#x4F60;&#x7684;&#x7B2C;<span class="hljs-subst">${visit}</span>&#x6B21;&#x8BBF;&#x95EE;`</span>;
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<h2 id="t1212. &#x6A21;&#x677F;&#x5F15;&#x64CE;">12. &#x6A21;&#x677F;&#x5F15;&#x64CE; <a href="#t1212. &#x6A21;&#x677F;&#x5F15;&#x64CE;"> # </a></h2>
+<pre><code class="lang-js">npm i koa-views ejs -S
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> views = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-views&apos;</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(views(path.join(__dirname, <span class="hljs-string">&apos;./views&apos;</span>), {
+    <span class="hljs-attr">extension</span>: <span class="hljs-string">&apos;ejs&apos;</span>
+}));
+
+app.use(<span class="hljs-keyword">async</span> ctx =&gt; {
+    <span class="hljs-keyword">await</span> ctx.render(<span class="hljs-string">&apos;index&apos;</span>, { <span class="hljs-attr">name</span>: <span class="hljs-string">&apos;&#x73E0;&#x5CF0;&#x57F9;&#x8BAD;&apos;</span> });
+});
+
+app.listen(<span class="hljs-number">3000</span>, () =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;server is starting at port 3000&apos;</span>);
+});
+</code></pre>
+<h2 id="t1313. &#x9759;&#x6001;&#x8D44;&#x6E90;&#x4E2D;&#x95F4;&#x4EF6;">13. &#x9759;&#x6001;&#x8D44;&#x6E90;&#x4E2D;&#x95F4;&#x4EF6; <a href="#t1313. &#x9759;&#x6001;&#x8D44;&#x6E90;&#x4E2D;&#x95F4;&#x4EF6;"> # </a></h2>
+<pre><code class="lang-js">npm install --save koa-<span class="hljs-keyword">static</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> <span class="hljs-keyword">static</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-static&apos;</span>)
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa()
+app.use(<span class="hljs-keyword">static</span>(path.join( __dirname,  <span class="hljs-string">&apos;public&apos;</span>)))
+app.use( <span class="hljs-keyword">async</span> ( ctx ) =&gt; {
+  ctx.body = <span class="hljs-string">&apos;Not Found&apos;</span>
+})
+</code></pre>
+<h2 id="t1414. koa&#x5B9E;&#x73B0;">14. koa&#x5B9E;&#x73B0; <a href="#t1414. koa&#x5B9E;&#x73B0;"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./koa&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (<span class="hljs-keyword">async</span>, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">1</span>);
+    <span class="hljs-keyword">await</span> next();
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">2</span>);
+});
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">3</span>);
+    <span class="hljs-keyword">await</span> next();
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">4</span>);
+});
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-number">5</span>);
+});
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> http = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;http&apos;</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Koa</span> </span>{
+    <span class="hljs-keyword">constructor</span>() {
+        <span class="hljs-keyword">this</span>.middleware = [];
+    }
+    use(fn) {
+        <span class="hljs-keyword">this</span>.middleware.push(fn);
+    }
+    listen(port) {
+        <span class="hljs-keyword">let</span> middleware = <span class="hljs-keyword">this</span>.middleware;
+        <span class="hljs-keyword">let</span> server = http.createServer(<span class="hljs-function">(<span class="hljs-params">req, res</span>) =&gt;</span> {
+            <span class="hljs-keyword">let</span> ctx = { req, res }
+            <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dispatch</span>(<span class="hljs-params">idx</span>) </span>{
+                middleware[idx](ctx, () =&gt; dispatch(idx + <span class="hljs-number">1</span>));
+            }
+            dispatch(<span class="hljs-number">0</span>);
+        });
+        server.listen(port);
+    }
+}
+
+<span class="hljs-built_in">module</span>.exports = Koa;
+</code></pre>
+<h2 id="t1515. generator">15. generator <a href="#t1515. generator"> # </a></h2>
+<p><a href="javascript:if(confirm('https://github.com/17koa/koa-generator  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/17koa/koa-generator'" tppabs="https://github.com/17koa/koa-generator">koa-generator</a></p>
+<pre><code class="lang-js">$ npm install -g koa-generator
+</code></pre>
+<pre><code class="lang-js">$ koa /tmp/foo &amp;&amp; cd /tmp/foo
+$ npm install
+$ npm start
+</code></pre>
+<h2 id="t1616. form-data">16. form-data <a href="#t1616. form-data"> # </a></h2>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> Koa = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa&apos;</span>);
+<span class="hljs-keyword">const</span> views = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;koa-views&apos;</span>);
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-keyword">let</span> querystring = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;querystring&apos;</span>);
+<span class="hljs-keyword">let</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">let</span> uuid = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;uuid&apos;</span>);
+<span class="hljs-keyword">const</span> app = <span class="hljs-keyword">new</span> Koa();
+app.use(<span class="hljs-keyword">async</span> (ctx, next) =&gt; {
+    <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">&apos;GET&apos;</span>) {
+        ctx.set(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;text/html;charset=utf8&apos;</span>);
+        ctx.body = (
+            <span class="hljs-string">`
+                &lt;form id=&quot;userform&quot; method=&quot;POST&quot; enctype=&quot;multipart/form-data&quot;&gt;
+                  &#x7528;&#x6237;&#x540D;:&lt;input type=&quot;text&quot;  name=&quot;username&quot;&gt; 
+                  &#x5BC6;&#x7801;&lt;input type=&quot;text&quot; name=&quot;password&quot;&gt; 
+                  &#x5934;&#x50CF;&lt;input type=&quot;file&quot; name=&quot;avatar&quot;&gt;
+                  &lt;input type=&quot;submit&quot;&gt;
+                 &lt;/form&gt;
+                `</span>
+        );
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (ctx.method == <span class="hljs-string">&apos;POST&apos;</span>) {
+        <span class="hljs-keyword">let</span> buffers = [];
+        ctx.req.on(<span class="hljs-string">&apos;data&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+            buffers.push(data);
+        });
+        ctx.req.on(<span class="hljs-string">&apos;end&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">let</span> result = Buffer.concat(buffers);
+            <span class="hljs-keyword">let</span> type = ctx.headers[<span class="hljs-string">&apos;content-type&apos;</span>];
+            <span class="hljs-keyword">let</span> matched = type.match(<span class="hljs-regexp">/\bboundary=(.+)\b/</span>);
+            <span class="hljs-keyword">if</span> (matched) {
+                <span class="hljs-keyword">let</span> seperator = <span class="hljs-string">&apos;--&apos;</span> + matched[<span class="hljs-number">1</span>];
+                <span class="hljs-keyword">let</span> body = process(seperator, result);
+                ctx.body = body;
+            } <span class="hljs-keyword">else</span> {
+                next();
+            }
+        });
+        ctx.body = <span class="hljs-string">&apos;hello&apos;</span>;
+    } <span class="hljs-keyword">else</span> {
+        next();
+    }
+
+});
+app.listen(<span class="hljs-number">3000</span>);
+Buffer.prototype.split = Buffer.prototype.split || <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">sep</span>) </span>{
+    <span class="hljs-keyword">let</span> len = Buffer.byteLength(sep);
+    <span class="hljs-keyword">let</span> parts = [];
+    <span class="hljs-keyword">let</span> offset = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> pos = <span class="hljs-number">-1</span>;
+    <span class="hljs-keyword">while</span> (<span class="hljs-number">-1</span> != (pos = <span class="hljs-keyword">this</span>.indexOf(sep, offset))) {
+        parts.push(<span class="hljs-keyword">this</span>.slice(offset, pos));
+        offset = pos + len;
+    }
+    parts.push(<span class="hljs-keyword">this</span>.slice(offset));
+    <span class="hljs-keyword">return</span> parts;
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">process</span>(<span class="hljs-params">seperator, result</span>) </span>{
+    <span class="hljs-keyword">let</span> lines = result.split(seperator);
+    lines = lines.slice(<span class="hljs-number">1</span>, <span class="hljs-number">-1</span>);
+    <span class="hljs-keyword">let</span> body = {};
+    <span class="hljs-keyword">let</span> files = [];
+    lines.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">line</span>) </span>{
+        <span class="hljs-keyword">let</span> [desc, val] = line.split(<span class="hljs-string">&apos;\r\n\r\n&apos;</span>);
+        desc = desc.toString();
+        val = val.slice(<span class="hljs-number">0</span>, <span class="hljs-number">-2</span>);
+        <span class="hljs-keyword">if</span> (desc.includes(<span class="hljs-string">&apos;filename&apos;</span>)) {<span class="hljs-comment">//&#x5982;&#x679C;&#x662F;&#x6587;&#x4EF6;&#x7684;&#x8BDD;</span>
+            <span class="hljs-keyword">let</span> [, line1, line2] = desc.split(<span class="hljs-string">&apos;\r\n&apos;</span>);
+            <span class="hljs-keyword">let</span> obj1 = querystring.parse(line1, <span class="hljs-string">&apos;; &apos;</span>);
+            <span class="hljs-keyword">let</span> obj2 = querystring.parse(line2, <span class="hljs-string">&apos;; &apos;</span>);
+            <span class="hljs-keyword">let</span> filepath = path.join(__dirname, <span class="hljs-string">&apos;uploads&apos;</span>, uuid.v4());
+            fs.writeFileSync(filepath, val);
+            files.push({
+                ...obj1, filepath
+            });
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">let</span> matched = desc.match(<span class="hljs-regexp">/\bname=(.+)\b/</span>);
+            <span class="hljs-keyword">if</span> (matched)
+                body[matched[<span class="hljs-number">1</span>]] = val.toString();
+        }
+    });
+    <span class="hljs-keyword">return</span> { body, files };
+}
+</code></pre>
+
+        <div class="copyright">Powered by <a href="javascript:if(confirm('https://github.com/jaywcjlove/idoc  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/jaywcjlove/idoc'" tppabs="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="javascript:if(confirm('https://nodejs.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://nodejs.org/'" tppabs="https://nodejs.org/">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="../../../cdn.bootcss.com/jquery/3.0.0/jquery.js" tppabs="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

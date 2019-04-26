@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZEON构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" tppabs="http://www.zhufengpeixun.cn/plan/static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            ZEON构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html" tppabs="http://www.zhufengpeixun.cn/plan/index.html">index</a></li><li><a href="0.editor.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.editor.html">0.editor</a></li><li><a href="0.module.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.module.html">0.module</a></li><li><a href="0.Async.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.Async.html">0.Async</a></li><li><a href="1.ES2015.html" tppabs="http://www.zhufengpeixun.cn/plan/html/1.ES2015.html">1.ES2015</a></li><li><a href="2.Promise.html" tppabs="http://www.zhufengpeixun.cn/plan/html/2.Promise.html">2.Promise</a></li><li><a href="3.Node.html" tppabs="http://www.zhufengpeixun.cn/plan/html/3.Node.html">3.Node</a></li><li><a href="4.NodeInstall.html" tppabs="http://www.zhufengpeixun.cn/plan/html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="5.REPL.html" tppabs="http://www.zhufengpeixun.cn/plan/html/5.REPL.html">5.REPL</a></li><li><a href="6.NodeCore.html" tppabs="http://www.zhufengpeixun.cn/plan/html/6.NodeCore.html">6.NodeCore</a></li><li><a href="7.module&NPM.html" tppabs="http://www.zhufengpeixun.cn/plan/html/7.module&NPM.html">7.module&NPM</a></li><li><a href="8.Encoding.html" tppabs="http://www.zhufengpeixun.cn/plan/html/8.Encoding.html">8.Encoding</a></li><li><a href="9.Buffer.html" tppabs="http://www.zhufengpeixun.cn/plan/html/9.Buffer.html">9.Buffer</a></li><li><a href="10.fs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/10.fs.html">10.fs</a></li><li><a href="11.Stream-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-1.html">11.Stream-1</a></li><li><a href="11.Stream-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-2.html">11.Stream-2</a></li><li><a href="11.Stream-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-3.html">11.Stream-3</a></li><li><a href="11.Stream-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-4.html">11.Stream-4</a></li><li><a href="12.Network-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.Network-1.html">12.Network-1</a></li><li><a href="12.NetWork-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="12-Network-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12-Network-2.html">12-Network-2</a></li><li><a href="13.tcp.html" tppabs="http://www.zhufengpeixun.cn/plan/html/13.tcp.html">13.tcp</a></li><li><a href="14.http-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-1.html">14.http-1</a></li><li><a href="14.http-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-2.html">14.http-2</a></li><li><a href="15.compress.html" tppabs="http://www.zhufengpeixun.cn/plan/html/15.compress.html">15.compress</a></li><li><a href="16.crypto.html" tppabs="http://www.zhufengpeixun.cn/plan/html/16.crypto.html">16.crypto</a></li><li><a href="17.process.html" tppabs="http://www.zhufengpeixun.cn/plan/html/17.process.html">17.process</a></li><li><a href="18.yargs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/18.yargs.html">18.yargs</a></li><li><a href="19.cache.html" tppabs="http://www.zhufengpeixun.cn/plan/html/19.cache.html">19.cache</a></li><li><a href="20.action.html" tppabs="http://www.zhufengpeixun.cn/plan/html/20.action.html">20.action</a></li><li><a href="21.https.html" tppabs="http://www.zhufengpeixun.cn/plan/html/21.https.html">21.https</a></li><li><a href="22.cookie.html" tppabs="http://www.zhufengpeixun.cn/plan/html/22.cookie.html">22.cookie</a></li><li><a href="23.session.html" tppabs="http://www.zhufengpeixun.cn/plan/html/23.session.html">23.session</a></li><li><a href="24.express-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-1.html">24.express-1</a></li><li><a href="24.express-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-2.html">24.express-2</a></li><li><a href="24.express-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-3.html">24.express-3</a></li><li><a href="24.express-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-4.html">24.express-4</a></li><li><a href="25.koa-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/25.koa-1.html">25.koa-1</a></li><li><a href="26.webpack-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-1.html">26.webpack-1</a></li><li><a href="26.webpack-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-2.html">26.webpack-2</a></li><li><a href="26.webpack-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-3.html">26.webpack-3</a></li><li><a href="26.webpack-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-4.html">26.webpack-4</a></li><li><a href="26.webpack-loader.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-loader.html">26.webpack-loader</a></li><li><a href="26.webpack-plugin.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-plugin.html">26.webpack-plugin</a></li><li><a href="26.tapable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.tapable.html">26.tapable</a></li><li><a href="26.AST.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.AST.html">26.AST</a></li><li><a href="27.react-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-1.html">27.react-1</a></li><li><a href="27.react-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-2.html">27.react-2</a></li><li><a href="27.react-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-3.html">27.react-3</a></li><li class="active"><a href="26.webpack-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-5.html">26.webpack-5</a></li><li><a href="27.react-4-immutable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="27.react-5-react-dom-diff.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="28.redux-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-1.html">28.redux-1</a></li><li><a href="28.redux-2-中间件.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="28.redux-3-saga.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-3-saga.html">28.redux-3-saga</a></li><li><a href="28.redux-4-dva.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-4-dva.html">28.redux-4-dva</a></li><li><a href="28.redux-0.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-0.html">28.redux-0</a></li><li><a href="29.mongodb-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="29.mongodb-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="29.mongodb-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="29.mongodb-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="29.mongodb-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="29.mongodb-6.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="30.mysql-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-1.html">30.mysql-1</a></li><li><a href="30.mysql-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-2.html">30.mysql-2</a></li><li><a href="31.egg-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-1.html">31.egg-1</a></li><li><a href="31.egg-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-2.html">31.egg-2</a></li><li><a href="31.egg-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-3.html">31.egg-3</a></li><li><a href="32.ant.html" tppabs="http://www.zhufengpeixun.cn/plan/html/32.ant.html">32.ant</a></li><li><a href="33.redis.html" tppabs="http://www.zhufengpeixun.cn/plan/html/33.redis.html">33.redis</a></li><li><a href="34.unittest.html" tppabs="http://www.zhufengpeixun.cn/plan/html/34.unittest.html">34.unittest</a></li><li><a href="35.jwt.html" tppabs="http://www.zhufengpeixun.cn/plan/html/35.jwt.html">35.jwt</a></li><li><a href="36.websocket-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-1.html">36.websocket-1</a></li><li><a href="36.websocket-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-2.html">36.websocket-2</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. Webpack流程概括">1. Webpack流程概括</a><ul><li><a href="#t11.1 钩子">1.1 钩子</a></li></ul></li><li><a href="#t22. 编写Webpack">2. 编写Webpack</a><ul><li><a href="#t32.1. 创建项目">2.1. 创建项目</a></li><li><a href="#t42.2 创建可执行文件">2.2 创建可执行文件</a></li><li><a href="#t52.3 创建Compiler对象">2.3 创建Compiler对象</a></li><li><a href="#t62.4 开始编译">2.4 开始编译</a></li><li><a href="#t72.5 产出文件">2.5 产出文件</a></li><li><a href="#t82.5 支持loader">2.5 支持loader</a></li><li><a href="#t92.6. 支持插件">2.6. 支持插件</a></li><li><a href="#t102.7 测试用例">2.7 测试用例</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. Webpack&#x6D41;&#x7A0B;&#x6982;&#x62EC;">1. Webpack&#x6D41;&#x7A0B;&#x6982;&#x62EC; <a href="#t01. Webpack&#x6D41;&#x7A0B;&#x6982;&#x62EC;"> # </a></h2>
+<ul>
+<li>&#x521D;&#x59CB;&#x5316;&#x53C2;&#x6570;&#xFF1A;&#x4ECE;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x548C; Shell &#x8BED;&#x53E5;&#x4E2D;&#x8BFB;&#x53D6;&#x4E0E;&#x5408;&#x5E76;&#x53C2;&#x6570;&#xFF0C;&#x5F97;&#x51FA;&#x6700;&#x7EC8;&#x7684;&#x53C2;&#x6570;&#xFF1B;</li>
+<li>&#x5F00;&#x59CB;&#x7F16;&#x8BD1;&#xFF1A;&#x7528;&#x4E0A;&#x4E00;&#x6B65;&#x5F97;&#x5230;&#x7684;&#x53C2;&#x6570;&#x521D;&#x59CB;&#x5316; Compiler &#x5BF9;&#x8C61;&#xFF0C;&#x52A0;&#x8F7D;&#x6240;&#x6709;&#x914D;&#x7F6E;&#x7684;&#x63D2;&#x4EF6;&#xFF0C;&#x6267;&#x884C;&#x5BF9;&#x8C61;&#x7684; run &#x65B9;&#x6CD5;&#x5F00;&#x59CB;&#x6267;&#x884C;&#x7F16;&#x8BD1;&#xFF1B;</li>
+<li>&#x786E;&#x5B9A;&#x5165;&#x53E3;&#xFF1A;&#x6839;&#x636E;&#x914D;&#x7F6E;&#x4E2D;&#x7684; entry &#x627E;&#x51FA;&#x6240;&#x6709;&#x7684;&#x5165;&#x53E3;&#x6587;&#x4EF6;&#xFF1B;</li>
+<li>&#x7F16;&#x8BD1;&#x6A21;&#x5757;&#xFF1A;&#x4ECE;&#x5165;&#x53E3;&#x6587;&#x4EF6;&#x51FA;&#x53D1;&#xFF0C;&#x8C03;&#x7528;&#x6240;&#x6709;&#x914D;&#x7F6E;&#x7684; Loader &#x5BF9;&#x6A21;&#x5757;&#x8FDB;&#x884C;&#x7FFB;&#x8BD1;&#xFF0C;&#x518D;&#x627E;&#x51FA;&#x8BE5;&#x6A21;&#x5757;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#xFF0C;&#x518D;&#x9012;&#x5F52;&#x672C;&#x6B65;&#x9AA4;&#x76F4;&#x5230;&#x6240;&#x6709;&#x5165;&#x53E3;&#x4F9D;&#x8D56;&#x7684;&#x6587;&#x4EF6;&#x90FD;&#x7ECF;&#x8FC7;&#x4E86;&#x672C;&#x6B65;&#x9AA4;&#x7684;&#x5904;&#x7406;&#xFF1B;</li>
+<li>&#x5B8C;&#x6210;&#x6A21;&#x5757;&#x7F16;&#x8BD1;&#xFF1A;&#x5728;&#x7ECF;&#x8FC7;&#x7B2C;4&#x6B65;&#x4F7F;&#x7528; Loader &#x7FFB;&#x8BD1;&#x5B8C;&#x6240;&#x6709;&#x6A21;&#x5757;&#x540E;&#xFF0C;&#x5F97;&#x5230;&#x4E86;&#x6BCF;&#x4E2A;&#x6A21;&#x5757;&#x88AB;&#x7FFB;&#x8BD1;&#x540E;&#x7684;&#x6700;&#x7EC8;&#x5185;&#x5BB9;&#x4EE5;&#x53CA;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x7684;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#xFF1B;</li>
+<li>&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#xFF1A;&#x6839;&#x636E;&#x5165;&#x53E3;&#x548C;&#x6A21;&#x5757;&#x4E4B;&#x95F4;&#x7684;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#xFF0C;&#x7EC4;&#x88C5;&#x6210;&#x4E00;&#x4E2A;&#x4E2A;&#x5305;&#x542B;&#x591A;&#x4E2A;&#x6A21;&#x5757;&#x7684; Chunk&#xFF0C;&#x518D;&#x628A;&#x6BCF;&#x4E2A; Chunk &#x8F6C;&#x6362;&#x6210;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x6587;&#x4EF6;&#x52A0;&#x5165;&#x5230;&#x8F93;&#x51FA;&#x5217;&#x8868;&#xFF0C;&#x8FD9;&#x6B65;&#x662F;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x8F93;&#x51FA;&#x5185;&#x5BB9;&#x7684;&#x6700;&#x540E;&#x673A;&#x4F1A;&#xFF1B;</li>
+<li>&#x8F93;&#x51FA;&#x5B8C;&#x6210;&#xFF1A;&#x5728;&#x786E;&#x5B9A;&#x597D;&#x8F93;&#x51FA;&#x5185;&#x5BB9;&#x540E;&#xFF0C;&#x6839;&#x636E;&#x914D;&#x7F6E;&#x786E;&#x5B9A;&#x8F93;&#x51FA;&#x7684;&#x8DEF;&#x5F84;&#x548C;&#x6587;&#x4EF6;&#x540D;&#xFF0C;&#x628A;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x5199;&#x5165;&#x5230;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x3002;</li>
+</ul>
+<blockquote>
+<p>&#x5728;&#x4EE5;&#x4E0A;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;Webpack &#x4F1A;&#x5728;&#x7279;&#x5B9A;&#x7684;&#x65F6;&#x95F4;&#x70B9;&#x5E7F;&#x64AD;&#x51FA;&#x7279;&#x5B9A;&#x7684;&#x4E8B;&#x4EF6;&#xFF0C;&#x63D2;&#x4EF6;&#x5728;&#x76D1;&#x542C;&#x5230;&#x611F;&#x5174;&#x8DA3;&#x7684;&#x4E8B;&#x4EF6;&#x540E;&#x4F1A;&#x6267;&#x884C;&#x7279;&#x5B9A;&#x7684;&#x903B;&#x8F91;&#xFF0C;&#x5E76;&#x4E14;&#x63D2;&#x4EF6;&#x53EF;&#x4EE5;&#x8C03;&#x7528; Webpack &#x63D0;&#x4F9B;&#x7684; API &#x6539;&#x53D8; Webpack &#x7684;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x3002;</p>
+</blockquote>
+<h3 id="t11.1 &#x94A9;&#x5B50;">1.1 &#x94A9;&#x5B50; <a href="#t11.1 &#x94A9;&#x5B50;"> # </a></h3>
+<ul>
+<li>entryOption</li>
+<li>run</li>
+<li>afterPlugins</li>
+<li>compile</li>
+<li>afterCompile</li>
+<li>emit</li>
+<li>done</li>
+</ul>
+<h2 id="t22. &#x7F16;&#x5199;Webpack">2. &#x7F16;&#x5199;Webpack <a href="#t22. &#x7F16;&#x5199;Webpack"> # </a></h2>
+<h3 id="t32.1. &#x521B;&#x5EFA;&#x9879;&#x76EE;">2.1. &#x521B;&#x5EFA;&#x9879;&#x76EE; <a href="#t32.1. &#x521B;&#x5EFA;&#x9879;&#x76EE;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-string">&quot;bin&quot;</span>: {<span class="hljs-string">&quot;zfpxpack&quot;</span>: <span class="hljs-string">&quot;./bin/zfpxpack.js&quot;</span>},
+</code></pre>
+<h3 id="t42.2 &#x521B;&#x5EFA;&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;">2.2 &#x521B;&#x5EFA;&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6; <a href="#t42.2 &#x521B;&#x5EFA;&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-meta">#! /usr/bin/env node</span>
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-keyword">const</span> Compiler = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;../lib/Compiler&apos;</span>);<span class="hljs-comment">//&#x5F15;&#x5165;Compiler&#x6784;&#x9020;&#x51FD;&#x6570;</span>
+<span class="hljs-keyword">let</span> root = process.cwd();
+<span class="hljs-keyword">let</span> options = <span class="hljs-built_in">require</span>(path.resolve(root, <span class="hljs-string">&apos;webpack.config.js&apos;</span>));
+<span class="hljs-keyword">let</span> compiler = <span class="hljs-keyword">new</span> Compiler(options);
+compiler.hooks.entryOption.call(options);
+compiler.run();
+</code></pre>
+<h3 id="t52.3 &#x521B;&#x5EFA;Compiler&#x5BF9;&#x8C61;">2.3 &#x521B;&#x5EFA;Compiler&#x5BF9;&#x8C61; <a href="#t52.3 &#x521B;&#x5EFA;Compiler&#x5BF9;&#x8C61;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> { SyncHook } = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;tapable&apos;</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-keyword">const</span> esprima = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;esprima&apos;</span>);
+<span class="hljs-keyword">const</span> estraverse = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;estraverse&apos;</span>);
+<span class="hljs-keyword">const</span> escodegen = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;escodegen&apos;</span>);
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Compiler</span> </span>{
+    <span class="hljs-keyword">constructor</span>(options) {
+        <span class="hljs-keyword">this</span>.options = options;<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x9009;&#x9879;&#x5BF9;&#x8C61;</span>
+        <span class="hljs-keyword">this</span>.hooks = {
+            <span class="hljs-attr">entryOption</span>: <span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;options&apos;</span>]),<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x4E00;&#x4E2A;&#x89E3;&#x6790;&#x9009;&#x9879;&#x5BF9;&#x8C61;&#x7684;&#x94A9;&#x5B50;</span>
+            run: <span class="hljs-keyword">new</span> SyncHook([]),
+            <span class="hljs-attr">afterPlugins</span>: <span class="hljs-keyword">new</span> SyncHook([]),
+            <span class="hljs-attr">compile</span>: <span class="hljs-keyword">new</span> SyncHook(),<span class="hljs-comment">//&#x7F16;&#x8BD1;</span>
+            afterCompile: <span class="hljs-keyword">new</span> SyncHook(),<span class="hljs-comment">//&#x7F16;&#x8BD1;&#x5B8C;&#x6210;&#x540E;</span>
+            emit: <span class="hljs-keyword">new</span> SyncHook(),<span class="hljs-comment">//&#x53D1;&#x5C04;</span>
+            done: <span class="hljs-keyword">new</span> SyncHook()<span class="hljs-comment">//&#x5B8C;&#x6210;</span>
+        }
+        <span class="hljs-keyword">let</span> plugins = options.plugins;<span class="hljs-comment">//&#x52A0;&#x8F7D;&#x81EA;&#x5B9A;&#x4E49;&#x63D2;&#x4EF6;</span>
+        <span class="hljs-keyword">if</span> (plugins &amp;&amp; plugins.length &gt; <span class="hljs-number">0</span>) {
+            plugins.forEach(<span class="hljs-function"><span class="hljs-params">plugin</span> =&gt;</span> {
+                plugin.apply(<span class="hljs-keyword">this</span>);
+            });
+        }
+        <span class="hljs-keyword">this</span>.hooks.afterPlugins.call();<span class="hljs-comment">//&#x53D1;&#x5C04;&#x52A0;&#x8F7D;&#x5B8C;&#x6210;&#x4E8B;&#x4EF6;</span>
+    }
+    run() {
+
+    }
+
+}
+<span class="hljs-built_in">module</span>.exports = Compiler;
+</code></pre>
+<h3 id="t62.4 &#x5F00;&#x59CB;&#x7F16;&#x8BD1;">2.4 &#x5F00;&#x59CB;&#x7F16;&#x8BD1; <a href="#t62.4 &#x5F00;&#x59CB;&#x7F16;&#x8BD1;"> # </a></h3>
+<ul>
+<li><a href="javascript:if(confirm('https://astexplorer.net/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://astexplorer.net/'" tppabs="https://astexplorer.net/">astexplorer</a></li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> {SyncHook} = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;tapable&apos;</span>);
+<span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> esprima = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;esprima&apos;</span>);
+<span class="hljs-keyword">const</span> estraverse = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;estraverse&apos;</span>);
+<span class="hljs-keyword">const</span> escodegen = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;escodegen&apos;</span>);
+<span class="hljs-keyword">const</span> ejs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;ejs&apos;</span>);
+<span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Compiler</span></span>{
+    <span class="hljs-keyword">constructor</span>(options){
+        <span class="hljs-keyword">this</span>.options = options;
+        <span class="hljs-keyword">this</span>.hooks = {
+            <span class="hljs-attr">entryOption</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>]),
+            <span class="hljs-attr">afterPlugins</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>]),
+            <span class="hljs-attr">run</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>]),
+            <span class="hljs-attr">compile</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>]),
+            <span class="hljs-attr">afterCompile</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>]),
+            <span class="hljs-attr">emit</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>]),
+            <span class="hljs-attr">done</span>:<span class="hljs-keyword">new</span> SyncHook([<span class="hljs-string">&apos;compiler&apos;</span>])
+        }
+        <span class="hljs-keyword">let</span> plugins = options.plugins;
+        plugins.forEach(<span class="hljs-function">(<span class="hljs-params">plugin</span>)=&gt;</span>{
+            plugin.apply(<span class="hljs-keyword">this</span>);
+        });
+        <span class="hljs-keyword">this</span>.hooks.afterPlugins.call(<span class="hljs-keyword">this</span>);
+    }
+    run(){
+        <span class="hljs-keyword">const</span> compiler = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">this</span>.hooks.run.call(compiler);
+        <span class="hljs-keyword">let</span> root = process.cwd();<span class="hljs-comment">//webpack&#x6240;&#x5728;&#x76EE;&#x5F55;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;</span>
+        <span class="hljs-keyword">let</span> {
+            entry,
+            <span class="hljs-attr">output</span>:{
+                <span class="hljs-attr">path</span>:dist,
+                filename
+            },
+            <span class="hljs-attr">module</span>:{
+                rules
+            }
+        } = <span class="hljs-keyword">this</span>.options;<span class="hljs-comment">//&#x5165;&#x53E3; &#x8F93;&#x51FA; &#x76EE;&#x5F55; &#x548C;&#x6587;&#x4EF6;&#x540D;</span>
+        <span class="hljs-keyword">let</span> modules = {};<span class="hljs-comment">//&#x5B58;&#x653E;&#x6240;&#x6709;&#x7684;&#x6A21;&#x5757;</span>
+        <span class="hljs-keyword">let</span> entryId; <span class="hljs-comment">//&#x5165;&#x53E3;ID &#x6240;&#x6709;&#x7684;ID&#x90FD;&#x662F;&#x76F8;&#x5BF9;&#x4E8E;root&#x6839;&#x76EE;&#x5F55;&#x7684;</span>
+        <span class="hljs-keyword">this</span>.hooks.compile.call(compiler);
+        parseModule(path.resolve(root,entry),<span class="hljs-literal">true</span>);<span class="hljs-comment">//&#x89E3;&#x6790;&#x6A21;&#x5757;</span>
+        <span class="hljs-keyword">this</span>.hooks.afterCompile.call(compiler);
+        <span class="hljs-keyword">let</span> tmpl = fs.readFileSync(path.join(__dirname,<span class="hljs-string">&apos;main.ejs&apos;</span>),<span class="hljs-string">&apos;utf8&apos;</span>);
+        <span class="hljs-keyword">let</span> bundle = ejs.compile(tmpl)({modules,entryId});
+        fs.writeFileSync(path.join(dist,filename),bundle);
+        <span class="hljs-keyword">this</span>.hooks.emit.call(compiler);
+        <span class="hljs-keyword">this</span>.hooks.done.call(compiler);
+
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">parseModule</span>(<span class="hljs-params">modulePath,isEntry</span>)</span>{<span class="hljs-comment">//&#x89E3;&#x6790;&#x6A21;&#x5757;&#x548C;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757; &#x8DEF;&#x5F84;&#x662F;&#x4E00;&#x4E2A;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;</span>
+            <span class="hljs-keyword">let</span> source = fs.readFileSync(modulePath,<span class="hljs-string">&apos;utf8&apos;</span>);<span class="hljs-comment">//&#x8BFB;&#x53D6;&#x6B64;&#x6A21;&#x5757;&#x7684;&#x6587;&#x4EF6;&#x5185;&#x5BB9;</span>
+            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;rules.length;i++){
+                <span class="hljs-keyword">let</span> rule = rules[i];
+                <span class="hljs-keyword">if</span>(rule.test.test(modulePath)){
+                    <span class="hljs-keyword">let</span> use = rule.use || rule.loader
+                    <span class="hljs-keyword">if</span>(use <span class="hljs-keyword">instanceof</span> <span class="hljs-built_in">Array</span>){
+                        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> j=use.length<span class="hljs-number">-1</span>;j&gt;=<span class="hljs-number">0</span>;j--){
+                            <span class="hljs-keyword">let</span> loader = <span class="hljs-built_in">require</span>(path.resolve(root,<span class="hljs-string">&apos;node_modules&apos;</span>,use[j]));
+                            source = loader(source);
+                        }
+                    }<span class="hljs-keyword">else</span>{
+                        <span class="hljs-keyword">let</span> loader = <span class="hljs-built_in">require</span>(path.resolve(root,<span class="hljs-string">&apos;node_modules&apos;</span>,<span class="hljs-keyword">typeof</span> use == <span class="hljs-string">&apos;string&apos;</span>?use:use.loader));
+                    }
+                    <span class="hljs-keyword">break</span>;
+                }
+            }
+            <span class="hljs-keyword">let</span> moduleId = <span class="hljs-string">&apos;./&apos;</span>+path.relative(root,modulePath);
+            <span class="hljs-keyword">if</span>(isEntry) entryId = moduleId;
+            <span class="hljs-keyword">let</span> parseResult = parse(source,path.dirname(moduleId));
+            <span class="hljs-keyword">let</span> requires = parseResult.requires;<span class="hljs-comment">//&#x53D6;&#x5F97;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#x6570;&#x7EC4;</span>
+            modules[moduleId] = parseResult.source;<span class="hljs-comment">//&#x8BB0;&#x5F55;ID&#x548C;&#x8F6C;&#x6362;&#x540E;&#x4EE3;&#x7801;&#x7684;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;</span>
+            <span class="hljs-keyword">if</span>(requires &amp;&amp; requires.length&gt;<span class="hljs-number">0</span>){
+                requires.forEach(<span class="hljs-function"><span class="hljs-params">require</span>=&gt;</span>{
+                    parseModule(path.join(root,<span class="hljs-built_in">require</span>))
+                });
+            }
+        }
+
+        <span class="hljs-comment">//&#x6E90;&#x7801;&#x548C;&#x7236;&#x8DEF;&#x5F84;</span>
+        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">parse</span>(<span class="hljs-params">source,parentPath</span>)</span>{
+           <span class="hljs-keyword">let</span> ast = esprima.parse(source);
+           <span class="hljs-keyword">let</span> requires = [];
+           estraverse.replace(ast,{
+               enter(node,parent){
+                    <span class="hljs-keyword">if</span>(node.type == <span class="hljs-string">&apos;CallExpression&apos;</span> &amp;&amp; node.callee.name == <span class="hljs-string">&apos;require&apos;</span>){
+                        <span class="hljs-keyword">let</span> name = node.arguments[<span class="hljs-number">0</span>].value;<span class="hljs-comment">//&#x53D6;&#x5F97;&#x53C2;&#x6570;&#x91CC;&#x7684;&#x503C;</span>
+                        name += (name.lastIndexOf(<span class="hljs-string">&apos;.&apos;</span>)&gt;<span class="hljs-number">0</span>?<span class="hljs-string">&apos;&apos;</span>:<span class="hljs-string">&apos;.js&apos;</span>);<span class="hljs-comment">//&#x6DFB;&#x52A0;&#x540E;&#x7F00;&#x540D;</span>
+                        <span class="hljs-keyword">let</span> moduleId = <span class="hljs-string">&apos;./&apos;</span>+path.join(parentPath,name);<span class="hljs-comment">//&#x53D6;&#x5F97;&#x6B64;&#x6A21;&#x5757;ID,&#x4E5F;&#x662F;&#x76F8;&#x5BF9;&#x4E8E;&#x6839;&#x8DEF;&#x5F84;&#x7684;</span>
+                        requires.push(moduleId);
+                        node.arguments = [{<span class="hljs-attr">type</span>:<span class="hljs-string">&apos;Literal&apos;</span>,<span class="hljs-attr">value</span>:moduleId}];
+                        <span class="hljs-keyword">return</span> node;
+                    }
+                   <span class="hljs-keyword">return</span> node;
+               }
+           });
+           source = escodegen.generate(ast);<span class="hljs-comment">//&#x91CD;&#x65B0;&#x751F;&#x6210;&#x4EE3;&#x7801;</span>
+           <span class="hljs-keyword">return</span> {source,requires};<span class="hljs-comment">//&#x8F6C;&#x6362;&#x540E;&#x7684;&#x4EE3;&#x7801;&#x548C;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;</span>
+        }
+    }
+}
+
+<span class="hljs-built_in">module</span>.exports = Compiler;
+</code></pre>
+<h3 id="t72.5 &#x4EA7;&#x51FA;&#x6587;&#x4EF6;">2.5 &#x4EA7;&#x51FA;&#x6587;&#x4EF6; <a href="#t72.5 &#x4EA7;&#x51FA;&#x6587;&#x4EF6;"> # </a></h3>
+<pre><code>/******/ (function(modules) { // webpackBootstrap
+/******/     // The module cache
+/******/     var installedModules = {};
+/******/
+/******/     // The require function
+/******/     function require(moduleId) {
+/******/
+/******/         // Check if module is in cache
+/******/         if(installedModules[moduleId]) {
+/******/             return installedModules[moduleId].exports;
+/******/         }
+/******/         // Create a new module (and put it into the cache)
+/******/         var module = installedModules[moduleId] = {
+/******/             i: moduleId,
+/******/             l: false,
+/******/             exports: {}
+/******/         };
+/******/
+/******/         // Execute the module function
+/******/         modules[moduleId].call(module.exports, module, module.exports, require);
+/******/
+/******/         // Flag the module as loaded
+/******/         module.l = true;
+/******/
+/******/         // Return the exports of the module
+/******/         return module.exports;
+/******/     }
+/******/     // Load entry module and return exports
+/******/     return require(require.s = &quot;&lt;%-entryId%&gt;&quot;);
+/******/ })
+/************************************************************************/
+/******/ ({
+&lt;%
+for(let id in modules){
+    let source = modules[id];%&gt;
+/***/ &quot;&lt;%-id%&gt;&quot;:
+/***/ function(module, exports,require) {
+
+eval(`&lt;%-source%&gt;`);
+
+/***/ },
+&lt;%}%&gt;
+/******/ });
+</code></pre><h3 id="t82.5 &#x652F;&#x6301;loader">2.5 &#x652F;&#x6301;loader <a href="#t82.5 &#x652F;&#x6301;loader"> # </a></h3>
+<p>less-loader</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> less = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;less&apos;</span>);
+<span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">source</span>) </span>{
+    <span class="hljs-keyword">let</span> css;
+    less.render(source, (err, output) =&gt; {
+        css = output.css;
+    });
+    <span class="hljs-keyword">return</span> css.replace(<span class="hljs-regexp">/\n/g</span>,<span class="hljs-string">&apos;\\n&apos;</span>,<span class="hljs-string">&apos;g&apos;</span>);
+}
+</code></pre>
+<p>css-loader</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> less = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;less&apos;</span>);
+<span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">source</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`let style = document.createElement(&apos;style&apos;);style.innerHTML = <span class="hljs-subst">${<span class="hljs-built_in">JSON</span>.stringify(source)}</span>;document.head.appendChild(style);`</span>;
+}
+</code></pre>
+<h3 id="t92.6. &#x652F;&#x6301;&#x63D2;&#x4EF6;">2.6. &#x652F;&#x6301;&#x63D2;&#x4EF6; <a href="#t92.6. &#x652F;&#x6301;&#x63D2;&#x4EF6;"> # </a></h3>
+<ul>
+<li><p><a href="javascript:if(confirm('https://developer.qiniu.com/kodo/sdk/1289/nodejs  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://developer.qiniu.com/kodo/sdk/1289/nodejs'" tppabs="https://developer.qiniu.com/kodo/sdk/1289/nodejs">&#x4E03;&#x725B;</a></p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> qiniu=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;qiniu&apos;</span>);
+<span class="hljs-keyword">const</span> path=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> fs=<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">UploadPlugin</span></span>{
+  <span class="hljs-keyword">constructor</span>(options) {
+      <span class="hljs-keyword">this</span>.options=options||{};
+  }
+  apply(compiler) {
+      compiler.hooks.afterEmit.tap(<span class="hljs-string">&apos;UploadPlugin&apos;</span>, (compilation) =&gt; {
+          <span class="hljs-keyword">let</span> {bucket=<span class="hljs-string">&apos;video&apos;</span>,domain=<span class="hljs-string">&quot;img.zhufengpeixun.cn&quot;</span>,accessKey=<span class="hljs-string">&apos;fi5imW04AkxJItuFbbRy1ffH1HIoo17HbWOXw5fV&apos;</span>,secretKey=<span class="hljs-string">&apos;ru__Na4qIor4-V7U4AOJyp2KBUYEw1NWduiJ4Pby&apos;</span>}=<span class="hljs-keyword">this</span>.options;
+          <span class="hljs-keyword">var</span> mac=<span class="hljs-keyword">new</span> qiniu.auth.digest.Mac(accessKey,secretKey);
+          <span class="hljs-keyword">var</span> options = {
+              <span class="hljs-attr">scope</span>: bucket,
+          };
+          <span class="hljs-keyword">var</span> putPolicy = <span class="hljs-keyword">new</span> qiniu.rs.PutPolicy(options);
+          <span class="hljs-keyword">var</span> uploadToken=putPolicy.uploadToken(mac);
+          <span class="hljs-keyword">var</span> config = <span class="hljs-keyword">new</span> qiniu.conf.Config();
+
+          <span class="hljs-built_in">console</span>.log(compilation.assets);
+
+          <span class="hljs-keyword">let</span> promises = <span class="hljs-built_in">Object</span>.keys(compilation.assets).map(<span class="hljs-function"><span class="hljs-params">asset</span> =&gt;</span> upload(asset));
+          <span class="hljs-built_in">Promise</span>.all(promises).then(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+              <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x53D1;&#x5E03;CDN&#x6210;&#x529F;!&apos;</span>);
+          });
+
+          <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">upload</span>(<span class="hljs-params">filename</span>) </span>{
+              <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">resolve,reject</span>) </span>{
+                  <span class="hljs-keyword">var</span> localFile=path.join(__dirname,<span class="hljs-string">&apos;../build&apos;</span>,filename);
+                  <span class="hljs-keyword">var</span> formUploader = <span class="hljs-keyword">new</span> qiniu.form_up.FormUploader(config);
+                  <span class="hljs-keyword">var</span> putExtra = <span class="hljs-keyword">new</span> qiniu.form_up.PutExtra();
+                  <span class="hljs-keyword">var</span> key=filename;
+                  formUploader.putFile(uploadToken,key,localFile,putExtra,<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err,body,info</span>) </span>{
+                      <span class="hljs-keyword">if</span> (err)
+                          reject(err);
+                      <span class="hljs-keyword">else</span>
+                          resolve(body)
+                  });
+              });
+          }
+      });
+  }
+}
+<span class="hljs-built_in">module</span>.exports=UploadPlugin;
+</code></pre>
+</li>
+</ul>
+<h3 id="t102.7 &#x6D4B;&#x8BD5;&#x7528;&#x4F8B;">2.7 &#x6D4B;&#x8BD5;&#x7528;&#x4F8B; <a href="#t102.7 &#x6D4B;&#x8BD5;&#x7528;&#x4F8B;"> # </a></h3>
+<p>index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> name = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./a/a1&apos;</span>);
+<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./index.less&apos;</span>);
+alert(name);
+</code></pre>
+<p>index.less</p>
+<pre><code class="lang-less"><span class="hljs-selector-tag">body</span>{<span class="hljs-attribute">color</span>:red;}
+</code></pre>
+<p>webpack.config.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> path = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;path&apos;</span>);
+<span class="hljs-keyword">const</span> AfterCompilerWebpackPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./src/plugins/after-compiler-webpack-plugin&apos;</span>);
+<span class="hljs-keyword">const</span> CompilerWebpackPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./src/plugins/compiler-webpack-plugin&apos;</span>);
+<span class="hljs-keyword">const</span> DoneWebpackPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./src/plugins/done-webpack-plugin&apos;</span>);
+<span class="hljs-keyword">const</span> EmitWebpackPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./src/plugins/emit-webpack-plugin&apos;</span>);
+<span class="hljs-keyword">const</span> OptionWebpackPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./src/plugins/option-webpack-plugin.js&apos;</span>);
+<span class="hljs-keyword">const</span> RunWebpackPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./src/plugins/run-webpack-plugin&apos;</span>);
+<span class="hljs-built_in">module</span>.exports = {
+    <span class="hljs-attr">entry</span>: <span class="hljs-string">&apos;./src/index.js&apos;</span>,
+    <span class="hljs-attr">output</span>: {
+        <span class="hljs-attr">path</span>: path.resolve(<span class="hljs-string">&apos;dist&apos;</span>),
+        <span class="hljs-attr">filename</span>: <span class="hljs-string">&apos;bundle.js&apos;</span>
+    },
+    <span class="hljs-attr">module</span>: {
+        <span class="hljs-attr">rules</span>: [
+            {
+                <span class="hljs-attr">test</span>: <span class="hljs-regexp">/\.less/</span>,
+                <span class="hljs-attr">use</span>: [<span class="hljs-string">&apos;style-loader&apos;</span>, <span class="hljs-string">&apos;less-loader&apos;</span>]
+            }
+        ]
+    },
+    <span class="hljs-attr">plugins</span>: [
+        <span class="hljs-keyword">new</span> AfterCompilerWebpackPlugin(),
+        <span class="hljs-keyword">new</span> CompilerWebpackPlugin(),
+        <span class="hljs-keyword">new</span> DoneWebpackPlugin(),
+        <span class="hljs-keyword">new</span> EmitWebpackPlugin(),
+        <span class="hljs-keyword">new</span> OptionWebpackPlugin(),
+        <span class="hljs-keyword">new</span> RunWebpackPlugin()
+    ]
+}
+</code></pre>
+<p>plugins</p>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span></span>{
+    apply(compiler) {
+        compiler.hooks.entryOption.tap(<span class="hljs-string">&apos;Plugin&apos;</span>,(option) =&gt; {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;run-webpack-plugin&apos;</span>);
+        });
+    }
+}
+<span class="hljs-built_in">module</span>.exports=Plugin;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span></span>{
+    apply(compiler) {
+        compiler.hooks.entryOption.tap(<span class="hljs-string">&apos;Plugin&apos;</span>,(option) =&gt; {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;run-webpack-plugin&apos;</span>);
+        });
+    }
+}
+<span class="hljs-built_in">module</span>.exports=Plugin;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span></span>{
+    apply(compiler) {
+        compiler.hooks.entryOption.tap(<span class="hljs-string">&apos;Plugin&apos;</span>,(option) =&gt; {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;compiler&apos;</span>);
+        });
+    }
+}
+<span class="hljs-built_in">module</span>.exports=Plugin;
+
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span></span>{
+    apply(compiler) {
+        compiler.hooks.entryOption.tap(<span class="hljs-string">&apos;Plugin&apos;</span>,(option) =&gt; {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;after compiler&apos;</span>);
+        });
+    }
+}
+<span class="hljs-built_in">module</span>.exports=Plugin;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span></span>{
+    apply(compiler) {
+        compiler.hooks.entryOption.tap(<span class="hljs-string">&apos;Plugin&apos;</span>,(option) =&gt; {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;emit&apos;</span>);
+        });
+    }
+}
+<span class="hljs-built_in">module</span>.exports=Plugin;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span></span>{
+    apply(compiler) {
+        compiler.hooks.entryOption.tap(<span class="hljs-string">&apos;Plugin&apos;</span>,(option) =&gt; {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;done&apos;</span>);
+        });
+    }
+}
+<span class="hljs-built_in">module</span>.exports=Plugin;
+</code></pre>
+<ul>
+<li><a href="javascript:if(confirm('https://gitee.com/zhufengpeixun/zfpxpack  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://gitee.com/zhufengpeixun/zfpxpack'" tppabs="https://gitee.com/zhufengpeixun/zfpxpack">zfpxpack</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="javascript:if(confirm('https://github.com/jaywcjlove/idoc  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/jaywcjlove/idoc'" tppabs="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="javascript:if(confirm('https://nodejs.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://nodejs.org/'" tppabs="https://nodejs.org/">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="../../../cdn.bootcss.com/jquery/3.0.0/jquery.js" tppabs="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

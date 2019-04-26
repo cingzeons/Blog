@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZEON构师成长计划</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" tppabs="http://www.zhufengpeixun.cn/plan/static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">
+        
+            ZEON构师成长计划
+        
+    </div>
+<ul><li><a href="../index.html" tppabs="http://www.zhufengpeixun.cn/plan/index.html">index</a></li><li><a href="0.editor.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.editor.html">0.editor</a></li><li><a href="0.module.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.module.html">0.module</a></li><li><a href="0.Async.html" tppabs="http://www.zhufengpeixun.cn/plan/html/0.Async.html">0.Async</a></li><li><a href="1.ES2015.html" tppabs="http://www.zhufengpeixun.cn/plan/html/1.ES2015.html">1.ES2015</a></li><li><a href="2.Promise.html" tppabs="http://www.zhufengpeixun.cn/plan/html/2.Promise.html">2.Promise</a></li><li><a href="3.Node.html" tppabs="http://www.zhufengpeixun.cn/plan/html/3.Node.html">3.Node</a></li><li><a href="4.NodeInstall.html" tppabs="http://www.zhufengpeixun.cn/plan/html/4.NodeInstall.html">4.NodeInstall</a></li><li><a href="5.REPL.html" tppabs="http://www.zhufengpeixun.cn/plan/html/5.REPL.html">5.REPL</a></li><li><a href="6.NodeCore.html" tppabs="http://www.zhufengpeixun.cn/plan/html/6.NodeCore.html">6.NodeCore</a></li><li><a href="7.module&NPM.html" tppabs="http://www.zhufengpeixun.cn/plan/html/7.module&NPM.html">7.module&NPM</a></li><li><a href="8.Encoding.html" tppabs="http://www.zhufengpeixun.cn/plan/html/8.Encoding.html">8.Encoding</a></li><li><a href="9.Buffer.html" tppabs="http://www.zhufengpeixun.cn/plan/html/9.Buffer.html">9.Buffer</a></li><li><a href="10.fs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/10.fs.html">10.fs</a></li><li class="active"><a href="11.Stream-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-1.html">11.Stream-1</a></li><li><a href="11.Stream-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-2.html">11.Stream-2</a></li><li><a href="11.Stream-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-3.html">11.Stream-3</a></li><li><a href="11.Stream-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/11.Stream-4.html">11.Stream-4</a></li><li><a href="12.Network-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.Network-1.html">12.Network-1</a></li><li><a href="12.NetWork-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12.NetWork-3.html">12.NetWork-3</a></li><li><a href="12-Network-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/12-Network-2.html">12-Network-2</a></li><li><a href="13.tcp.html" tppabs="http://www.zhufengpeixun.cn/plan/html/13.tcp.html">13.tcp</a></li><li><a href="14.http-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-1.html">14.http-1</a></li><li><a href="14.http-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/14.http-2.html">14.http-2</a></li><li><a href="15.compress.html" tppabs="http://www.zhufengpeixun.cn/plan/html/15.compress.html">15.compress</a></li><li><a href="16.crypto.html" tppabs="http://www.zhufengpeixun.cn/plan/html/16.crypto.html">16.crypto</a></li><li><a href="17.process.html" tppabs="http://www.zhufengpeixun.cn/plan/html/17.process.html">17.process</a></li><li><a href="18.yargs.html" tppabs="http://www.zhufengpeixun.cn/plan/html/18.yargs.html">18.yargs</a></li><li><a href="19.cache.html" tppabs="http://www.zhufengpeixun.cn/plan/html/19.cache.html">19.cache</a></li><li><a href="20.action.html" tppabs="http://www.zhufengpeixun.cn/plan/html/20.action.html">20.action</a></li><li><a href="21.https.html" tppabs="http://www.zhufengpeixun.cn/plan/html/21.https.html">21.https</a></li><li><a href="22.cookie.html" tppabs="http://www.zhufengpeixun.cn/plan/html/22.cookie.html">22.cookie</a></li><li><a href="23.session.html" tppabs="http://www.zhufengpeixun.cn/plan/html/23.session.html">23.session</a></li><li><a href="24.express-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-1.html">24.express-1</a></li><li><a href="24.express-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-2.html">24.express-2</a></li><li><a href="24.express-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-3.html">24.express-3</a></li><li><a href="24.express-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/24.express-4.html">24.express-4</a></li><li><a href="25.koa-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/25.koa-1.html">25.koa-1</a></li><li><a href="26.webpack-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-1.html">26.webpack-1</a></li><li><a href="26.webpack-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-2.html">26.webpack-2</a></li><li><a href="26.webpack-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-3.html">26.webpack-3</a></li><li><a href="26.webpack-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-4.html">26.webpack-4</a></li><li><a href="26.webpack-loader.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-loader.html">26.webpack-loader</a></li><li><a href="26.webpack-plugin.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-plugin.html">26.webpack-plugin</a></li><li><a href="26.tapable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.tapable.html">26.tapable</a></li><li><a href="26.AST.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.AST.html">26.AST</a></li><li><a href="27.react-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-1.html">27.react-1</a></li><li><a href="27.react-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-2.html">27.react-2</a></li><li><a href="27.react-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-3.html">27.react-3</a></li><li><a href="26.webpack-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/26.webpack-5.html">26.webpack-5</a></li><li><a href="27.react-4-immutable.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-4-immutable.html">27.react-4-immutable</a></li><li><a href="27.react-5-react-dom-diff.html" tppabs="http://www.zhufengpeixun.cn/plan/html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li><li><a href="28.redux-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-1.html">28.redux-1</a></li><li><a href="28.redux-2-中间件.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-2-中间件.html">28.redux-2-中间件</a></li><li><a href="28.redux-3-saga.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-3-saga.html">28.redux-3-saga</a></li><li><a href="28.redux-4-dva.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-4-dva.html">28.redux-4-dva</a></li><li><a href="28.redux-0.html" tppabs="http://www.zhufengpeixun.cn/plan/html/28.redux-0.html">28.redux-0</a></li><li><a href="29.mongodb-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-1.html">29.mongodb-1</a></li><li><a href="29.mongodb-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-2.html">29.mongodb-2</a></li><li><a href="29.mongodb-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-3.html">29.mongodb-3</a></li><li><a href="29.mongodb-4.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-4.html">29.mongodb-4</a></li><li><a href="29.mongodb-5.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-5.html">29.mongodb-5</a></li><li><a href="29.mongodb-6.html" tppabs="http://www.zhufengpeixun.cn/plan/html/29.mongodb-6.html">29.mongodb-6</a></li><li><a href="30.mysql-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-1.html">30.mysql-1</a></li><li><a href="30.mysql-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/30.mysql-2.html">30.mysql-2</a></li><li><a href="31.egg-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-1.html">31.egg-1</a></li><li><a href="31.egg-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-2.html">31.egg-2</a></li><li><a href="31.egg-3.html" tppabs="http://www.zhufengpeixun.cn/plan/html/31.egg-3.html">31.egg-3</a></li><li><a href="32.ant.html" tppabs="http://www.zhufengpeixun.cn/plan/html/32.ant.html">32.ant</a></li><li><a href="33.redis.html" tppabs="http://www.zhufengpeixun.cn/plan/html/33.redis.html">33.redis</a></li><li><a href="34.unittest.html" tppabs="http://www.zhufengpeixun.cn/plan/html/34.unittest.html">34.unittest</a></li><li><a href="35.jwt.html" tppabs="http://www.zhufengpeixun.cn/plan/html/35.jwt.html">35.jwt</a></li><li><a href="36.websocket-1.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-1.html">36.websocket-1</a></li><li><a href="36.websocket-2.html" tppabs="http://www.zhufengpeixun.cn/plan/html/36.websocket-2.html">36.websocket-2</a></li></ul></div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 流的概念">1. 流的概念</a></li><li><a href="#t12.可读流createReadStream">2.可读流createReadStream</a><ul><li><a href="#t22.1 创建可读流">2.1 创建可读流</a></li><li><a href="#t32.2 监听data事件">2.2 监听data事件</a></li><li><a href="#t42.3 监听end事件">2.3 监听end事件</a></li><li><a href="#t52.4 监听error事件">2.4 监听error事件</a></li><li><a href="#t62.5 监听open事件">2.5 监听open事件</a></li><li><a href="#t72.6 监听close事件">2.6 监听close事件</a></li><li><a href="#t82.7 设置编码">2.7 设置编码</a></li><li><a href="#t92.8 暂停和恢复触发data">2.8 暂停和恢复触发data</a></li></ul></li><li><a href="#t103.可写流createWriteStream">3.可写流createWriteStream</a><ul><li><a href="#t113.1 创建可写流">3.1 创建可写流</a></li><li><a href="#t123.2 write方法">3.2 write方法</a></li><li><a href="#t133.3 end方法">3.3 end方法</a></li><li><a href="#t143.4 drain方法">3.4 drain方法</a></li><li><a href="#t153.5 finish方法">3.5 finish方法</a></li></ul></li><li><a href="#t164.pipe方法">4.pipe方法</a><ul><li><a href="#t174.1 pipe方法的原理">4.1 pipe方法的原理</a></li><li><a href="#t184.2 pipe用法">4.2 pipe用法</a></li><li><a href="#t194.3 unpipe用法">4.3 unpipe用法</a></li><li><a href="#t204.4 cork">4.4 cork</a></li><li><a href="#t214.5 uncork">4.5 uncork</a></li></ul></li><li><a href="#t225. 简单实现">5. 简单实现</a><ul><li><a href="#t235.1 可读流的简单实现">5.1 可读流的简单实现</a></li><li><a href="#t245.2 可写流的简单实现">5.2 可写流的简单实现</a></li><li><a href="#t255.3 pipe">5.3 pipe</a></li></ul></li><li><a href="#t265.4 暂停模式">5.4 暂停模式</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. &#x6D41;&#x7684;&#x6982;&#x5FF5;">1. &#x6D41;&#x7684;&#x6982;&#x5FF5; <a href="#t01. &#x6D41;&#x7684;&#x6982;&#x5FF5;"> # </a></h2>
+<ul>
+<li>&#x6D41;&#x662F;&#x4E00;&#x7EC4;&#x6709;&#x5E8F;&#x7684;&#xFF0C;&#x6709;&#x8D77;&#x70B9;&#x548C;&#x7EC8;&#x70B9;&#x7684;&#x5B57;&#x8282;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x624B;&#x6BB5;</li>
+<li>&#x5B83;&#x4E0D;&#x5173;&#x5FC3;&#x6587;&#x4EF6;&#x7684;&#x6574;&#x4F53;&#x5185;&#x5BB9;&#xFF0C;&#x53EA;&#x5173;&#x6CE8;&#x662F;&#x5426;&#x4ECE;&#x6587;&#x4EF6;&#x4E2D;&#x8BFB;&#x5230;&#x4E86;&#x6570;&#x636E;&#xFF0C;&#x4EE5;&#x53CA;&#x8BFB;&#x5230;&#x6570;&#x636E;&#x4E4B;&#x540E;&#x7684;&#x5904;&#x7406;</li>
+<li>&#x6D41;&#x662F;&#x4E00;&#x4E2A;&#x62BD;&#x8C61;&#x63A5;&#x53E3;&#xFF0C;&#x88AB; Node &#x4E2D;&#x7684;&#x5F88;&#x591A;&#x5BF9;&#x8C61;&#x6240;&#x5B9E;&#x73B0;&#x3002;&#x6BD4;&#x5982;HTTP &#x670D;&#x52A1;&#x5668;request&#x548C;response&#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x6D41;&#x3002;</li>
+</ul>
+<h2 id="t12.&#x53EF;&#x8BFB;&#x6D41;createReadStream">2.&#x53EF;&#x8BFB;&#x6D41;createReadStream <a href="#t12.&#x53EF;&#x8BFB;&#x6D41;createReadStream"> # </a></h2>
+<p>&#x5B9E;&#x73B0;&#x4E86;<code>stream.Readable</code>&#x63A5;&#x53E3;&#x7684;&#x5BF9;&#x8C61;,&#x5C06;&#x5BF9;&#x8C61;&#x6570;&#x636E;&#x8BFB;&#x53D6;&#x4E3A;&#x6D41;&#x6570;&#x636E;,&#x5F53;&#x76D1;&#x542C;data&#x4E8B;&#x4EF6;&#x540E;,&#x5F00;&#x59CB;&#x53D1;&#x5C04;&#x6570;&#x636E;</p>
+<pre><code class="lang-javascript">fs.createReadStream = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path, options</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReadStream(path, options);
+};
+util.inherits(ReadStream, Readable);
+</code></pre>
+<h3 id="t22.1 &#x521B;&#x5EFA;&#x53EF;&#x8BFB;&#x6D41;">2.1 &#x521B;&#x5EFA;&#x53EF;&#x8BFB;&#x6D41; <a href="#t22.1 &#x521B;&#x5EFA;&#x53EF;&#x8BFB;&#x6D41;"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> rs = fs.createReadStream(path,[options]);
+</code></pre>
+<ol>
+<li>path&#x8BFB;&#x53D6;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;</li>
+<li>options<ul>
+<li>flags&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x8981;&#x505A;&#x7684;&#x64CD;&#x4F5C;,&#x9ED8;&#x8BA4;&#x4E3A;&apos;r&apos;</li>
+<li>encoding&#x9ED8;&#x8BA4;&#x4E3A;null</li>
+<li>start&#x5F00;&#x59CB;&#x8BFB;&#x53D6;&#x7684;&#x7D22;&#x5F15;&#x4F4D;&#x7F6E;</li>
+<li>end&#x7ED3;&#x675F;&#x8BFB;&#x53D6;&#x7684;&#x7D22;&#x5F15;&#x4F4D;&#x7F6E;(&#x5305;&#x62EC;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;)</li>
+<li>highWaterMark&#x8BFB;&#x53D6;&#x7F13;&#x5B58;&#x533A;&#x9ED8;&#x8BA4;&#x7684;&#x5927;&#x5C0F;64kb</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>&#x5982;&#x679C;&#x6307;&#x5B9A;utf8&#x7F16;&#x7801;highWaterMark&#x8981;&#x5927;&#x4E8E;3&#x4E2A;&#x5B57;&#x8282;</p>
+</blockquote>
+<h3 id="t32.2 &#x76D1;&#x542C;data&#x4E8B;&#x4EF6;">2.2 &#x76D1;&#x542C;data&#x4E8B;&#x4EF6; <a href="#t32.2 &#x76D1;&#x542C;data&#x4E8B;&#x4EF6;"> # </a></h3>
+<p>&#x6D41;&#x5207;&#x6362;&#x5230;&#x6D41;&#x52A8;&#x6A21;&#x5F0F;,&#x6570;&#x636E;&#x4F1A;&#x88AB;&#x5C3D;&#x53EF;&#x80FD;&#x5FEB;&#x7684;&#x8BFB;&#x51FA;</p>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">&apos;data&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(data);
+});
+</code></pre>
+<h3 id="t42.3 &#x76D1;&#x542C;end&#x4E8B;&#x4EF6;">2.3 &#x76D1;&#x542C;end&#x4E8B;&#x4EF6; <a href="#t42.3 &#x76D1;&#x542C;end&#x4E8B;&#x4EF6;"> # </a></h3>
+<p>&#x8BE5;&#x4E8B;&#x4EF6;&#x4F1A;&#x5728;&#x8BFB;&#x5B8C;&#x6570;&#x636E;&#x540E;&#x88AB;&#x89E6;&#x53D1;</p>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">&apos;end&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x8BFB;&#x53D6;&#x5B8C;&#x6210;&apos;</span>);
+});
+</code></pre>
+<h3 id="t52.4 &#x76D1;&#x542C;error&#x4E8B;&#x4EF6;">2.4 &#x76D1;&#x542C;error&#x4E8B;&#x4EF6; <a href="#t52.4 &#x76D1;&#x542C;error&#x4E8B;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">&apos;error&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h3 id="t62.5 &#x76D1;&#x542C;open&#x4E8B;&#x4EF6;">2.5 &#x76D1;&#x542C;open&#x4E8B;&#x4EF6; <a href="#t62.5 &#x76D1;&#x542C;open&#x4E8B;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">&apos;open&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h3 id="t72.6 &#x76D1;&#x542C;close&#x4E8B;&#x4EF6;">2.6 &#x76D1;&#x542C;close&#x4E8B;&#x4EF6; <a href="#t72.6 &#x76D1;&#x542C;close&#x4E8B;&#x4EF6;"> # </a></h3>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">&apos;close&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(err);
+});
+</code></pre>
+<h3 id="t82.7 &#x8BBE;&#x7F6E;&#x7F16;&#x7801;">2.7 &#x8BBE;&#x7F6E;&#x7F16;&#x7801; <a href="#t82.7 &#x8BBE;&#x7F6E;&#x7F16;&#x7801;"> # </a></h3>
+<p>&#x4E0E;&#x6307;&#x5B9A;{encoding:&apos;utf8&apos;}&#x6548;&#x679C;&#x76F8;&#x540C;&#xFF0C;&#x8BBE;&#x7F6E;&#x7F16;&#x7801;</p>
+<pre><code class="lang-javascript">rs.setEncoding(<span class="hljs-string">&apos;utf8&apos;</span>);
+</code></pre>
+<h3 id="t92.8 &#x6682;&#x505C;&#x548C;&#x6062;&#x590D;&#x89E6;&#x53D1;data">2.8 &#x6682;&#x505C;&#x548C;&#x6062;&#x590D;&#x89E6;&#x53D1;data <a href="#t92.8 &#x6682;&#x505C;&#x548C;&#x6062;&#x590D;&#x89E6;&#x53D1;data"> # </a></h3>
+<p>&#x901A;&#x8FC7;pause()&#x65B9;&#x6CD5;&#x548C;resume()&#x65B9;&#x6CD5;</p>
+<pre><code class="lang-javascript">rs.on(<span class="hljs-string">&apos;data&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    rs.pause();
+    <span class="hljs-built_in">console</span>.log(data);
+});
+setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    rs.resume();
+},<span class="hljs-number">2000</span>);
+</code></pre>
+<h2 id="t103.&#x53EF;&#x5199;&#x6D41;createWriteStream">3.&#x53EF;&#x5199;&#x6D41;createWriteStream <a href="#t103.&#x53EF;&#x5199;&#x6D41;createWriteStream"> # </a></h2>
+<p>&#x5B9E;&#x73B0;&#x4E86;stream.Writable&#x63A5;&#x53E3;&#x7684;&#x5BF9;&#x8C61;&#x6765;&#x5C06;&#x6D41;&#x6570;&#x636E;&#x5199;&#x5165;&#x5230;&#x5BF9;&#x8C61;&#x4E2D;</p>
+<pre><code class="lang-javascript">fs.createWriteStream = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">path, options</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> WriteStream(path, options);
+};
+
+util.inherits(WriteStream, Writable);
+</code></pre>
+<h3 id="t113.1 &#x521B;&#x5EFA;&#x53EF;&#x5199;&#x6D41;">3.1 &#x521B;&#x5EFA;&#x53EF;&#x5199;&#x6D41; <a href="#t113.1 &#x521B;&#x5EFA;&#x53EF;&#x5199;&#x6D41;"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> ws = fs.createWriteStream(path,[options]);
+</code></pre>
+<ol>
+<li>path&#x5199;&#x5165;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;</li>
+<li>options<ul>
+<li>flags&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x8981;&#x505A;&#x7684;&#x64CD;&#x4F5C;,&#x9ED8;&#x8BA4;&#x4E3A;&apos;w&apos;</li>
+<li>encoding&#x9ED8;&#x8BA4;&#x4E3A;utf8</li>
+<li>highWaterMark&#x5199;&#x5165;&#x7F13;&#x5B58;&#x533A;&#x7684;&#x9ED8;&#x8BA4;&#x5927;&#x5C0F;16kb</li>
+</ul>
+</li>
+</ol>
+<h3 id="t123.2 write&#x65B9;&#x6CD5;">3.2 write&#x65B9;&#x6CD5; <a href="#t123.2 write&#x65B9;&#x6CD5;"> # </a></h3>
+<pre><code class="lang-javascript">ws.write(chunk,[encoding],[callback]);
+</code></pre>
+<ol>
+<li>chunk&#x5199;&#x5165;&#x7684;&#x6570;&#x636E;buffer/string</li>
+<li>encoding&#x7F16;&#x7801;&#x683C;&#x5F0F;chunk&#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#x6709;&#x7528;&#xFF0C;&#x53EF;&#x9009;</li>
+<li>callback &#x5199;&#x5165;&#x6210;&#x529F;&#x540E;&#x7684;&#x56DE;&#x8C03;</li>
+</ol>
+<blockquote>
+<p>&#x8FD4;&#x56DE;&#x503C;&#x4E3A;&#x5E03;&#x5C14;&#x503C;&#xFF0C;&#x7CFB;&#x7EDF;&#x7F13;&#x5B58;&#x533A;&#x6EE1;&#x65F6;&#x4E3A;false,&#x672A;&#x6EE1;&#x65F6;&#x4E3A;true</p>
+</blockquote>
+<h3 id="t133.3 end&#x65B9;&#x6CD5;">3.3 end&#x65B9;&#x6CD5; <a href="#t133.3 end&#x65B9;&#x6CD5;"> # </a></h3>
+<pre><code class="lang-javascript">ws.end(chunk,[encoding],[callback]);
+</code></pre>
+<blockquote>
+<p>&#x8868;&#x660E;&#x63A5;&#x4E0B;&#x6765;&#x6CA1;&#x6709;&#x6570;&#x636E;&#x8981;&#x88AB;&#x5199;&#x5165; Writable
+&#x901A;&#x8FC7;&#x4F20;&#x5165;&#x53EF;&#x9009;&#x7684; chunk &#x548C; encoding &#x53C2;&#x6570;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x5173;&#x95ED;&#x6D41;&#x4E4B;&#x524D;&#x518D;&#x5199;&#x5165;&#x4E00;&#x6BB5;&#x6570;&#x636E;
+&#x5982;&#x679C;&#x4F20;&#x5165;&#x4E86;&#x53EF;&#x9009;&#x7684; callback &#x51FD;&#x6570;&#xFF0C;&#x5B83;&#x5C06;&#x4F5C;&#x4E3A; &apos;finish&apos; &#x4E8B;&#x4EF6;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;</p>
+</blockquote>
+<h3 id="t143.4 drain&#x65B9;&#x6CD5;">3.4 drain&#x65B9;&#x6CD5; <a href="#t143.4 drain&#x65B9;&#x6CD5;"> # </a></h3>
+<ul>
+<li>&#x5F53;&#x4E00;&#x4E2A;&#x6D41;&#x4E0D;&#x5904;&#x5728; drain &#x7684;&#x72B6;&#x6001;&#xFF0C; &#x5BF9; write() &#x7684;&#x8C03;&#x7528;&#x4F1A;&#x7F13;&#x5B58;&#x6570;&#x636E;&#x5757;&#xFF0C; &#x5E76;&#x4E14;&#x8FD4;&#x56DE; false&#x3002; &#x4E00;&#x65E6;&#x6240;&#x6709;&#x5F53;&#x524D;&#x6240;&#x6709;&#x7F13;&#x5B58;&#x7684;&#x6570;&#x636E;&#x5757;&#x90FD;&#x6392;&#x7A7A;&#x4E86;&#xFF08;&#x88AB;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x63A5;&#x53D7;&#x6765;&#x8FDB;&#x884C;&#x8F93;&#x51FA;&#xFF09;&#xFF0C; &#x90A3;&#x4E48; &apos;drain&apos; &#x4E8B;&#x4EF6;&#x5C31;&#x4F1A;&#x88AB;&#x89E6;&#x53D1;</li>
+<li>&#x5EFA;&#x8BAE;&#xFF0C; &#x4E00;&#x65E6; write() &#x8FD4;&#x56DE; false&#xFF0C; &#x5728; &apos;drain&apos; &#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x524D;&#xFF0C; &#x4E0D;&#x80FD;&#x5199;&#x5165;&#x4EFB;&#x4F55;&#x6570;&#x636E;&#x5757;<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-keyword">let</span> ws = fs.createWriteStream(<span class="hljs-string">&apos;./2.txt&apos;</span>,{
+  <span class="hljs-attr">flags</span>:<span class="hljs-string">&apos;w&apos;</span>,
+  <span class="hljs-attr">encoding</span>:<span class="hljs-string">&apos;utf8&apos;</span>,
+  <span class="hljs-attr">highWaterMark</span>:<span class="hljs-number">3</span>
+});
+<span class="hljs-keyword">let</span> i = <span class="hljs-number">10</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">write</span>(<span class="hljs-params"></span>)</span>{
+ <span class="hljs-keyword">let</span>  flag = <span class="hljs-literal">true</span>;
+ <span class="hljs-keyword">while</span>(i&amp;&amp;flag){
+      flag = ws.write(<span class="hljs-string">&quot;1&quot;</span>);
+      i--;
+     <span class="hljs-built_in">console</span>.log(flag);
+ }
+}
+write();
+ws.on(<span class="hljs-string">&apos;drain&apos;</span>,()=&gt;{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;drain&quot;</span>);
+  write();
+});
+</code></pre>
+</li>
+</ul>
+<h3 id="t153.5 finish&#x65B9;&#x6CD5;">3.5 finish&#x65B9;&#x6CD5; <a href="#t153.5 finish&#x65B9;&#x6CD5;"> # </a></h3>
+<p>&#x5728;&#x8C03;&#x7528;&#x4E86; stream.end() &#x65B9;&#x6CD5;&#xFF0C;&#x4E14;&#x7F13;&#x51B2;&#x533A;&#x6570;&#x636E;&#x90FD;&#x5DF2;&#x7ECF;&#x4F20;&#x7ED9;&#x5E95;&#x5C42;&#x7CFB;&#x7EDF;&#x4E4B;&#x540E;&#xFF0C; &apos;finish&apos; &#x4E8B;&#x4EF6;&#x5C06;&#x88AB;&#x89E6;&#x53D1;&#x3002;</p>
+<pre><code>var writer = fs.createWriteStream(&apos;./2.txt&apos;);
+for (let i = 0; i &lt; 100; i++) {
+  writer.write(`hello, ${i}!\n`);
+}
+writer.end(&apos;&#x7ED3;&#x675F;\n&apos;);
+writer.on(&apos;finish&apos;, () =&gt; {
+  console.error(&apos;&#x6240;&#x6709;&#x7684;&#x5199;&#x5165;&#x5DF2;&#x7ECF;&#x5B8C;&#x6210;!&apos;);
+});
+</code></pre><h2 id="t164.pipe&#x65B9;&#x6CD5;">4.pipe&#x65B9;&#x6CD5; <a href="#t164.pipe&#x65B9;&#x6CD5;"> # </a></h2>
+<h3 id="t174.1 pipe&#x65B9;&#x6CD5;&#x7684;&#x539F;&#x7406;">4.1 pipe&#x65B9;&#x6CD5;&#x7684;&#x539F;&#x7406; <a href="#t174.1 pipe&#x65B9;&#x6CD5;&#x7684;&#x539F;&#x7406;"> # </a></h3>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-keyword">var</span> ws = fs.createWriteStream(<span class="hljs-string">&apos;./2.txt&apos;</span>);
+<span class="hljs-keyword">var</span> rs = fs.createReadStream(<span class="hljs-string">&apos;./1.txt&apos;</span>);
+rs.on(<span class="hljs-string">&apos;data&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">data</span>) </span>{
+    <span class="hljs-keyword">var</span> flag = ws.write(data);
+    <span class="hljs-keyword">if</span>(!flag)
+    rs.pause();
+});
+ws.on(<span class="hljs-string">&apos;drain&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    rs.resume();
+});
+rs.on(<span class="hljs-string">&apos;end&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    ws.end();
+});
+</code></pre>
+<h3 id="t184.2 pipe&#x7528;&#x6CD5;">4.2 pipe&#x7528;&#x6CD5; <a href="#t184.2 pipe&#x7528;&#x6CD5;"> # </a></h3>
+<pre><code class="lang-javascript">readStream.pipe(writeStream);
+<span class="hljs-keyword">var</span> <span class="hljs-keyword">from</span> = fs.createReadStream(<span class="hljs-string">&apos;./1.txt&apos;</span>);
+<span class="hljs-keyword">var</span> to = fs.createWriteStream(<span class="hljs-string">&apos;./2.txt&apos;</span>);
+<span class="hljs-keyword">from</span>.pipe(to);
+</code></pre>
+<blockquote>
+<p>&#x5C06;&#x6570;&#x636E;&#x7684;&#x6EDE;&#x7559;&#x91CF;&#x9650;&#x5236;&#x5230;&#x4E00;&#x4E2A;&#x53EF;&#x63A5;&#x53D7;&#x7684;&#x6C34;&#x5E73;&#xFF0C;&#x4EE5;&#x4F7F;&#x5F97;&#x4E0D;&#x540C;&#x901F;&#x5EA6;&#x7684;&#x6765;&#x6E90;&#x548C;&#x76EE;&#x6807;&#x4E0D;&#x4F1A;&#x6DF9;&#x6CA1;&#x53EF;&#x7528;&#x5185;&#x5B58;&#x3002;</p>
+</blockquote>
+<h3 id="t194.3 unpipe&#x7528;&#x6CD5;">4.3 unpipe&#x7528;&#x6CD5; <a href="#t194.3 unpipe&#x7528;&#x6CD5;"> # </a></h3>
+<ul>
+<li>readable.unpipe()&#x65B9;&#x6CD5;&#x5C06;&#x4E4B;&#x524D;&#x901A;&#x8FC7;stream.pipe()&#x65B9;&#x6CD5;&#x7ED1;&#x5B9A;&#x7684;&#x6D41;&#x5206;&#x79BB;</li>
+<li>&#x5982;&#x679C; destination &#x6CA1;&#x6709;&#x4F20;&#x5165;, &#x5219;&#x6240;&#x6709;&#x7ED1;&#x5B9A;&#x7684;&#x6D41;&#x90FD;&#x4F1A;&#x88AB;&#x5206;&#x79BB;.<pre><code class="lang-javascript"><span class="hljs-keyword">let</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;fs&apos;</span>);
+<span class="hljs-keyword">var</span> <span class="hljs-keyword">from</span> = fs.createReadStream(<span class="hljs-string">&apos;./1.txt&apos;</span>);
+<span class="hljs-keyword">var</span> to = fs.createWriteStream(<span class="hljs-string">&apos;./2.txt&apos;</span>);
+<span class="hljs-keyword">from</span>.pipe(to);
+setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x5173;&#x95ED;&#x5411;2.txt&#x7684;&#x5199;&#x5165;&apos;</span>);
+<span class="hljs-keyword">from</span>.unpipe(writable);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x624B;&#x5DE5;&#x5173;&#x95ED;&#x6587;&#x4EF6;&#x6D41;&apos;</span>);
+to.end();
+}, <span class="hljs-number">1000</span>);
+</code></pre>
+</li>
+</ul>
+<h3 id="t204.4 cork">4.4 cork <a href="#t204.4 cork"> # </a></h3>
+<p>&#x8C03;&#x7528; writable.cork() &#x65B9;&#x6CD5;&#x5C06;&#x5F3A;&#x5236;&#x6240;&#x6709;&#x5199;&#x5165;&#x6570;&#x636E;&#x90FD;&#x5B58;&#x653E;&#x5230;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x7F13;&#x51B2;&#x533A;&#x91CC;&#x3002; &#x76F4;&#x5230;&#x8C03;&#x7528; stream.uncork() &#x6216; stream.end() &#x65B9;&#x6CD5;&#x65F6;&#xFF0C;&#x7F13;&#x51B2;&#x533A;&#x91CC;&#x7684;&#x6570;&#x636E;&#x624D;&#x4F1A;&#x88AB;&#x8F93;&#x51FA;&#x3002;</p>
+<h3 id="t214.5 uncork">4.5 uncork <a href="#t214.5 uncork"> # </a></h3>
+<p>writable.uncork()&#x5C06;&#x8F93;&#x51FA;&#x5728;<code>stream.cork()</code>&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;&#x4E4B;&#x540E;&#x7F13;&#x51B2;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x6570;&#x636E;&#x3002;</p>
+<pre><code>stream.cork();
+stream.write(&apos;1&apos;);
+stream.write(&apos;2&apos;);
+process.nextTick(() =&gt; stream.uncork());
+</code></pre><h2 id="t225. &#x7B80;&#x5355;&#x5B9E;&#x73B0;">5. &#x7B80;&#x5355;&#x5B9E;&#x73B0; <a href="#t225. &#x7B80;&#x5355;&#x5B9E;&#x73B0;"> # </a></h2>
+<h3 id="t235.1 &#x53EF;&#x8BFB;&#x6D41;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0;">5.1 &#x53EF;&#x8BFB;&#x6D41;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0; <a href="#t235.1 &#x53EF;&#x8BFB;&#x6D41;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0;"> # </a></h3>
+<pre><code>let fs = require(&apos;fs&apos;);
+let ReadStream = require(&apos;./ReadStream&apos;);
+let rs = ReadStream(&apos;./1.txt&apos;, {
+    flags: &apos;r&apos;,
+    encoding: &apos;utf8&apos;,
+    start: 3,
+    end: 7,
+    highWaterMark: 3
+});
+rs.on(&apos;open&apos;, function () {
+    console.log(&quot;open&quot;);
+});
+rs.on(&apos;data&apos;, function (data) {
+    console.log(data);
+});
+rs.on(&apos;end&apos;, function () {
+    console.log(&quot;end&quot;);
+});
+rs.on(&apos;close&apos;, function () {
+    console.log(&quot;close&quot;);
+});
+/**
+ open
+ 456
+ 789
+ end
+ close
+ **/
+</code></pre><pre><code>let fs = require(&apos;fs&apos;);
+let EventEmitter = require(&apos;events&apos;);
+
+class WriteStream extends EventEmitter {
+    constructor(path, options) {
+        super(path, options);
+        this.path = path;
+        this.fd = options.fd;
+        this.flags = options.flags || &apos;r&apos;;
+        this.encoding = options.encoding;
+        this.start = options.start || 0;
+        this.pos = this.start;
+        this.end = options.end;
+        this.flowing = false;
+        this.autoClose = true;
+        this.highWaterMark = options.highWaterMark || 64 * 1024;
+        this.buffer = Buffer.alloc(this.highWaterMark);
+        this.length = 0;
+        this.on(&apos;newListener&apos;, (type, listener) =&gt; {
+            if (type == &apos;data&apos;) {
+                this.flowing = true;
+                this.read();
+            }
+        });
+        this.on(&apos;end&apos;, () =&gt; {
+            if (this.autoClose) {
+                this.destroy();
+            }
+        });
+        this.open();
+    }
+
+    read() {
+        if (typeof this.fd != &apos;number&apos;) {
+            return this.once(&apos;open&apos;, () =&gt; this.read());
+        }
+        let n = this.end ? Math.min(this.end - this.pos, this.highWaterMark) : this.highWaterMark;
+        fs.read(this.fd,this.buffer,0,n,this.pos,(err,bytesRead)=&gt;{
+            if(err){
+             return;
+            }
+            if(bytesRead){
+                let data = this.buffer.slice(0,bytesRead);
+                data = this.encoding?data.toString(this.encoding):data;
+                this.emit(&apos;data&apos;,data);
+                this.pos += bytesRead;
+                if(this.end &amp;&amp; this.pos &gt; this.end){
+                  return this.emit(&apos;end&apos;);
+                }
+                if(this.flowing)
+                    this.read();
+            }else{
+                this.emit(&apos;end&apos;);
+            }
+        })
+    }
+
+    open() {
+        fs.open(this.path, this.flags, this.mode, (err, fd) =&gt; {
+            if (err) return this.emit(&apos;error&apos;, err);
+            this.fd = fd;
+            this.emit(&apos;open&apos;, fd);
+        })
+    }
+
+
+    end() {
+        if (this.autoClose) {
+            this.destroy();
+        }
+    }
+
+    destroy() {
+        fs.close(this.fd, () =&gt; {
+            this.emit(&apos;close&apos;);
+        })
+    }
+
+}
+
+module.exports = WriteStream;
+</code></pre><h3 id="t245.2 &#x53EF;&#x5199;&#x6D41;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0;">5.2 &#x53EF;&#x5199;&#x6D41;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0; <a href="#t245.2 &#x53EF;&#x5199;&#x6D41;&#x7684;&#x7B80;&#x5355;&#x5B9E;&#x73B0;"> # </a></h3>
+<pre><code>let fs = require(&apos;fs&apos;);
+ let FileWriteStream = require(&apos;./FileWriteStream&apos;);
+ let ws = FileWriteStream(&apos;./2.txt&apos;,{
+     flags:&apos;w&apos;,
+     encoding:&apos;utf8&apos;,
+     highWaterMark:3
+ });
+ let i = 10;
+ function write(){
+     let  flag = true;
+     while(i&amp;&amp;flag){
+         flag = ws.write(&quot;1&quot;,&apos;utf8&apos;,(function(i){
+             return function(){
+                 console.log(i);
+             }
+         })(i));
+         i--;
+         console.log(flag);
+     }
+ }
+ write();
+ ws.on(&apos;drain&apos;,()=&gt;{
+     console.log(&quot;drain&quot;);
+     write();
+ });
+ /**
+  10
+  9
+  8
+  drain
+  7
+  6
+  5
+  drain
+  4
+  3
+  2
+  drain
+  1
+  **/
+</code></pre><pre><code>let fs = require(&apos;fs&apos;);
+let EventEmitter = require(&apos;events&apos;);
+class WriteStream extends  EventEmitter{
+    constructor(path, options) {
+        super(path, options);
+        this.path = path;
+        this.fd = options.fd;
+        this.flags = options.flags || &apos;w&apos;;
+        this.mode = options.mode || 0o666;
+        this.encoding = options.encoding;
+        this.start = options.start || 0;
+        this.pos = this.start;
+        this.writing = false;
+        this.autoClose = true;
+        this.highWaterMark = options.highWaterMark || 16 * 1024;
+        this.buffers = [];
+        this.length = 0;
+        this.open();
+    }
+
+    open() {
+        fs.open(this.path, this.flags, this.mode, (err, fd) =&gt; {
+            if (err) return this.emit(&apos;error&apos;, err);
+            this.fd = fd;
+            this.emit(&apos;open&apos;, fd);
+        })
+    }
+
+    write(chunk, encoding, cb) {
+        if (typeof encoding == &apos;function&apos;) {
+            cb = encoding;
+            encoding = null;
+        }
+
+        chunk = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk, this.encoding || &apos;utf8&apos;);
+        let len = chunk.length;
+        this.length += len;
+        let ret = this.length &lt; this.highWaterMark;
+        if (this.writing) {
+            this.buffers.push({
+                chunk,
+                encoding,
+                cb,
+            });
+        } else {
+            this.writing = true;
+            this._write(chunk, encoding,this.clearBuffer.bind(this));
+        }
+        return ret;
+    }
+
+    _write(chunk, encoding, cb) {
+        if (typeof this.fd != &apos;number&apos;) {
+            return this.once(&apos;open&apos;, () =&gt; this._write(chunk, encoding, cb));
+        }
+        fs.write(this.fd, chunk, 0, chunk.length, this.pos, (err, written) =&gt; {
+            if (err) {
+                if (this.autoClose) {
+                    this.destroy();
+                }
+                return this.emit(&apos;error&apos;, err);
+            }
+            this.length -= written;
+            this.pos += written;
+            cb &amp;&amp; cb();
+        });
+    }
+
+    clearBuffer() {
+        let data = this.buffers.shift();
+        if (data) {
+            this._write(data.chunk, data.encoding, this.clearBuffer.bind(this))
+        } else {
+            this.writing = false;
+            this.emit(&apos;drain&apos;);
+        }
+    }
+
+    end() {
+        if (this.autoClose) {
+            this.emit(&apos;end&apos;);
+            this.destroy();
+        }
+    }
+
+    destroy() {
+        fs.close(this.fd, () =&gt; {
+            this.emit(&apos;close&apos;);
+        })
+    }
+
+}
+
+module.exports = WriteStream;
+</code></pre><h3 id="t255.3 pipe">5.3 pipe <a href="#t255.3 pipe"> # </a></h3>
+<pre><code>let fs = require(&apos;fs&apos;);
+let ReadStream = require(&apos;./ReadStream&apos;);
+let rs = ReadStream(&apos;./1.txt&apos;, {
+    flags: &apos;r&apos;,
+    encoding: &apos;utf8&apos;,
+    highWaterMark: 3
+});
+let FileWriteStream = require(&apos;./WriteStream&apos;);
+let ws = FileWriteStream(&apos;./2.txt&apos;,{
+    flags:&apos;w&apos;,
+    encoding:&apos;utf8&apos;,
+    highWaterMark:3
+});
+rs.pipe(ws);
+</code></pre><pre><code>ReadStream.prototype.pipe = function (dest) {
+    this.on(&apos;data&apos;, (data)=&gt;{
+        let flag = dest.write(data);
+        if(!flag){
+            this.pause();
+        }
+    });
+    dest.on(&apos;drain&apos;, ()=&gt;{
+        this.resume();
+    });
+    this.on(&apos;end&apos;, ()=&gt;{
+        dest.end();
+    });
+}
+ReadStream.prototype.pause = function(){
+    this.flowing = false;
+
+}
+ReadStream.prototype.resume = function(){
+    this.flowing = true;
+    this.read();
+}
+</code></pre><h2 id="t265.4 &#x6682;&#x505C;&#x6A21;&#x5F0F;">5.4 &#x6682;&#x505C;&#x6A21;&#x5F0F; <a href="#t265.4 &#x6682;&#x505C;&#x6A21;&#x5F0F;"> # </a></h2>
+<pre><code>let fs =require(&apos;fs&apos;);
+let ReadStream2 = require(&apos;./ReadStream2&apos;);
+let rs = new ReadStream2(&apos;./1.txt&apos;,{
+    start:3,
+    end:8,
+    encoding:&apos;utf8&apos;,
+    highWaterMark:3
+});
+rs.on(&apos;readable&apos;,function () {
+    console.log(&apos;readable&apos;);
+    console.log(&apos;rs.buffer.length&apos;,rs.length);
+    let d = rs.read(1);
+    console.log(d);
+    console.log(&apos;rs.buffer.length&apos;,rs.length);
+
+    setTimeout(()=&gt;{
+        console.log(&apos;rs.buffer.length&apos;,rs.length);
+    },500)
+});
+</code></pre><p>```
+let fs = require(&apos;fs&apos;);
+let EventEmitter = require(&apos;events&apos;);
+class ReadStream extends EventEmitter {
+    constructor(path, options) {
+        super(path, options);
+        this.path = path;
+        this.highWaterMark = options.highWaterMark || 64 * 1024;
+        this.buffer = Buffer.alloc(this.highWaterMark);
+        this.flags = options.flags || &apos;r&apos;;
+        this.encoding = options.encoding;
+        this.mode = options.mode || 0o666;
+        this.start = options.start || 0;
+        this.end = options.end;
+        this.pos = this.start;
+        this.autoClose = options.autoClose || true;
+        this.bytesRead = 0;
+        this.closed = false;
+        this.flowing;
+        this.needReadable = false;
+        this.length = 0;
+        this.buffers = [];
+        this.on(&apos;end&apos;, function () {
+            if (this.autoClose) {
+                this.destroy();
+            }
+        });
+        this.on(&apos;newListener&apos;, (type) =&gt; {
+            if (type == &apos;data&apos;) {
+                this.flowing = true;
+                this.read();
+            }
+            if (type == &apos;readable&apos;) {
+                this.read(0);
+            }
+        });
+        this.open();
+    }</p>
+<pre><code>open() {
+    fs.open(this.path, this.flags, this.mode, (err, fd) =&gt; {
+        if (err) {
+            if (this.autoClose) {
+                this.destroy();
+                return this.emit(&apos;error&apos;, err);
+            }
+        }
+        this.fd = fd;
+        this.emit(&apos;open&apos;);
+    });
+}
+
+read(n) {
+    if (typeof this.fd != &apos;number&apos;) {
+        return this.once(&apos;open&apos;, () =&gt; this.read());
+    }
+    n = parseInt(n,10);
+    if(n != n){
+        n = this.length;
+    }
+    if(this.length ==0)
+        this.needReadable = true;
+    let ret;
+    if (0&lt;n &lt; this.length) {
+        ret = Buffer.alloc(n);
+        let b ;
+        let index = 0;
+        while(null != (b = this.buffers.shift())){
+            for(let i=0;i&lt;b.length;i++){
+                ret[index++] = b[i];
+                if(index == ret.length){
+                    this.length -= n;
+                    b = b.slice(i+1);
+                    this.buffers.unshift(b);
+                    break;
+                }
+            }
+        }
+        if (this.encoding) ret = ret.toString(this.encoding);
+    }
+
+    let _read = () =&gt; {
+        let m = this.end ? Math.min(this.end - this.pos + 1, this.highWaterMark) : this.highWaterMark;
+        fs.read(this.fd, this.buffer, 0, m, this.pos, (err, bytesRead) =&gt; {
+            if (err) {
+                return
+            }
+            let data;
+            if (bytesRead &gt; 0) {
+                data = this.buffer.slice(0, bytesRead);
+                this.pos += bytesRead;
+                this.length += bytesRead;
+                if (this.end &amp;&amp; this.pos &gt; this.end) {
+                    if(this.needReadable){
+                        this.emit(&apos;readable&apos;);
+                    }
+
+                    this.emit(&apos;end&apos;);
+                } else {
+                    this.buffers.push(data);
+                    if(this.needReadable){
+                        this.emit(&apos;readable&apos;);
+                        this.needReadable = false;
+                    }
+
+                }
+            } else {
+                if(this.needReadable) {
+                    this.emit(&apos;readable&apos;);
+                }
+                return this.emit(&apos;end&apos;);
+            }
+        })
+    }
+    if (this.length == 0 || (this.length &lt; this.highWaterMark)) {
+        _read(0);
+    }
+    return ret;
+}
+
+destroy() {
+    fs.close(this.fd, (err) =&gt; {
+        this.emit(&apos;close&apos;);
+    });
+}
+
+pause() {
+    this.flowing = false;
+}
+
+resume() {
+    this.flowing = true;
+    this.read();
+}
+
+pipe(dest) {
+    this.on(&apos;data&apos;, (data) =&gt; {
+        let flag = dest.write(data);
+        if (!flag) this.pause();
+    });
+    dest.on(&apos;drain&apos;, () =&gt; {
+        this.resume();
+    });
+    this.on(&apos;end&apos;, () =&gt; {
+        dest.end();
+    });
+}
+</code></pre><p>}</p>
+<p>module.exports = ReadStream;
+/**</p>
+<ul>
+<li><p>if (n !== 0)
+state.emittedReadable = false; &#x53EA;&#x8981;&#x8981;&#x8BFB;&#x7684;&#x5B57;&#x8282;&#x6570;&#x4E0D;&#x662F;0&#x5C31;&#x9700;&#x8981;&#x89E6;&#x53D1;readable&#x4E8B;&#x4EF6;
+&#x5982;&#x679C;&#x4F20;&#x5165;&#x7684;NaN,&#x5219;&#x5C06;n&#x8D4B;&#x4E3A;&#x7F13;&#x533A;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x7B2C;&#x4E00;&#x6B21;&#x5C31;&#x662F;0</p>
+<p>&#x7F13;&#x5B58;&#x533A;&#x4E3A;0&#x5C31;&#x5F00;&#x59CB;&#x8BFB;&#x5427;
+&#x5982;&#x679C;n&#x7B49;&#x4E8E;0&#x5C31;&#x8FD4;&#x56DE;null,state.needReadable = true;
+&#x5982;&#x679C;&#x7F13;&#x5B58;&#x533A;&#x4E3A;0&#xFF0C;&#x662F;  state.needReadable = true; &#x9700;&#x8981;&#x89E6;&#x53D1;readable</p>
+<p>**/
+``</p>
+</li>
+</ul>
+<ul>
+<li><a href="javascript:if(confirm('http://www.moye.me/2015/03/29/streaming_in_node/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.moye.me/2015/03/29/streaming_in_node/'" tppabs="http://www.moye.me/2015/03/29/streaming_in_node/">streaming_in_node</a></li>
+<li><a href="javascript:if(confirm('https://github.com/jabez128/stream-handbook  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/jabez128/stream-handbook'" tppabs="https://github.com/jabez128/stream-handbook">stream-handbook</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="javascript:if(confirm('https://github.com/jaywcjlove/idoc  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://github.com/jaywcjlove/idoc'" tppabs="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="javascript:if(confirm('https://nodejs.org/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://nodejs.org/'" tppabs="https://nodejs.org/">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="../../../cdn.bootcss.com/jquery/3.0.0/jquery.js" tppabs="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+  // if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>
