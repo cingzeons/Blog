@@ -120,7 +120,7 @@ var j = [...new Set([1, 2, 3, 3])];
 
 
 #### 过滤空值
-```
+```js
 // 空值指的是没有具体意义的一些值，比如0，undefined，null，false，空字符串等
 let res = [1,2,0,undefined,null,false,''].filter(Boolean);
 >> 1,2
@@ -130,8 +130,7 @@ let res = [1,2,0,undefined,null,false,''].filter(Boolean);
 
 
 #### 创建空对象
-
-```
+```js
 /*创建一个空对象，我们可能大多数时候会使用对面字面量为{}的方式，然而这种方式创建的对象并不是纯粹的，它任然有__proto__属性以及继承自Object原型的一些方法，这种方式创建的对象容易被修改，比如：*/
 
 let o = {};
@@ -153,7 +152,7 @@ console.log(p.say)
 
 
 #### 合并对象
-```
+```js
 /*通过...延展操作符可以很容易的合并对象*/
 const person = { a:1 };
 const tools = { b:2 };
@@ -167,7 +166,7 @@ const summary = {...person, ...tools, ...attributes};
 
 
 #### 参数非空检测
-```
+```js
 /*这个方法特别适用于封装函数时使用，也许我们知道可以在函数参数中直接指定一个默认值，像下面这样：*/
 
 function test(parma = 'default'){}
@@ -187,7 +186,7 @@ hello('hello')
 
 
 #### 解构添加别名
-```
+```js
 /*在导入多个模块的时候，为防止引用的组件重名，我们可以在引入时直接赋值一个别名*/
 const obj = { x: 1 };
 
@@ -199,7 +198,7 @@ const { x: otherName } = require('module');
 
 
 #### 获取查询字符串参数
-```
+```js
 /*
 url: https://developer.mozilla.org/zh-CN/docs/Web/API/URLSearchParams
 获取url里面的参数值或者追加查询字符串，在这之前，我们一般通过正则匹配处理，然而现在有一个新的api，具体详情可以查看这里，可以让我们以很简单的方式去处理url。
@@ -219,7 +218,7 @@ console.log(urlParams.append('active', '1')); // "?post=1234&action=edit&active=
 
 
 #### URLSearchParams 接口定义了一些实用的方法来处理 URL 的查询字符串。
-```
+```js
 // 一个实现了 URLSearchParams 的对象可以直接用在 for...of 结构中，例如下面两行是相等的。
 for (var p of mySearchParams);
 for (var p of mySearchParams.entries());
