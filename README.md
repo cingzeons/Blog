@@ -14,6 +14,21 @@ cd my-app
 npm run start 
 目录结构如下
 
+sourcedir 项目入口 根据package.json的目录
+appname 包名
+platform 构建平台 包含 darwin, linux, mas, win32 all
+arch 构建架构 包含ia32,x64,armv7l,arm64
+out 打包后的地址
+icon 打包图标
+asar 是否生成app.asar, 不然就是自己的源码
+overwrite 覆盖上次打包
+ignore 不进行打包的文件
+--------------------- 
+作者：Leon_94 
+来源：CSDN 
+原文：https://blog.csdn.net/sinat_36422236/article/details/84988291 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+
 ```
 
 You can use the [editor on GitHub](https://github.com/cingzeons/Blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
