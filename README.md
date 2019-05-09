@@ -5,6 +5,7 @@
 ```jsx
 // electron深入浅出 `https://blog.csdn.net/sinat_36422236/article/details/84988291` 
 // 官网 https://electronforge.io/cli/start
+// 官网 https://electronjs.org/docs/tutorial/boilerplates-and-clis
 electron-forge
 electron-forge包含vue、react、Angular等开箱即用的模版。
 
