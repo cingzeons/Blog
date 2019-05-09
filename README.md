@@ -1,6 +1,20 @@
 ## Welcome to GitHub Pages
 
-## electron深入浅出 `https://blog.csdn.net/sinat_36422236/article/details/84988291` || `https://electronforge.io/cli/start`
+
+#### Electron 等开箱即用的模版
+```jsx
+// electron深入浅出 `https://blog.csdn.net/sinat_36422236/article/details/84988291` 
+// 官网 https://electronforge.io/cli/start
+electron-forge
+electron-forge包含vue、react、Angular等开箱即用的模版。
+
+npm i -g electron-forge
+electron-forge init my-app template=react
+cd my-app
+npm run start 
+目录结构如下
+
+```
 
 You can use the [editor on GitHub](https://github.com/cingzeons/Blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
